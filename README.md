@@ -63,4 +63,4 @@ Tato aplikace je vytvořena za účelem maturitní přípravy a nabízena zdarma
 
 ---
 
-Vytvořeno 2023
+Vytvořeno 2025
