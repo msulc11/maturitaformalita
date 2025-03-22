@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nauč se na maturu hravě</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="home-screen">
+        <h1>Nauč se na maturu hravě</h1>
+        <div class="subjects">
+          <div class="subject-card" data-subject="informatika">
+            <i class="fas fa-laptop-code"></i>
+            <h2>Informatika</h2>
+          </div>
+          <div class="subject-card" data-subject="it">
+            <i class="fas fa-server"></i>
+            <h2>Informační technologie</h2>
+          </div>
+          <div class="subject-card" data-subject="cestina">
+            <i class="fas fa-book"></i>
+            <h2>Čeština</h2>
+          </div>
+        </div>
+      </div>
+
+      <div id="topic-screen" class="hidden">
+        <div class="back-btn" id="back-to-home">
+          <i class="fas fa-arrow-left"></i> Zpět
+        </div>
+        <h1 id="subject-title"></h1>
+        <div class="topics-container" id="topics-list">
+          <!-- Topics will be loaded here dynamically -->
+        </div>
+      </div>
+
+      <div id="question-screen" class="hidden">
+        <div class="back-btn" id="back-to-topics">
+          <i class="fas fa-arrow-left"></i> Zpět
+        </div>
+        <div class="stats">
+          <div class="hearts">
+            <i class="fas fa-heart"></i> <span id="hearts-count">3</span>
+          </div>
+          <div class="aura">
+            <i class="fas fa-star"></i> <span id="aura-count">0</span>
+          </div>
+        </div>
+        <h2 id="current-topic"></h2>
+        <div class="question-container">
+          <h3 id="question-text"></h3>
+          <div id="answer-options" class="options-container">
+            <!-- Answer options will be loaded here dynamically -->
+          </div>
+          <button id="submit-answer" class="submit-btn">
+            Potvrdit odpověď
+          </button>
+          <div id="feedback" class="hidden">
+            <p id="feedback-text"></p>
+            <button id="next-question" class="next-btn">Další otázka</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="sigma-screen" class="hidden">
+        <div class="sigma-content">
+          <h1>STALA SE Z TEBE SIGMA!</h1>
+          <p>Gratulujeme! Odpověděl jsi na všechny otázky správně.</p>
+          <div class="sigma-container">
+            <img src="sigma.gif" alt="Sigma" id="sigma-gif" />
+            <button id="continue-btn" class="submit-btn">Pokračovat</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="game-over-screen" class="hidden">
+        <h1>Konec hry</h1>
+        <p>Všechna srdíčka jsou pryč!</p>
+        <p>Tvoje aura body byly vynulovány.</p>
+        <button id="restart-btn" class="submit-btn">Zkusit znovu</button>
+      </div>
+    </div>
+
+    <audio id="sigma-audio" src="sigma.mp4" preload="auto"></audio>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
