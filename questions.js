@@ -219,7 +219,7 @@ const informaticaQuestions = [
         ]
     },
     {
-        title: "Řídící struktury v programování",
+        title: "3. Řídící struktury v programování",
         questions: [
             {
                 question: "Co jsou řídící struktury v programování?",
@@ -324,7 +324,7 @@ const informaticaQuestions = [
         ]
     },
     {
-        title: "Podprogramy a Událostmi řízené programování",
+        title: "4. Podprogramy a Událostmi řízené programování",
         questions: [
             {
                 question: "Jaký je hlavní důvod pro použití podprogramů v programování?",
@@ -427,9 +427,113 @@ const informaticaQuestions = [
                 correctAnswer: 3
             }
         ]
-    },
-    // Add 18 more topics for Informatika
-];
+        },
+    {
+        title: "5. Základy objektově orientovaného programování (OOP)",
+        questions: [
+            {
+            question: "Co je hlavní myšlenkou objektově orientovaného programování (OOP)?",
+            options: [
+                "Používání funkcí místo objektů",
+                "Strukturování kódu kolem objektů",
+                "Používání pouze nízkoúrovňového jazyka",
+                "Tvorba webových stránek"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Co je třída v OOP?",
+            options: [
+                "Proměnná v programu",
+                "Metoda používaná pro výpočty",
+                "Předpis pro tvorbu objektů",
+                "Datový typ pro čísla"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "Co je instance třídy?",
+            options: [
+                "Název třídy",
+                "Objekt vytvořený podle třídy",
+                "Modifikátor přístupu",
+                "Datový typ"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Který modifikátor přístupu zajišťuje, že atribut je přístupný pouze uvnitř třídy?",
+            options: [
+                "Public",
+                "Protected",
+                "Private",
+                "Static"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "K čemu slouží statické členy třídy?",
+            options: [
+                "Patří ke konkrétní instanci objektu",
+                "Jsou přístupné pouze přes metodu",
+                "Patří ke třídě a sdílejí je všechny instance",
+                "Slouží ke změně typu atributu"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "Jaká je správná vlastnost konstruktoru v OOP?",
+            options: [
+                "Mění přístupová práva třídy",
+                "Jmenuje se jinak než třída",
+                "Volá se při vytvoření instance a může přijímat parametry",
+                "Umožňuje přetěžování metod"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "Co je metoda v OOP?",
+            options: [
+                "Proměnná uvnitř objektu",
+                "Funkce reprezentující chování objektu",
+                "Typ přístupového modifikátoru",
+                "Datový typ objektu"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Jaký je účel getteru a setteru ve vlastnostech třídy?",
+            options: [
+                "Zajišťují přímý přístup k atributům",
+                "Slouží k přístupu a změně private atributů bezpečným způsobem",
+                "Mění název atributů",
+                "Slouží pouze k ladění programu"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Co umožňuje přetěžování metod?",
+            options: [
+                "Používat stejné jméno třídy vícekrát",
+                "Používat stejnou metodu pro různé typy dat pomocí různých parametrů",
+                "Změnit typ návratové hodnoty",
+                "Přistupovat k private atributům"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Jaký je význam atributu třídy?",
+            options: [
+                "Představuje metodu třídy",
+                "Je to proměnná definovaná uvnitř třídy, která uchovává data objektu",
+                "Slouží k přetížení metod",
+                "Definuje modifikátor přístupu"
+            ],
+            correctAnswer: 1
+        }
+    ]
+}
+]
 
 const itQuestions = [
     {
