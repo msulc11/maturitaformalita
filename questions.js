@@ -532,8 +532,409 @@ const informaticaQuestions = [
                 correctAnswer: 1
             }
         ]
-    }
-]
+    },
+    {
+        title: "6. Principy OOP ❌",
+        questions: [
+            {
+            question: "Příklad otázky z IT?",
+            options: ["Odpověď 1", "Odpověď 2", "Odpověď 3", "Odpověď 4"],
+            correctAnswer: 1
+        },
+        // Add 9 more questions for this topic
+        ]
+    },
+    {
+        title: "7. Návrhové vzory",
+        questions: [
+            {
+                question: "Co jsou návrhové vzory v softwarovém inženýrství?",
+                options: [
+                    "Osvědčená řešení opakujících se problémů",
+                    "Specifické implementace kódu",
+                    "Náhodné principy programování",
+                    "Nepraktické koncepty"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaká je hlavní výhoda používání návrhových vzorů?",
+                options: [
+                    "Zlepšují čitelnost a udržovatelnost kódu",
+                    "Zvyšují složitost kódu",
+                    "Omezují flexibilitu systému",
+                    "Jsou vhodné pouze pro konkrétní programovací jazyky"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které vzory patří mezi tvořivé vzory?",
+                options: [
+                    "Observer a Strategy",
+                    "Factory a Singleton",
+                    "Adapter a Decorator",
+                    "Dependency Injection a MVC"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který návrhový vzor zajišťuje existenci pouze jedné instance třídy?",
+                options: [
+                    "Factory Pattern",
+                    "Singleton Pattern",
+                    "MVVM",
+                    "Dependency Injection"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je hlavní rozdíl mezi MVC a MVVM?",
+                options: [
+                    "MVVM přidává vrstvu ViewModel",
+                    "MVC zahrnuje vrstvu ViewModel",
+                    "MVVM se používá pouze ve webových aplikacích",
+                    "MVC se používá pouze pro desktopové aplikace"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "K čemu se používá Factory Pattern?",
+                options: [
+                    "Ke správě závislostí mezi objekty",
+                    "Ke centralizovanému řízení tvorby objektů",
+                    "K zajištění pouze jedné instance objektu",
+                    "K rozdělení aplikace na části"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký návrhový vzor zlepšuje testovatelnost díky správě závislostí?",
+                options: [
+                    "MVC",
+                    "MVVM",
+                    "Dependency Injection",
+                    "Singleton Pattern"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Které z následujících tvrzení platí pro Singleton Pattern?",
+                options: [
+                    "Je to dynamický vzor",
+                    "Vytváří centrální přístupový bod k instanci třídy",
+                    "Je nahrazen Factory Patternem",
+                    "Není vhodný pro databázové připojení"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který návrhový vzor se často používá v frameworku Angular?",
+                options: [
+                    "Dependency Injection",
+                    "Factory Pattern",
+                    "Singleton Pattern",
+                    "MVC"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které kategorie návrhových vzorů zahrnují Observer a Strategy?",
+                options: [
+                    "Tvořivé vzory (Creational Patterns)",
+                    "Strukturální vzory (Structural Patterns)",
+                    "Behaviorální vzory (Behavioral Patterns)",
+                    "Architektonické vzory"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "8. Tvorba GUI",
+        questions: [
+            {
+                questions: [
+                    {
+                        question: "Co znamená zkratka XAML?",
+                        options: [
+                            "Extensible Application Markup Language",
+                            "Executable Application Markup Language",
+                            "Extended Application Markup Logic",
+                            "Exclusive Application Markup Logic"
+                        ],
+                        correctAnswer: 0
+                    },
+                    {
+                        question: "K čemu se používá XAML v softwarovém vývoji?",
+                        options: [
+                            "K psaní business logiky",
+                            "K správě databázových dotazů",
+                            "K definování uživatelských rozhraní",
+                            "K optimalizaci výkonu aplikací"
+                        ],
+                        correctAnswer: 2
+                    },
+                    {
+                        question: "Které frameworky využívají XAML?",
+                        options: [
+                            "React, Angular, Vue.js",
+                            "Spring, Hibernate, Struts",
+                            "Bootstrap, Tailwind, Foundation",
+                            "WPF, UWP, .NET MAUI",
+                        ],
+                        correctAnswer: 3
+                    },
+                    {
+                        question: "Jaký je hlavní rozdíl mezi XAML a HTML?",
+                        options: [
+                            "XAML je značkovací jazyk od Microsoftu zaměřený na UI",
+                            "XAML nelze použít s CSS",
+                            "HTML není deklarativní",
+                            "HTML má složitější syntax než XAML"
+                        ],
+                        correctAnswer: 0
+                    },
+                    {
+                        question: "Co je základním prvkem XAML pro rozložení prvků?",
+                        options: [
+                            "TextBlock",
+                            "Window",
+                            "Grid",
+                            "Button"
+                        ],
+                        correctAnswer: 2
+                    },
+                    {
+                        question: "Který prvek v XAML slouží pro vytvoření tlačítka?",
+                        options: [
+                            "Button",
+                            "Grid",
+                            "Viewbox",
+                            "TextBlock"
+                        ],
+                        correctAnswer: 0
+                    },
+                    {
+                        question: "Jaká je hlavní výhoda použití Viewboxu v XAML?",
+                        options: [
+                            "Zlepšuje datové vazby",
+                            "Automaticky škáluje prvky",
+                            "Vytváří adaptivní rozložení",
+                            "Přidává interaktivitu tlačítkům"
+                        ],
+                        correctAnswer: 1
+                    },
+                    {
+                        question: "Co je AdaptiveTrigger v UWP?",
+                        options: [
+                            "Nástroj pro správu dat",
+                            "Komponenta pro zpracování událostí",
+                            "Změna vzhledu podle velikosti okna",
+                            "Šablona pro definování tlačítek"
+                        ],
+                        correctAnswer: 2
+                    },
+                    {
+                        question: "Které z následujících platí pro deklarativní syntax v XAML?",
+                        options: [
+                            "Není kompatibilní s C#",
+                            "Odděluje uživatelské rozhraní od kódu",
+                            "Používá se pouze pro mobilní aplikace",
+                            "Závisí na databázovém připojení"
+                        ],
+                        correctAnswer: 1
+                    },
+                    {
+                        question: "Co zajišťuje Data Binding v XAML?",
+                        options: [
+                            "Stylování komponent",
+                            "Animace v uživatelském rozhraní",
+                            "Definici rozložení prvků",
+                            "Propojení uživatelského rozhraní s daty"
+                        ],
+                        correctAnswer: 3
+                    }
+                ]             
+            }
+            
+        ]
+    },
+    {
+        title: "9. HTML",
+        questions: [
+            {
+                question: "Co je HTML?",
+                options: ["Programovací jazyk pro tvorbu webových aplikací", "Značkovací jazyk pro tvorbu webových stránek", "Skriptovací jazyk pro dynamické weby", "Databázový jazyk pro webové servery"],
+                correctAnswer: 1
+            },
+            {
+                "question": "Co je HTML?",
+                "options": [
+                  "Programovací jazyk pro tvorbu webových aplikací",
+                  "Značkovací jazyk pro tvorbu webových stránek",
+                  "Skriptovací jazyk pro dynamické weby",
+                  "Databázový jazyk pro webové servery"
+                ],
+                "correctAnswer": 1
+              },
+              {
+                "question": "Který tag slouží k definování hlavního obsahu HTML stránky?",
+                "options": ["<main>", "<body>", "<content>", "<section>"],
+                "correctAnswer": 0
+              },
+              {
+                "question": "Jaký atribut použijeme k určení zdroje obrázku v HTML?",
+                "options": ["href", "src", "alt", "link"],
+                "correctAnswer": 1
+              },
+              {
+                "question": "Jaká značka se používá pro vytvoření číslovaného seznamu?",
+                "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+                "correctAnswer": 1
+              },
+              {
+                "question": "Jaký HTML tag se používá k vložení videa?",
+                "options": ["<video>", "<media>", "<embed>", "<movie>"],
+                "correctAnswer": 0
+              },
+              {
+                "question": "Který prvek slouží k vytvoření tabulky v HTML?",
+                "options": ["<table>", "<tr>", "<td>", "<th>"],
+                "correctAnswer": 0
+              },
+              {
+                "question": "Jaký atribut v HTML se používá pro zadání alternativního textu k obrázku?",
+                "options": ["title", "alt", "src", "description"],
+                "correctAnswer": 1
+              },
+              {
+                "question": "Jaká značka definuje nadpis nejvyšší úrovně?",
+                "options": ["<h6>", "<title>", "<h1>", "<header>"],
+                "correctAnswer": 2
+              },
+              {
+                "question": "Která technologie se běžně používá k definování vzhledu HTML stránek?",
+                "options": ["JavaScript", "CSS", "PHP", "Python"],
+                "correctAnswer": 1
+              },
+              {
+                "question": "Který z následujících faktorů pomáhá zlepšit SEO webové stránky?",
+                "options": [
+                  "Použití správné HTML struktury a nadpisů",
+                  "Použití pouze obrázků místo textu",
+                  "Použití co nejvíce JavaScriptu",
+                  "Ignorování meta tagů"
+                ],
+                "correctAnswer": 0
+              }
+            ]
+          },
+          {
+            title: "10. CSS",
+            questions: [
+                {
+                    "question": "Co je CSS?",
+                    "options": [
+                        "Programovací jazyk pro tvorbu dynamických webových aplikací",
+                        "Jazyk pro strukturování obsahu webových stránek",
+                        "Kaskádové styly pro vizuální vzhled webových stránek",
+                        "Jazyk pro interakci mezi uživatelem a webovou stránkou"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "question": "Který z následujících CSS selektorů vybere všechny odstavce (<p>) na stránce?",
+                    "options": [
+                        ".p { color: red; }",
+                        "#p { color: red; }",
+                        "p { color: red; }",
+                        "* { color: red; }"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "question": "Jaký CSS selektor se používá k výběru prvku s konkrétní třídou?",
+                    "options": [
+                        "#classname { color: blue; }",
+                        ".classname { color: blue; }",
+                        "classname { color: blue; }",
+                        "classname { color: blue; }"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "question": "Který CSS pseudo-element se používá pro přidání obsahu před prvek?",
+                    "options": [
+                        "::after",
+                        ":before",
+                        "::before",
+                        ":after"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "question": "Která CSS pseudo-třída umožňuje změnit styl prvku při najetí myší?",
+                    "options": [
+                        ":focus",
+                        ":hover",
+                        ":nth-child(n)",
+                        ":active"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "question": "Která z těchto jednotek je relativní?",
+                    "options": [
+                        "px",
+                        "cm",
+                        "em",
+                        "mm"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "question": "Jaké pravidlo CSS se používá pro responzivní design?",
+                    "options": [
+                        "@query",
+                        "@media",
+                        "@screen",
+                        "@responsive"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "question": "Který model se používá v CSS pro zarovnání prvků podél hlavní osy?",
+                    "options": [
+                        "Box Model",
+                        "Flexbox",
+                        "CSS Grid",
+                        "Positioning"
+                    ],
+                    "correctAnswer": 1
+                },
+                {
+                    "question": "Jaká vlastnost v CSS definuje zarovnání prvků v Grid layoutu?",
+                    "options": [
+                        "display",
+                        "justify-content",
+                        "grid-template-columns",
+                        "align-items"
+                    ],
+                    "correctAnswer": 2
+                },
+                {
+                    "question": "Které z následujících není způsob zarovnání prvků v CSS?",
+                    "options": [
+                        "Flexbox",
+                        "CSS Grid",
+                        "Box Model",
+                        "Float"
+                    ],
+                    "correctAnswer": 2
+                }
+            ]
+          } 
+];
 
 const itQuestions = [
     {
@@ -1182,111 +1583,6 @@ const cestinaQuestions = [
         ]
     },
     {
-        title: "Stařec a moře",
-        questions: [
-            {
-                question: "Kdo je autorem novely Stařec a moře?",
-                options: [
-                    "Jack London",
-                    "Ernest Hemingway",
-                    "Mark Twain",
-                    "John Steinbeck"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Jak se jmenuje hlavní postava novely?",
-                options: [
-                    "Santiago",
-                    "Manolin",
-                    "Pedro",
-                    "Miguel"
-                ],
-                correctAnswer: 0
-            },
-            {
-                question: "Kolik dní neměl stařec žádný úlovek před začátkem příběhu?",
-                options: [
-                    "30 dní",
-                    "84 dní",
-                    "60 dní",
-                    "100 dní"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Jaký je vztah mezi chlapcem Manolinem a starcem?",
-                options: [
-                    "Jsou otec a syn",
-                    "Jsou dědeček a vnuk",
-                    "Chlapec se od starce učil rybařit, později mu pomáhá",
-                    "Jsou příbuzní"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Jaký druh ryby stařec uloví?",
-                options: [
-                    "Tuňáka",
-                    "Mečouna (Marlina)",
-                    "Žraloka",
-                    "Delfína"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Kolik dní trvá starci boj s velkou rybou?",
-                options: [
-                    "1 den",
-                    "2 dny",
-                    "3 dny",
-                    "5 dní"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Co se stane s ulovenou rybou cestou zpět?",
-                options: [
-                    "Stařec ji ztratí v bouři",
-                    "Žraloci ji postupně celou sežerou",
-                    "Stařec ji prodá za vysokou cenu",
-                    "Ryba obživne a uplave"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Co zůstane starci z ryby, když se vrátí do přístavu?",
-                options: [
-                    "Celá ryba",
-                    "Polovina ryby",
-                    "Jen hlava, ocas a páteř",
-                    "Nic"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Co symbolizuje velká ryba v příběhu?",
-                options: [
-                    "Štěstí a bohatství",
-                    "Lidský boj s přírodou",
-                    "Důstojného protivníka a životní výzvu",
-                    "Starcovo mládí"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Jaký je závěr novely?",
-                options: [
-                    "Stařec se rozhodne již nikdy nelovit",
-                    "Stařec spáchá sebevraždu",
-                    "Stařec dostane za kostru ryby velkou odměnu",
-                    "Stařec sní o lvech a plánuje další výpravu na moře"
-                ],
-                correctAnswer: 3
-            }
-        ]
-    },
-    {
         title: "Obraz Doriana Graye",
         questions: [
             {
@@ -1917,111 +2213,6 @@ const cestinaQuestions = [
         ]
     },
     {
-        title: "Krysař",
-        questions: [
-            {
-                question: "Kdo je autorem novely Krysař?",
-                options: [
-                    "Karel Čapek",
-                    "Viktor Dyk",
-                    "Karel Jaromír Erben",
-                    "Alois Jirásek"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Ve kterém městě se odehrává děj novely Krysař?",
-                options: [
-                    "Hameln",
-                    "Praha",
-                    "Vídeň",
-                    "Norimberk"
-                ],
-                correctAnswer: 0
-            },
-            {
-                question: "Kdo je Agnes?",
-                options: [
-                    "Krysařova píšťala",
-                    "Krysařova žena",
-                    "Krysařova milenka",
-                    "Krysařova dcera"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Kdo je otcem dítěte Agnes?",
-                options: [
-                    "Krysař",
-                    "Sepp Jörgen",
-                    "Dlouhý Kristián",
-                    "Konšel Strumm"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Co udělá Agnes, když zjistí pravdu o otci svého dítěte?",
-                options: [
-                    "Uteče s Krysařem",
-                    "Požádá radní o pomoc",
-                    "Spáchá sebevraždu skokem do propasti",
-                    "Zabije Kristiána"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Jakou schopnost má Krysařova píšťala?",
-                options: [
-                    "Léčí nemoci",
-                    "Přivolává déšť",
-                    "Přivádí krysy k šílenství",
-                    "Ovládá lidi i zvířata svou melodií"
-                ],
-                correctAnswer: 3
-            },
-            {
-                question: "Jak se jmenuje hora, do které Krysař odvede obyvatele města?",
-                options: [
-                    "Hora Koppel",
-                    "Hora duchů",
-                    "Hora Grálu",
-                    "Hora krys"
-                ],
-                correctAnswer: 0
-            },
-            {
-                question: "Který obyvatel města nepodlehne Krysařově píšťale?",
-                options: [
-                    "Konšel Frosch",
-                    "Sepp Jörgen",
-                    "Dlouhý Kristián",
-                    "Farář"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Proč Sepp Jörgen nepodlehne volání Krysařovy píšťaly?",
-                options: [
-                    "Je hluchý",
-                    "Nese Krysaři peníze",
-                    "Jde za zvukem s opožděním kvůli své prostoduchosti",
-                    "Má vlastní kouzelnou píšťalu"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Jaký literární směr reprezentuje novela Krysař?",
-                options: [
-                    "Realismus",
-                    "Naturalismus",
-                    "Symbolismus a impresionismus",
-                    "Klasicismus"
-                ],
-                correctAnswer: 2
-            }
-        ]
-    },
-    {
         title: "Osudy dobrého vojáka Švejka za světové války",
         questions: [
             {
@@ -2510,7 +2701,7 @@ const cestinaQuestions = [
                     "Opije se ve službě",
                     "Ukradne peníze ze stanice",
                     "Otiskne razítka na zadek telegrafistky",
-                    "Zastřelí německého důstojníka"
+                    "Zastřelí německý důstojník"
                 ],
                 correctAnswer: 2
             },
