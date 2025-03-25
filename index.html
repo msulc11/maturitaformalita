@@ -74,6 +74,9 @@
 
       <div id="sigma-screen" class="hidden">
         <div class="sigma-content">
+          <div class="close-sigma-btn">
+            <i class="fas fa-times"></i>
+          </div>
           <h1>STALA SE Z TEBE SIGMA!</h1>
           <p>Gratulujeme! Odpověděl jsi na všechny otázky správně.</p>
           <div class="sigma-container">
@@ -94,5 +97,10 @@
     <audio id="sigma-audio" src="sigma.mp4" preload="auto"></audio>
     <script src="questions.js"></script>
     <script src="script.js"></script>
+
+    <!-- Přidejte toto tlačítko někam na hlavní obrazovku pro testovací účely -->
+    <button onclick="testSigmaScreen()" style="position: fixed; bottom: 10px; right: 10px; z-index: 9999;">
+        Test Sigma Screen
+    </button>
   </body>
 </html>

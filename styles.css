@@ -13,6 +13,19 @@
     --button-radius: 30px;
 }
 
+.feedback-banner {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .feedback-banner strong {
+    color: #007bff;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -335,12 +348,45 @@ body {
     align-items: center;
     z-index: 1000;
     backdrop-filter: blur(8px);
+    padding: 20px;
 }
 
 .sigma-content {
     text-align: center;
     color: white;
     animation: scaleUp 0.5s ease-out;
+    max-width: 90%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.close-sigma-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1001;
+    transition: background-color 0.3s;
+}
+
+.close-sigma-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.close-sigma-btn i {
+    color: white;
+    font-size: 1.2rem;
 }
 
 .sigma-content h1 {
@@ -349,6 +395,15 @@ body {
     text-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
     color: white;
     animation: glow 2s infinite alternate;
+}
+
+.sigma-container {
+    margin-top: 20px;
+}
+
+#sigma-gif {
+    max-width: 100%;
+    height: auto;
 }
 
 @keyframes scaleUp {
@@ -412,7 +467,7 @@ body {
     }
     
     .sigma-content h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 }
 
@@ -458,7 +513,16 @@ body {
     }
     
     .sigma-content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    
+    .sigma-content {
+        padding: 20px;
+    }
+    
+    .close-sigma-btn {
+        top: 5px;
+        right: 5px;
     }
 }
 

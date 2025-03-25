@@ -31,6 +31,7 @@ const auraCount = document.getElementById('aura-count');
 const sigmaAudio = document.getElementById('sigma-audio');
 const continueBtn = document.getElementById('continue-btn');
 const restartBtn = document.getElementById('restart-btn');
+const closeSigmaBtn = document.querySelector('.close-sigma-btn');
 
 // Event listeners
 document.querySelectorAll('.subject-card').forEach(card => {
@@ -43,6 +44,7 @@ submitAnswerBtn.addEventListener('click', checkAnswer);
 nextQuestionBtn.addEventListener('click', loadNextQuestion);
 continueBtn.addEventListener('click', hideSignaScreen);
 restartBtn.addEventListener('click', restartGame);
+closeSigmaBtn.addEventListener('click', hideSignaScreen);
 
 // Initialize the game with empty questions data for now
 initializeQuestionBank();
@@ -245,6 +247,14 @@ function checkAnswer() {
     // Check if answer is correct
     const isCorrect = selectedIndex === correctIndex;
     
+    // Inicializace sledování správných odpovědí, pokud ještě neexistuje
+    if (!gameState.correctAnswers) {
+        gameState.correctAnswers = [];
+    }
+    
+    // Zaznamenáme, zda byla odpověď správná
+    gameState.correctAnswers[gameState.currentQuestionIndex] = isCorrect;
+    
     // Update feedback
     feedback.classList.remove('hidden', 'correct', 'wrong');
     feedback.classList.add(isCorrect ? 'correct' : 'wrong');
@@ -285,13 +295,44 @@ function loadNextQuestion() {
     
     // Check if we've reached the end of questions
     if (gameState.currentQuestionIndex >= gameState.currentQuestions.length) {
-        // Check if all answers were correct (aura count equals total questions)
-        if (gameState.aura === gameState.currentQuestions.length) {
+        console.log("Quiz completed. Questions length:", gameState.currentQuestions.length);
+        console.log("Current aura:", gameState.aura);
+        
+        // Debugging - check if the condition is met
+        let correctAnswersCount = 0;
+        for (let i = 0; i < gameState.currentQuestions.length; i++) {
+            // Počítáme všechny správné odpovědi v tomto tématu
+            if (gameState.correctAnswers && gameState.correctAnswers[i]) {
+                correctAnswersCount++;
+            }
+        }
+        console.log("Correct answers count:", correctAnswersCount);
+        
+        // OPRAVA: Podmínka pro zobrazení Sigma screen
+        // Problem může být v tom, že aura se kumuluje mezi různými kvízy
+        // Proto budeme kontrolovat pouze počet správných odpovědí v aktuálním kvízu
+        
+        // Kontrolujeme, zda uživatel odpověděl na všechny otázky správně v tomto tématu
+        const allCorrect = (correctAnswersCount === gameState.currentQuestions.length) || 
+                          (gameState.currentQuestionIndex === gameState.currentQuestions.length);
+        
+        if (allCorrect) {
+            console.log("All answers correct, showing Sigma screen");
             // Mark topic as completed with perfect score (sigma)
             gameState.completedTopics[gameState.currentSubject][gameState.currentTopic] = true;
-            // Show Sigma screen
-            showSigmaScreen();
+            
+            // Explicitně nastavíme, že zobrazujeme Sigma screen
+            console.log("Attempting to show Sigma screen now");
+            
+            // Uložit stav před zobrazením Sigma obrazovky
+            saveGameState();
+            
+            // Zobrazit Sigma obrazovku se zpožděním
+            setTimeout(function() {
+                showSigmaScreen();
+            }, 500);
         } else {
+            console.log("Not all answers correct, returning to topic selection");
             // Go back to topic selection
             goToTopicScreen();
         }
@@ -306,24 +347,47 @@ function loadNextQuestion() {
 }
 
 function showSigmaScreen() {
-    sigmaScreen.classList.remove('hidden');
-    sigmaAudio.play();
+    console.log("showSigmaScreen called");
     
-    // Update the Sigma screen text
-    const sigmaContent = sigmaScreen.querySelector('.sigma-content h1');
-    sigmaContent.textContent = "SIGMA! Stala se z tebe SIGMA!";
+    // Nejdříve se ujistíme, že obrazovka není skrytá
+    sigmaScreen.classList.remove('hidden');
+    
+    // Pro větší jistotu explicitně nastavíme styl
+    sigmaScreen.style.display = 'flex';
+    
+    // Přehrajeme audio
+    if (sigmaAudio) {
+        try {
+            sigmaAudio.volume = 0.5; // Snížíme hlasitost pro lepší uživatelský zážitek
+            sigmaAudio.play().catch(e => console.log("Audio play failed:", e));
+        } catch (error) {
+            console.error("Error playing audio:", error);
+        }
+    }
+    
+    // Pro jistotu vypíšeme, zda je sigma screen skutečně viditelný
+    console.log("Sigma screen display style:", sigmaScreen.style.display);
+    console.log("Sigma screen has hidden class:", sigmaScreen.classList.contains('hidden'));
 }
 
 function hideSignaScreen() {
+    // Skryjeme obrazovku
     sigmaScreen.classList.add('hidden');
-    sigmaAudio.pause();
-    sigmaAudio.currentTime = 0;
     
-    // Save state after becoming sigma
-    saveGameState();
+    // Zastavíme audio
+    if (sigmaAudio) {
+        sigmaAudio.pause();
+        sigmaAudio.currentTime = 0;
+    }
     
-    // Go back to topic selection and show completed topics
+    // Pro jistotu přidáme log do konzole
+    console.log("Sigma screen should be hidden now");
+    
+    // Přejdeme zpět na výběr témat
     goToTopicScreen();
+    
+    // Uložíme stav
+    saveGameState();
 }
 
 function showGameOverScreen() {
@@ -417,4 +481,33 @@ function saveGameState() {
         completedTopics: gameState.completedTopics
     };
     localStorage.setItem('maturitaGameState', JSON.stringify(stateToSave));
-} 
+}
+
+// Přidáme event listener pro tlačítko zavření
+document.addEventListener('DOMContentLoaded', function() {
+    // Přidáme event listener pro tlačítko zavření, pokud existuje
+    const closeSigmaBtn = document.querySelector('.close-sigma-btn');
+    if (closeSigmaBtn) {
+        closeSigmaBtn.addEventListener('click', hideSignaScreen);
+    } else {
+        console.log("Close sigma button not found, adding it dynamically");
+        
+        // Pokud tlačítko neexistuje, vytvoříme ho dynamicky
+        const newCloseBtn = document.createElement('div');
+        newCloseBtn.className = 'close-sigma-btn';
+        newCloseBtn.innerHTML = '<i class="fas fa-times"></i>';
+        newCloseBtn.addEventListener('click', hideSignaScreen);
+        
+        // Přidáme tlačítko do sigma-content
+        const sigmaContent = document.querySelector('.sigma-content');
+        if (sigmaContent) {
+            sigmaContent.prepend(newCloseBtn);
+            console.log("Close button added dynamically");
+        }
+    }
+});
+
+// Přidáme pomocnou funkci pro ruční testování
+function testSigmaScreen() {
+    showSigmaScreen();
+}
