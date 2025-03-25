@@ -2655,17 +2655,1050 @@ const cestinaQuestions = [
 
 const autoriQuestions = [
     {
-        title: "Téma 1 - Autori",
+        title: "Karel Jaromír Erben",
         questions: [
             {
-                question: "Příklad otázky z autori?",
-                options: ["Odpověď 1", "Odpověď 2", "Odpověď 3", "Odpověď 4"],
+                question: "Které dílo od K. J. Erbena jste četli?",
+                options: [
+                    "Kytice",
+                    "Máj",
+                    "Labyrint světa a ráj srdce",
+                    "Babička"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal K. J. Erben kromě Kytice?",
+                options: [
+                    "Maryša",
+                    "České pohádky",
+                    "Slezské písně",
+                    "Povídky malostranské"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba K. J. Erbena?",
+                options: [
+                    "Klasicismus",
+                    "Romantismus a národní obrození",
+                    "Realismus",
+                    "Moderna"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem K. J. Erbena?",
+                options: [
+                    "Jan Neruda",
+                    "Karel Čapek",
+                    "Božena Němcová",
+                    "Viktor Dyk"
+                ],
                 correctAnswer: 2
             },
-            // Add 9 more questions for this topic
+            {
+                question: "Který zahraniční autor byl současníkem K. J. Erbena?",
+                options: [
+                    "James Joyce",
+                    "Charles Dickens",
+                    "Ernest Hemingway",
+                    "Franz Kafka"
+                ],
+                correctAnswer: 1
+            }
         ]
     },
-    // Add 19 more topics for Čeština
+    {
+        title: "William Shakespeare",
+        questions: [
+            {
+                question: "Které dílo od W. Shakespeara jste četli?",
+                options: [
+                    "Romeo a Julie",
+                    "Othello",
+                    "Malý princ",
+                    "Starec a moře"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další známé dílo napsal William Shakespeare?",
+                options: [
+                    "Božská komedie",
+                    "Hamlet",
+                    "Don Quijote",
+                    "Válka a mír"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba W. Shakespeara?",
+                options: [
+                    "Renesance a humanismus",
+                    "Romantismus",
+                    "Realismus",
+                    "Moderna"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který autor je českým představitelem renesance (období Shakespeara)?",
+                options: [
+                    "Jan Neruda",
+                    "Jan Amos Komenský",
+                    "Karel Havlíček Borovský",
+                    "Karel Jaromír Erben"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který zahraniční autor byl současníkem W. Shakespeara?",
+                options: [
+                    "Miguel de Cervantes",
+                    "Johann Wolfgang Goethe",
+                    "Dante Alighieri",
+                    "Victor Hugo"
+                ],
+                correctAnswer: 0
+            }
+        ]
+    },
+    {
+        title: "Karel Havlíček Borovský",
+        questions: [
+            {
+                question: "Které dílo od K. H. Borovského jste četli?",
+                options: [
+                    "Máj",
+                    "Křest sv. Vladimíra",
+                    "Kytice",
+                    "Babička"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které další známé dílo napsal K. H. Borovský?",
+                options: [
+                    "Tyrolské elegie",
+                    "Máj",
+                    "Kytice",
+                    "R.U.R."
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Do jakého literárního období patří tvorba K. H. Borovského?",
+                options: [
+                    "Klasicismus",
+                    "Národní obrození",
+                    "Moderna",
+                    "Postmoderna"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem K. H. Borovského?",
+                options: [
+                    "Karel Čapek",
+                    "Božena Němcová",
+                    "Franz Kafka",
+                    "Jaroslav Hašek"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který zahraniční autor byl současníkem K. H. Borovského?",
+                options: [
+                    "J. W. Goethe",
+                    "Ernest Hemingway",
+                    "Charles Dickens",
+                    "William Shakespeare"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Oscar Wilde",
+        questions: [
+            {
+                question: "Které dílo od O. Wildea jste četli?",
+                options: [
+                    "Obraz Doriana Graye",
+                    "Petr a Lucie",
+                    "R.U.R.",
+                    "Proměna"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Oscar Wilde?",
+                options: [
+                    "Romeo a Julie",
+                    "Strýček Váňa",
+                    "Jak je důležité míti Filipa",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Do jakého literárního směru patří tvorba O. Wildea?",
+                options: [
+                    "Realismus",
+                    "Romantismus",
+                    "Estetismus a dekadence",
+                    "Existencialismus"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem O. Wildea?",
+                options: [
+                    "Karel Čapek",
+                    "Jaroslav Vrchlický",
+                    "Božena Němcová",
+                    "Karel Jaromír Erben"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který zahraniční autor byl současníkem O. Wildea?",
+                options: [
+                    "Franz Kafka",
+                    "William Shakespeare",
+                    "Anton Pavlovič Čechov",
+                    "Ernest Hemingway"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Franz Kafka",
+        questions: [
+            {
+                question: "Které dílo od F. Kafky jste četli?",
+                options: [
+                    "Malý princ",
+                    "Proměna",
+                    "R.U.R.",
+                    "Stařec a moře"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které další významné dílo napsal Franz Kafka?",
+                options: [
+                    "Krysař",
+                    "Proces",
+                    "Ostře sledované vlaky",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního směru patří tvorba F. Kafky?",
+                options: [
+                    "Realismus",
+                    "Existencialismus a expresionismus",
+                    "Romantismus",
+                    "Klasicismus"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem F. Kafky?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Bohumil Hrabal",
+                    "Karel Havlíček Borovský"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je charakteristické pro literární svět F. Kafky?",
+                options: [
+                    "Optimismus a víra v lidský pokrok",
+                    "Absurdita, odcizení a bezvýchodnost",
+                    "Romantická láska a vášeň",
+                    "Realistické zobrazení venkova"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Karel Čapek",
+        questions: [
+            {
+                question: "Které dílo od K. Čapka jste četli?",
+                options: [
+                    "R.U.R.",
+                    "Proměna",
+                    "Malý princ",
+                    "Na západní frontě klid"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Karel Čapek?",
+                options: [
+                    "Válka s mloky",
+                    "Osudy dobrého vojáka Švejka",
+                    "Krysař",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Do jakého literárního období patří tvorba K. Čapka?",
+                options: [
+                    "Národní obrození",
+                    "Romantismus",
+                    "Meziválečná literatura",
+                    "Postmodernismus"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem K. Čapka?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Jaroslav Hašek",
+                    "Bohumil Hrabal",
+                    "Karel Havlíček Borovský"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je typické pro dílo K. Čapka?",
+                options: [
+                    "Vědeckofantastické prvky a humanistické poselství",
+                    "Naturalistické zobrazení venkova",
+                    "Popis válečných zkušeností",
+                    "Kritika národního obrození"
+                ],
+                correctAnswer: 0
+            }
+        ]
+    },
+    {
+        title: "Ernest Hemingway",
+        questions: [
+            {
+                question: "Které dílo od E. Hemingwaye jste četli?",
+                options: [
+                    "Malý princ",
+                    "Stařec a moře",
+                    "Na západní frontě klid",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které další významné dílo napsal Ernest Hemingway?",
+                options: [
+                    "Proces",
+                    "Komu zvoní hrana",
+                    "1984",
+                    "Proměna"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba E. Hemingwaye?",
+                options: [
+                    "Renesance",
+                    "Romantismus",
+                    "Ztracená generace, americká moderna",
+                    "Postmoderna"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl přibližným současníkem E. Hemingwaye?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Karel Havlíček Borovský",
+                    "Viktor Dyk"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který zahraniční autor byl současníkem E. Hemingwaye?",
+                options: [
+                    "Miguel de Cervantes",
+                    "William Shakespeare",
+                    "F. Scott Fitzgerald",
+                    "Charles Dickens"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "George Orwell",
+        questions: [
+            {
+                question: "Které dílo od G. Orwella jste četli?",
+                options: [
+                    "Farma zvířat",
+                    "Proměna",
+                    "R.U.R.",
+                    "Stařec a moře"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal George Orwell?",
+                options: [
+                    "Na západní frontě klid",
+                    "1984",
+                    "Malý princ",
+                    "Proces"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba G. Orwella?",
+                options: [
+                    "Romantismus",
+                    "Moderna 20. století",
+                    "Renesance",
+                    "Klasicismus"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl přibližným současníkem G. Orwella?",
+                options: [
+                    "Karel Havlíček Borovský",
+                    "Karel Jaromír Erben",
+                    "Bohumil Hrabal",
+                    "Viktor Dyk"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je charakteristické pro díla G. Orwella?",
+                options: [
+                    "Romantická láska a vášeň",
+                    "Popis španělské občanské války a kritika totalitních režimů",
+                    "Naturalistické zobrazení venkova",
+                    "Vědeckofantastické prvky bez politického podtextu"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Bohumil Hrabal",
+        questions: [
+            {
+                question: "Která díla od B. Hrabala jste četli?",
+                options: [
+                    "R.U.R. a Proměna",
+                    "Ostře sledované vlaky a Postřižiny",
+                    "Krysař a Farma zvířat",
+                    "Stařec a moře a Malý princ"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které další významné dílo napsal Bohumil Hrabal?",
+                options: [
+                    "Obsluhoval jsem anglického krále",
+                    "R.U.R.",
+                    "Nikola Šuhaj loupežník",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Do jakého literárního období patří tvorba B. Hrabala?",
+                options: [
+                    "Národní obrození",
+                    "Meziválečná literatura",
+                    "Česká literatura 2. poloviny 20. století",
+                    "Romantismus"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem B. Hrabala?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Havlíček Borovský",
+                    "Ota Pavel",
+                    "Karel Čapek"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je charakteristické pro dílo B. Hrabala?",
+                options: [
+                    "Sci-fi prvky a kritika technického pokroku",
+                    "Hovorový jazyk, hospodské příběhy a poetika periferie",
+                    "Národnostní tematika a vlastenectví",
+                    "Naturalistické popisy přírodních scenérií"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Ota Pavel",
+        questions: [
+            {
+                question: "Které dílo od O. Pavla jste četli?",
+                options: [
+                    "Smrt krásných srnců",
+                    "R.U.R.",
+                    "Proměna",
+                    "Krysař"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Ota Pavel?",
+                options: [
+                    "Nikola Šuhaj loupežník",
+                    "Jak jsem potkal ryby",
+                    "Postřižiny",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba O. Pavla?",
+                options: [
+                    "Meziválečná literatura",
+                    "Národní obrození",
+                    "Česká literatura 2. poloviny 20. století",
+                    "Literatura České moderny"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem O. Pavla?",
+                options: [
+                    "Karel Čapek",
+                    "Karel Jaromír Erben",
+                    "Bohumil Hrabal",
+                    "Viktor Dyk"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je charakteristické pro dílo O. Pavla?",
+                options: [
+                    "Kritika společnosti a satira",
+                    "Autobiografické prvky, vztah k přírodě a sportovní tematika",
+                    "Vědeckofantastické náměty",
+                    "Vlastenecké básně a balady"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Romain Rolland",
+        questions: [
+            {
+                question: "Které dílo od R. Rollanda jste četli?",
+                options: [
+                    "Petr a Lucie",
+                    "Proměna",
+                    "R.U.R.",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Romain Rolland?",
+                options: [
+                    "Proces",
+                    "Jan Kryštof",
+                    "Stařec a moře",
+                    "1984"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba R. Rollanda?",
+                options: [
+                    "Romantismus",
+                    "Klasicismus",
+                    "Moderna, 1. polovina 20. století",
+                    "Postmoderna"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem R. Rollanda?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Karel Havlíček Borovský",
+                    "Bohumil Hrabal"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké je hlavní téma díla Petr a Lucie?",
+                options: [
+                    "Přátelství mezi dvěma muži během revoluce",
+                    "Tragická láska mladého páru v období 1. světové války",
+                    "Boj za nezávislost kolonií",
+                    "Život na venkově v 19. století"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Antoine de Saint-Exupéry",
+        questions: [
+            {
+                question: "Které dílo od A. de Saint-Exupéryho jste četli?",
+                options: [
+                    "Stařec a moře",
+                    "Malý princ",
+                    "Na západní frontě klid",
+                    "Proměna"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které další významné dílo napsal Antoine de Saint-Exupéry?",
+                options: [
+                    "Noční let",
+                    "Farma zvířat",
+                    "1984",
+                    "Petr a Lucie"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Do jakého literárního období patří tvorba A. de Saint-Exupéryho?",
+                options: [
+                    "Romantismus",
+                    "Moderna, 1. polovina 20. století",
+                    "Renesance",
+                    "Postmoderna"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem A. de Saint-Exupéryho?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Karel Havlíček Borovský",
+                    "Viktor Dyk"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je hlavní motiv díla Malý princ?",
+                options: [
+                    "Kritika společnosti",
+                    "Dobrodružná cesta do vesmíru",
+                    "Filosofická alegorická pohádka o hodnotách, lásce a přátelství",
+                    "Historie letectví"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Erich Maria Remarque",
+        questions: [
+            {
+                question: "Které dílo od E. M. Remarqua jste četli?",
+                options: [
+                    "Stařec a moře",
+                    "Malý princ",
+                    "Na západní frontě klid",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Které další významné dílo napsal Erich Maria Remarque?",
+                options: [
+                    "Proces",
+                    "Tři kamarádi",
+                    "1984",
+                    "Petr a Lucie"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba E. M. Remarqua?",
+                options: [
+                    "Romantismus",
+                    "Moderna a meziválečná literatura",
+                    "Klasicismus",
+                    "Postmoderna"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem E. M. Remarqua?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Karel Havlíček Borovský",
+                    "Bohumil Hrabal"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké hlavní téma zpracovává dílo Na západní frontě klid?",
+                options: [
+                    "Romantický příběh z doby napoleonských válek",
+                    "Zážitky německých vojáků během 1. světové války a kritika války",
+                    "Dobrodružný román o kolonizaci Ameriky",
+                    "Mezilidské vztahy na aristokratickém dvoře"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Viktor Dyk",
+        questions: [
+            {
+                question: "Které dílo od V. Dyka jste četli?",
+                options: [
+                    "Krysař",
+                    "R.U.R.",
+                    "Proměna",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Viktor Dyk?",
+                options: [
+                    "Válka s mloky",
+                    "Milá sedmi loupežníků",
+                    "Osudy dobrého vojáka Švejka",
+                    "Nikola Šuhaj loupežník"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba V. Dyka?",
+                options: [
+                    "Národní obrození",
+                    "Romantismus",
+                    "Moderna a anarchističtí buřiči",
+                    "Normalizace"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem V. Dyka?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Bohumil Hrabal",
+                    "Karel Havlíček Borovský"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Na jakém původním příběhu je založena novela Krysař?",
+                options: [
+                    "Na lidové pohádce o zlém černokněžníkovi",
+                    "Na historických událostech z doby husitských válek",
+                    "Na německé pověsti o krysaři z města Hameln",
+                    "Na autobiografických zážitcích autora"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Jaroslav Hašek",
+        questions: [
+            {
+                question: "Které dílo od J. Haška jste četli?",
+                options: [
+                    "R.U.R.",
+                    "Osudy dobrého vojáka Švejka za světové války",
+                    "Proměna",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kterou další povídku napsal Jaroslav Hašek?",
+                options: [
+                    "R.U.R.",
+                    "Dějiny strany mírného pokroku v mezích zákona",
+                    "Krysař",
+                    "Nikola Šuhaj loupežník"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba J. Haška?",
+                options: [
+                    "Národní obrození",
+                    "Romantismus",
+                    "Meziválečná literatura",
+                    "Postmoderna"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem J. Haška?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Bohumil Hrabal",
+                    "Karel Havlíček Borovský"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký literární prostředek je charakteristický pro dílo Osudy dobrého vojáka Švejka?",
+                options: [
+                    "Metafora a symbolika",
+                    "Satira, ironie a humor",
+                    "Patetičnost a vznešenost",
+                    "Lyričnost a obraznost"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Ivan Olbracht",
+        questions: [
+            {
+                question: "Které dílo od I. Olbrachta jste četli?",
+                options: [
+                    "R.U.R.",
+                    "Nikola Šuhaj loupežník",
+                    "Krysař",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které další významné dílo napsal Ivan Olbracht?",
+                options: [
+                    "Osudy dobrého vojáka Švejka",
+                    "Golet v údolí",
+                    "Proměna",
+                    "Stařec a moře"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba I. Olbrachta?",
+                options: [
+                    "Národní obrození",
+                    "Romantismus",
+                    "Meziválečná literatura",
+                    "Normalizace"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem I. Olbrachta?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Bohumil Hrabal",
+                    "Karel Havlíček Borovský"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V jakém prostředí se odehrává román Nikola Šuhaj loupežník?",
+                options: [
+                    "V Praze během 1. světové války",
+                    "Na Podkarpatské Rusi (Zakarpatská Ukrajina) v meziválečném období",
+                    "V jihočeském kraji během husitských válek",
+                    "V Brně na přelomu 19. a 20. století"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Eduard Petiška",
+        questions: [
+            {
+                question: "Které dílo od E. Petišky jste četli?",
+                options: [
+                    "Staré řecké báje a pověsti",
+                    "R.U.R.",
+                    "Proměna",
+                    "Krysař"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Eduard Petiška?",
+                options: [
+                    "Děti z Bullerbynu",
+                    "Martínkova čítanka",
+                    "Ferda Mravenec",
+                    "Babička"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba E. Petišky?",
+                options: [
+                    "Národní obrození",
+                    "Meziválečná literatura",
+                    "Česká literatura 2. poloviny 20. století",
+                    "Renesance"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem E. Petišky?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Havlíček Borovský",
+                    "Bohumil Hrabal",
+                    "Karel Čapek"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Čím je charakteristická tvorba E. Petišky?",
+                options: [
+                    "Experimentální poezií",
+                    "Popularizací mytologie a adaptacemi klasických příběhů pro děti a mládež",
+                    "Naturalistickým popisem venkova",
+                    "Sci-fi příběhy"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Jaroslav Vrchlický",
+        questions: [
+            {
+                question: "Které dílo od J. Vrchlického znáte?",
+                options: [
+                    "Noc na Karlštejně",
+                    "R.U.R.",
+                    "Proměna",
+                    "Krysař"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Jaroslav Vrchlický?",
+                options: [
+                    "Osudy dobrého vojáka Švejka",
+                    "Bar Kochba",
+                    "Nikola Šuhaj loupežník",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního období patří tvorba J. Vrchlického?",
+                options: [
+                    "Národní obrození",
+                    "Lumírovci a ruchovci",
+                    "Meziválečná literatura",
+                    "Normalizace"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem J. Vrchlického?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Bohumil Hrabal",
+                    "Josef Svatopluk Machar"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Čím je charakteristická tvorba J. Vrchlického?",
+                options: [
+                    "Experimentální formou a futurismem",
+                    "Kosmopolitismem, lyrikou a bohatou sbírkou překladů světové poezie",
+                    "Politickou satirou",
+                    "Venkovskou tématikou"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Karel Václav Rais",
+        questions: [
+            {
+                question: "Které dílo od K. V. Raise jste četli?",
+                options: [
+                    "Kalibův zločin",
+                    "R.U.R.",
+                    "Proměna",
+                    "Krysař"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které další významné dílo napsal Karel Václav Rais?",
+                options: [
+                    "Osudy dobrého vojáka Švejka",
+                    "Zapadlí vlastenci",
+                    "Nikola Šuhaj loupežník",
+                    "Farma zvířat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého literárního směru patří tvorba K. V. Raise?",
+                options: [
+                    "Romantismus",
+                    "Realismus a venkovská próza",
+                    "Poetismus",
+                    "Existencialismus"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z těchto českých autorů byl současníkem K. V. Raise?",
+                options: [
+                    "Karel Jaromír Erben",
+                    "Karel Čapek",
+                    "Bohumil Hrabal",
+                    "Alois Jirásek"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co je charakteristické pro díla K. V. Raise?",
+                options: [
+                    "Sci-fi prvky a futuristické vize",
+                    "Realistické zobrazení života na venkově a sociální problémy",
+                    "Politická satira",
+                    "Dobrodružné příběhy z kolonií"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    }
 ];
 
 // Initialize questions in the game
