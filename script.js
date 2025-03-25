@@ -61,7 +61,8 @@ function initializeQuestionBank() {
         gameState.completedTopics = {
             informatika: {},
             it: {},
-            cestina: {}
+            cestina: {},
+            autori: {}
         };
     }
     
@@ -109,7 +110,7 @@ function selectSubject(subject) {
     if (subject === 'informatika') subjectName = 'Informatika';
     else if (subject === 'it') subjectName = 'Informační technologie';
     else if (subject === 'cestina') subjectName = 'Čeština';
-    
+    else if (subject === 'autori') subjectName = 'Autoři';
     subjectTitle.textContent = subjectName;
     
     // Load topics for this subject

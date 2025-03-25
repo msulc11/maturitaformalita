@@ -427,112 +427,112 @@ const informaticaQuestions = [
                 correctAnswer: 3
             }
         ]
-        },
+    },
     {
         title: "5. Základy objektově orientovaného programování (OOP)",
         questions: [
             {
-            question: "Co je hlavní myšlenkou objektově orientovaného programování (OOP)?",
-            options: [
-                "Používání funkcí místo objektů",
-                "Strukturování kódu kolem objektů",
-                "Používání pouze nízkoúrovňového jazyka",
-                "Tvorba webových stránek"
-            ],
-            correctAnswer: 1
-        },
-        {
-            question: "Co je třída v OOP?",
-            options: [
-                "Proměnná v programu",
-                "Metoda používaná pro výpočty",
-                "Předpis pro tvorbu objektů",
-                "Datový typ pro čísla"
-            ],
-            correctAnswer: 2
-        },
-        {
-            question: "Co je instance třídy?",
-            options: [
-                "Název třídy",
-                "Objekt vytvořený podle třídy",
-                "Modifikátor přístupu",
-                "Datový typ"
-            ],
-            correctAnswer: 1
-        },
-        {
-            question: "Který modifikátor přístupu zajišťuje, že atribut je přístupný pouze uvnitř třídy?",
-            options: [
-                "Public",
-                "Protected",
-                "Private",
-                "Static"
-            ],
-            correctAnswer: 2
-        },
-        {
-            question: "K čemu slouží statické členy třídy?",
-            options: [
-                "Patří ke konkrétní instanci objektu",
-                "Jsou přístupné pouze přes metodu",
-                "Patří ke třídě a sdílejí je všechny instance",
-                "Slouží ke změně typu atributu"
-            ],
-            correctAnswer: 2
-        },
-        {
-            question: "Jaká je správná vlastnost konstruktoru v OOP?",
-            options: [
-                "Mění přístupová práva třídy",
-                "Jmenuje se jinak než třída",
-                "Volá se při vytvoření instance a může přijímat parametry",
-                "Umožňuje přetěžování metod"
-            ],
-            correctAnswer: 2
-        },
-        {
-            question: "Co je metoda v OOP?",
-            options: [
-                "Proměnná uvnitř objektu",
-                "Funkce reprezentující chování objektu",
-                "Typ přístupového modifikátoru",
-                "Datový typ objektu"
-            ],
-            correctAnswer: 1
-        },
-        {
-            question: "Jaký je účel getteru a setteru ve vlastnostech třídy?",
-            options: [
-                "Zajišťují přímý přístup k atributům",
-                "Slouží k přístupu a změně private atributů bezpečným způsobem",
-                "Mění název atributů",
-                "Slouží pouze k ladění programu"
-            ],
-            correctAnswer: 1
-        },
-        {
-            question: "Co umožňuje přetěžování metod?",
-            options: [
-                "Používat stejné jméno třídy vícekrát",
-                "Používat stejnou metodu pro různé typy dat pomocí různých parametrů",
-                "Změnit typ návratové hodnoty",
-                "Přistupovat k private atributům"
-            ],
-            correctAnswer: 1
-        },
-        {
-            question: "Jaký je význam atributu třídy?",
-            options: [
-                "Představuje metodu třídy",
-                "Je to proměnná definovaná uvnitř třídy, která uchovává data objektu",
-                "Slouží k přetížení metod",
-                "Definuje modifikátor přístupu"
-            ],
-            correctAnswer: 1
-        }
-    ]
-}
+                question: "Co je hlavní myšlenkou objektově orientovaného programování (OOP)?",
+                options: [
+                    "Používání funkcí místo objektů",
+                    "Strukturování kódu kolem objektů",
+                    "Používání pouze nízkoúrovňového jazyka",
+                    "Tvorba webových stránek"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je třída v OOP?",
+                options: [
+                    "Proměnná v programu",
+                    "Metoda používaná pro výpočty",
+                    "Předpis pro tvorbu objektů",
+                    "Datový typ pro čísla"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je instance třídy?",
+                options: [
+                    "Název třídy",
+                    "Objekt vytvořený podle třídy",
+                    "Modifikátor přístupu",
+                    "Datový typ"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který modifikátor přístupu zajišťuje, že atribut je přístupný pouze uvnitř třídy?",
+                options: [
+                    "Public",
+                    "Protected",
+                    "Private",
+                    "Static"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "K čemu slouží statické členy třídy?",
+                options: [
+                    "Patří ke konkrétní instanci objektu",
+                    "Jsou přístupné pouze přes metodu",
+                    "Patří ke třídě a sdílejí je všechny instance",
+                    "Slouží ke změně typu atributu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaká je správná vlastnost konstruktoru v OOP?",
+                options: [
+                    "Mění přístupová práva třídy",
+                    "Jmenuje se jinak než třída",
+                    "Volá se při vytvoření instance a může přijímat parametry",
+                    "Umožňuje přetěžování metod"    
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je metoda v OOP?",
+                options: [
+                    "Proměnná uvnitř objektu",
+                    "Funkce reprezentující chování objektu",
+                    "Typ přístupového modifikátoru",
+                    "Datový typ objektu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je účel getteru a setteru ve vlastnostech třídy?",
+                options: [
+                    "Zajišťují přímý přístup k atributům",
+                    "Slouží k přístupu a změně private atributů bezpečným způsobem",
+                    "Mění název atributů",
+                    "Slouží pouze k ladění programu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co umožňuje přetěžování metod?",
+                options: [
+                    "Používat stejné jméno třídy vícekrát",
+                    "Používat stejnou metodu pro různé typy dat pomocí různých parametrů",
+                    "Změnit typ návratové hodnoty",
+                    "Přistupovat k private atributům"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je význam atributu třídy?",
+                options: [
+                    "Představuje metodu třídy",
+                    "Je to proměnná definovaná uvnitř třídy, která uchovává data objektu",
+                    "Slouží k přetížení metod",
+                    "Definuje modifikátor přístupu"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    }
 ]
 
 const itQuestions = [
@@ -552,10 +552,2113 @@ const itQuestions = [
 
 const cestinaQuestions = [
     {
-        title: "Téma 1 - Čeština",
+        title: "Staré řecké báje a pověsti",
         questions: [
             {
-                question: "Příklad otázky z češtiny?",
+                question: "Kdo přinesl lidem oheň?",
+                options: [
+                    "Zeus",
+                    "Hérakles",
+                    "Prométheus",
+                    "Apollo"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak potrestali bohové Tantala?",
+                options: [
+                    "Přikovali ho ke skále",
+                    "Věčným hladem a žízní v podsvětí",
+                    "Proměnili ho v kámen",
+                    "Poslali ho do vyhnanství"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kolik dětí měla Niobé?",
+                options: [
+                    "5 synů a 5 dcer",
+                    "7 synů a 7 dcer",
+                    "6 synů a 6 dcer",
+                    "2 syny a 2 dcery"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo osvobodil Prométhea?",
+                options: [
+                    "Zeus",
+                    "Hérakles",
+                    "Apollo",
+                    "Persefona"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Čím se provinila Niobé?",
+                options: [
+                    "Ukradla božský oheň",
+                    "Posmívala se bohyni Létó",
+                    "Zradila tajemství bohů",
+                    "Zabila své děti"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Z čeho vytvořil Prométheus lidi?",
+                options: [
+                    "Z kamene a ohně",
+                    "Z hlíny a vody",
+                    "Z božské krve",
+                    "Z vlastního těla"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co udělal Tantalos na hostině pro bohy?",
+                options: [
+                    "Ukradl nektar a ambrózii",
+                    "Urazil Dia",
+                    "Předložil bohům pokrm z vlastního syna",
+                    "Zaútočil na Apollóna"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký dar přinesl Prométheus lidem?",
+                options: [
+                    "Oheň",
+                    "Víno",
+                    "Písmo",
+                    "Medicínu"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "V co se proměnila Niobé po smrti svých dětí?",
+                options: [
+                    "V řeku",
+                    "V kámen",
+                    "V ptáka",
+                    "V květinu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo zabil děti Niobé?",
+                options: [
+                    "Zeus a Héra",
+                    "Poseidón a Afrodita",
+                    "Apollón a Artemis",
+                    "Hádes a Persefona"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Romeo a Julie",
+        questions: [
+            {
+                question: "Kdo napsal divadelní hru Romeo a Julie?",
+                options: [
+                    "Charles Dickens",
+                    "William Shakespeare",
+                    "Oscar Wilde",
+                    "Jane Austen"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Ve kterém městě se odehrává příběh Romeo a Julie?",
+                options: [
+                    "Benátky",
+                    "Florencie",
+                    "Verona",
+                    "Řím"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Které dvě znepřátelené rodiny vystupují v díle?",
+                options: [
+                    "Yorkové a Lancasterové",
+                    "Montekové a Kapuletové",
+                    "Medicejští a Borgiové",
+                    "Orsiniové a Colonnaové"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kde se Romeo a Julie poprvé setkali?",
+                options: [
+                    "Na plese u Kapuletů",
+                    "V kostele",
+                    "Na tržišti",
+                    "V zahradě Monteků"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jak zemřela Julie?",
+                options: [
+                    "Byla zabita Tybaltem",
+                    "Utopila se",
+                    "Probodla se dýkou",
+                    "Otrávila se jedem"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo zabil Tybalta?",
+                options: [
+                    "Merkucio",
+                    "Paris",
+                    "Romeo",
+                    "Benvolio"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký nápoj dá mnich Lorenzo Julii?",
+                options: [
+                    "Smrtelný jed",
+                    "Uspávací prostředek",
+                    "Lektvar lásky",
+                    "Lék na bolest"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Z jakého důvodu Romeo nevěděl o Juliině plánu s předstíranou smrtí?",
+                options: [
+                    "Zradil jej mnich Lorenzo",
+                    "Posel mu nedoručil dopis",
+                    "Julie mu to zapomněla říct",
+                    "Romeo neuměl číst"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co udělá Romeo, když zjistí, že Julie je (zdánlivě) mrtvá?",
+                options: [
+                    "Vypije jed",
+                    "Probodne se mečem",
+                    "Odejde do vyhnanství",
+                    "Pomstí se Kapuletům"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký byl důsledek smrti Romea a Julie?",
+                options: [
+                    "Válka mezi rodinami",
+                    "Vyhnání mnicha Lorenza",
+                    "Smír mezi znepřátelenými rodinami",
+                    "Zhroucení vlády ve Veroně"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Petr a Lucie",
+        questions: [
+            {
+                question: "Kdo je autorem novely Petr a Lucie?",
+                options: [
+                    "Victor Hugo",
+                    "Romain Rolland",
+                    "Marcel Proust",
+                    "Albert Camus"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V jakém období se odehrává děj novely Petr a Lucie?",
+                options: [
+                    "Během první světové války",
+                    "V meziválečném období",
+                    "Během druhé světové války",
+                    "Po druhé světové válce"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Kde se Petr a Lucie poprvé setkávají?",
+                options: [
+                    "Ve škole",
+                    "V metru během bombardování",
+                    "V nemocnici",
+                    "Na taneční zábavě"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké je sociální postavení Lucie?",
+                options: [
+                    "Pochází z bohaté rodiny",
+                    "Je dcerou významného politika",
+                    "Pochází z chudých poměrů",
+                    "Je šlechtického původu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký postoj má Petr k válce?",
+                options: [
+                    "Je zapáleným vlastencem a chce bojovat",
+                    "Je proti válce a považuje ji za nesmyslnou",
+                    "Je lhostejný k válečnému dění",
+                    "Aktivně podporuje válečné úsilí"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Čím se živí Lucie?",
+                options: [
+                    "Je studentkou",
+                    "Pracuje jako zdravotní sestra",
+                    "Kreslí obrázky na prodej",
+                    "Pracuje v továrně na zbraně"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak dlouho trvá příběh Petra a Lucie?",
+                options: [
+                    "Několik let",
+                    "Jeden rok",
+                    "Tři měsíce",
+                    "Jeden den"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaká událost ukončí příběh Petra a Lucie?",
+                options: [
+                    "Petr musí narukovat na frontu",
+                    "Lucie onemocní a zemře",
+                    "Oba umírají při zřícení kostela během bombardování",
+                    "Petr se vrací z fronty zraněný"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký literární směr reprezentuje dílo Petr a Lucie?",
+                options: [
+                    "Realismus",
+                    "Naturalismus",
+                    "Romantismus",
+                    "Humanismus a pacifismus"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaké hlavní poselství nese novela Petr a Lucie?",
+                options: [
+                    "Oslavu hrdinství vojáků",
+                    "Kritiku války a její nesmyslnosti",
+                    "Analýzu společenských tříd",
+                    "Oslavu francouzské kultury"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Malý princ",
+        questions: [
+            {
+                question: "Kdo je autorem knihy Malý princ?",
+                options: [
+                    "Albert Camus",
+                    "Victor Hugo",
+                    "Antoine de Saint-Exupéry",
+                    "Jules Verne"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jakou profesi má vypravěč příběhu?",
+                options: [
+                    "Lékař",
+                    "Pilot",
+                    "Malíř",
+                    "Učitel"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co požádal Malý princ vypravěče, aby mu nakreslil jako první?",
+                options: [
+                    "Letadlo",
+                    "Beránka",
+                    "Květinu",
+                    "Slona"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Z jaké planety pochází Malý princ?",
+                options: [
+                    "Ze Země",
+                    "Z Marsu",
+                    "Z asteroidu B 612",
+                    "Z Venuše"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kterou květinu Malý princ miloval a pečoval o ni na své planetě?",
+                options: [
+                    "Tulipán",
+                    "Růži",
+                    "Baobab",
+                    "Slunečnici"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kolik planet Malý princ navštívil během své cesty?",
+                options: [
+                    "4",
+                    "6",
+                    "7",
+                    "10"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kterého obyvatele potkal Malý princ na první planetě?",
+                options: [
+                    "Lampáře",
+                    "Krále",
+                    "Geografa",
+                    "Pijáka"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké zvíře pomohlo Malému princi na Zemi?",
+                options: [
+                    "Pes",
+                    "Liška",
+                    "Slon",
+                    "Had"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaká je nejznámější citace z knihy Malý princ?",
+                options: [
+                    "\"Hvězdy jsou krásné, protože je na nich květina, kterou není vidět...\"",
+                    "\"Správně vidíme jen srdcem. Co je důležité, je očím neviditelné.\"",
+                    "\"Řeč je pramenem nedorozumění.\"",
+                    "\"Dospělí nikdy ničemu nerozumí sami a děti to stojí věčné vysvětlování.\""
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jakým způsobem se Malý princ vrátil na svou planetu?",
+                options: [
+                    "Raketou",
+                    "Pomocí hvězdného prachu",
+                    "Odletem s hejnem ptáků",
+                    "Nechal se uštknout hadem"
+                ],
+                correctAnswer: 3
+            }
+        ]
+    },
+    {
+        title: "Na západní frontě klid",
+        questions: [
+            {
+                question: "Kdo je autorem románu Na západní frontě klid?",
+                options: [
+                    "Ernest Hemingway",
+                    "Erich Maria Remarque",
+                    "Henri Barbusse",
+                    "Jaroslav Hašek"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Ve které válce se odehrává děj románu?",
+                options: [
+                    "V druhé světové válce",
+                    "V třicetileté válce",
+                    "V první světové válce",
+                    "V napoleonských válkách"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo je hlavním hrdinou románu?",
+                options: [
+                    "Paul Bäumer",
+                    "Albert Kropp",
+                    "Franz Kemmerich",
+                    "Stanislav Katczinský"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co přimělo Paula a jeho spolužáky vstoupit do armády?",
+                options: [
+                    "Povinný odvod",
+                    "Touha po dobrodružství",
+                    "Vlastenecké projevy jejich učitele Kantorerka",
+                    "Finanční odměna"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z Paulových přátel zemře jako první?",
+                options: [
+                    "Albert Kropp",
+                    "Müller",
+                    "Tjaden",
+                    "Kemmerich"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaký je hlavní postoj Paula k válce?",
+                options: [
+                    "Považuje ji za vlasteneckou povinnost",
+                    "Je nadšený a vidí v ní smysl",
+                    "Je deziluzionovaný a vidí válku jako nesmyslnou",
+                    "Je lhostejný k válečnému dění"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se stane s Paulem, když se vrátí domů na dovolenou?",
+                options: [
+                    "Je šťastný a odpočinutý",
+                    "Cítí se jako cizinec a nepatřící do civilního světa",
+                    "Již se nikdy nevrátí na frontu",
+                    "Je uvítán jako hrdina"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo je Katczinský v románu?",
+                options: [
+                    "Paulův velitel",
+                    "Starší voják, který se stane Paulovým mentorem",
+                    "Lékař v polní nemocnici",
+                    "Paulův učitel z gymnázia"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak zemře Katczinský?",
+                options: [
+                    "Při útoku plynem",
+                    "V boji muž proti muži",
+                    "Je zasažen malou střepinou při transportu zraněného",
+                    "Spáchá sebevraždu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak umírá Paul Bäumer?",
+                options: [
+                    "Je zastřelen ostřelovačem",
+                    "Zemře nenápadně v klidný den, krátce před koncem války",
+                    "Při útoku na nepřátelské zákopy",
+                    "Na následky otravy plynem"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Proměna",
+        questions: [
+            {
+                question: "Kdo je autorem povídky Proměna?",
+                options: [
+                    "Friedrich Nietzsche",
+                    "Franz Kafka",
+                    "Hermann Hesse",
+                    "Thomas Mann"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V co se promění hlavní hrdina Řehoř Samsa?",
+                options: [
+                    "V nestvůrný hmyz",
+                    "V krysu",
+                    "V hada",
+                    "V netopýra"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké povolání vykonával Řehoř Samsa před svou proměnou?",
+                options: [
+                    "Byl úředníkem",
+                    "Byl učitelem",
+                    "Byl obchodním cestujícím",
+                    "Byl právníkem"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak reaguje Řehořova rodina na jeho proměnu?",
+                options: [
+                    "S pochopením a pomocí",
+                    "Nejprve se snaží pomoci, později se ho straní",
+                    "Okamžitě ho vyženou z domu",
+                    "Zavolají policii"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo z rodiny se o Řehoře po proměně nejvíce stará?",
+                options: [
+                    "Otec",
+                    "Matka",
+                    "Sestra Markéta",
+                    "Služka"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak Řehoř Samsa zemře?",
+                options: [
+                    "Je zabit otcem",
+                    "Spáchá sebevraždu",
+                    "Zemře hladem a vyčerpáním",
+                    "Zemře na následky zranění"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co symbolizuje Řehořova proměna v povídce?",
+                options: [
+                    "Fyzickou nemoc",
+                    "Odcizení a ztrátu identity v moderní společnosti",
+                    "Trest za hříchy",
+                    "Přirozený cyklus života"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak se změní ekonomická situace rodiny po Řehořově proměně?",
+                options: [
+                    "Zbohatnou díky pojistce",
+                    "Musí začít pracovat, protože Řehoř byl živitelem rodiny",
+                    "Nic se nezmění",
+                    "Odstěhují se na venkov"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co udělá Řehořova rodina po jeho smrti?",
+                options: [
+                    "Uspořádá velký pohřeb",
+                    "Udělá si výlet do přírody a plánuje budoucnost",
+                    "Rozpadne se a každý jde vlastní cestou",
+                    "Spáchá kolektivní sebevraždu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jakým literárním stylem je napsána Proměna?",
+                options: [
+                    "Romantickým stylem",
+                    "Realistickým stylem",
+                    "Surrealistickým stylem",
+                    "Naturalistickým stylem"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Stařec a moře",
+        questions: [
+            {
+                question: "Kdo je autorem novely Stařec a moře?",
+                options: [
+                    "Jack London",
+                    "Ernest Hemingway",
+                    "Mark Twain",
+                    "John Steinbeck"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak se jmenuje hlavní postava novely?",
+                options: [
+                    "Santiago",
+                    "Manolin",
+                    "Pedro",
+                    "Miguel"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Kolik dní neměl stařec žádný úlovek před začátkem příběhu?",
+                options: [
+                    "30 dní",
+                    "84 dní",
+                    "60 dní",
+                    "100 dní"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je vztah mezi chlapcem Manolinem a starcem?",
+                options: [
+                    "Jsou otec a syn",
+                    "Jsou dědeček a vnuk",
+                    "Chlapec se od starce učil rybařit, později mu pomáhá",
+                    "Jsou příbuzní"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký druh ryby stařec uloví?",
+                options: [
+                    "Tuňáka",
+                    "Mečouna (Marlina)",
+                    "Žraloka",
+                    "Delfína"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kolik dní trvá starci boj s velkou rybou?",
+                options: [
+                    "1 den",
+                    "2 dny",
+                    "3 dny",
+                    "5 dní"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se stane s ulovenou rybou cestou zpět?",
+                options: [
+                    "Stařec ji ztratí v bouři",
+                    "Žraloci ji postupně celou sežerou",
+                    "Stařec ji prodá za vysokou cenu",
+                    "Ryba obživne a uplave"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co zůstane starci z ryby, když se vrátí do přístavu?",
+                options: [
+                    "Celá ryba",
+                    "Polovina ryby",
+                    "Jen hlava, ocas a páteř",
+                    "Nic"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co symbolizuje velká ryba v příběhu?",
+                options: [
+                    "Štěstí a bohatství",
+                    "Lidský boj s přírodou",
+                    "Důstojného protivníka a životní výzvu",
+                    "Starcovo mládí"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký je závěr novely?",
+                options: [
+                    "Stařec se rozhodne již nikdy nelovit",
+                    "Stařec spáchá sebevraždu",
+                    "Stařec dostane za kostru ryby velkou odměnu",
+                    "Stařec sní o lvech a plánuje další výpravu na moře"
+                ],
+                correctAnswer: 3
+            }
+        ]
+    },
+    {
+        title: "Obraz Doriana Graye",
+        questions: [
+            {
+                question: "Kdo je autorem románu Obraz Doriana Graye?",
+                options: [
+                    "Charles Dickens",
+                    "Oscar Wilde",
+                    "Emily Brontë",
+                    "Edgar Allan Poe"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo namaloval portrét Doriana Graye?",
+                options: [
+                    "Lord Henry Wotton",
+                    "Basil Hallward",
+                    "Sibyla Vaneová",
+                    "Alan Campbell"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co se děje s obrazem Doriana Graye v průběhu času?",
+                options: [
+                    "Bledne a ztrácí barvy",
+                    "Zůstává stále stejný",
+                    "Stárne a zachycuje Dorianovy hříchy a špatné skutky",
+                    "Zmenšuje se"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se děje s Dorianem Grayem v průběhu času?",
+                options: [
+                    "Stárne normálně",
+                    "Zůstává stále mladý a krásný",
+                    "Pomalu šediví",
+                    "Mění se na zvíře"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo je Lord Henry Wotton?",
+                options: [
+                    "Dorianův sluha",
+                    "Dorianův malíř",
+                    "Cynik a hédonista, který Doriana ovlivňuje",
+                    "Dorianův otec"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Do koho se Dorian Gray zamiluje na začátku knihy?",
+                options: [
+                    "Lady Agatha",
+                    "Sibyla Vaneová",
+                    "Hetty Merton",
+                    "Gladys"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co se stane se Sibylou Vaneovou?",
+                options: [
+                    "Provdá se za Doriana",
+                    "Uteče s jiným mužem",
+                    "Spáchá sebevraždu poté, co ji Dorian opustí",
+                    "Odjede do Paříže studovat herectví"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký je hlavní filozofický problém díla?",
+                options: [
+                    "Vztah mezi uměním a realitou",
+                    "Láska a její proměny",
+                    "Křesťanská morálka",
+                    "Společenské rozdíly"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký literární směr představuje román Obraz Doriana Graye?",
+                options: [
+                    "Realismus",
+                    "Romantismus",
+                    "Estetismus a dekadence",
+                    "Naturalismus"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak román končí?",
+                options: [
+                    "Dorian se ožení a žije šťastně",
+                    "Dorian zaútočí na obraz nožem a sám zemře",
+                    "Dorian odchází do kláštera činit pokání",
+                    "Dorian je zavražděn Basilem Hallwardem"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Kytice - vybrané balady",
+        questions: [
+            {
+                question: "Co vyvolá příchod Polednice v baladě Polednice?",
+                options: [
+                    "Úmyslné zaklínadlo staré ženy",
+                    "Netrpělivost dítěte",
+                    "Neopatrný slib",
+                    "Matčina hrozba dítěti ve vzteku"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jak končí balada Polednice?",
+                options: [
+                    "Matka zachrání dítě, ale zemře vyčerpáním",
+                    "Polednice odnese dítě pryč",
+                    "Matka i dítě jsou zachráněny otcem",
+                    "Matka v náručí udusí své dítě"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co symbolizuje Polednice v Erbenově baladě?",
+                options: [
+                    "Trest za porušení poledního klidu",
+                    "Následky neuváženého vyslovení zlých slov",
+                    "Pomstu za porušení přírodních zákonů",
+                    "Nadpřirozenou bytost bez symbolického významu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Proč se dívka z Vodníka vrací do lidského světa?",
+                options: [
+                    "Stýská se jí po matce",
+                    "Chce utéct od Vodníka navždy",
+                    "Musí na zpověď do kostela",
+                    "Hledá lékaře pro své dítě"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jakou podmínku dává Vodník dívce při návratu k matce?",
+                options: [
+                    "Nesmí se modlit",
+                    "Musí se vrátit před setměním",
+                    "Nesmí vstoupit do kostela",
+                    "Nesmí nikomu říct o jeho říši"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak končí balada Vodník?",
+                options: [
+                    "Vodník zabije dívku",
+                    "Vodník zabije jejich dítě",
+                    "Dívka se dobrovolně vrátí k Vodníkovi",
+                    "Matka s dcerou Vodníka přemůžou"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co přiměje dívku ve Svatební košili, aby následovala mrtvého milého?",
+                options: [
+                    "Příslib bohatství a pohodlného života",
+                    "Její předchozí slib věrnosti",
+                    "Touha po smrti a spojení s milým",
+                    "Strach z jeho hrozeb"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kam vede mrtvý ženich dívku ve Svatební košili?",
+                options: [
+                    "Do svého zámku",
+                    "Do lesa",
+                    "Na hřbitov",
+                    "K řece"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak se dívka zachrání ve Svatební košili?",
+                options: [
+                    "Pomocí svatého kříže",
+                    "Útěkem do umrlčí komory a modlitbou do rána",
+                    "Zaříkáváním proti duchům",
+                    "Pomocí svého mrtvého bratra"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je společným tématem balad Vodník, Polednice a Svatební košile?",
+                options: [
+                    "Mateřská láska",
+                    "Nadpřirozené bytosti zasahující do lidských osudů",
+                    "Nevěra a její následky",
+                    "Dětská nevinnost a čistota"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Křest sv. Vladimíra",
+        questions: [
+            {
+                question: "Kdo je autorem satirické skladby Křest sv. Vladimíra?",
+                options: [
+                    "Josef Kajetán Tyl",
+                    "Karel Havlíček Borovský",
+                    "Svatopluk Čech",
+                    "Josef Dobrovský"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kde byl Karel Havlíček Borovský, když psal Křest sv. Vladimíra?",
+                options: [
+                    "Ve vězení",
+                    "V exilu v Brixenu",
+                    "V Praze",
+                    "Na Slovensku"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co symbolizuje car Vladimír v díle?",
+                options: [
+                    "Ruský lid",
+                    "Křesťanství",
+                    "Absolutistickou monarchii",
+                    "Rakouského císaře"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co odmítl udělat bůh Perun v úvodu díla?",
+                options: [
+                    "Přestoupit na křesťanství",
+                    "Hřímat na carův svátek",
+                    "Vybírat daně",
+                    "Bojovat proti nepřátelům"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak car Vladimír potrestal boha Peruna?",
+                options: [
+                    "Poslal ho do vyhnanství",
+                    "Nechal ho popravit",
+                    "Uvěznil ho",
+                    "Nechal ho utopit v řece"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co nastalo v carově říši po Perunově utopení?",
+                options: [
+                    "Válka s okolními národy",
+                    "Mor a hladomor",
+                    "Anarchie, protože nebyl nikdo, kdo by hřímal",
+                    "Povstání lidu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co radí ministři carovi na konci díla?",
+                options: [
+                    "Vytvořit nového slovanského boha",
+                    "Přijmout křesťanství",
+                    "Obnovit Perunův kult",
+                    "Abdikovat ve prospěch jiného panovníka"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Proti čemu je Křest sv. Vladimíra především zaměřen?",
+                options: [
+                    "Proti ruskému národu",
+                    "Proti spojení církve a státní moci",
+                    "Proti pohanství",
+                    "Proti českému národnímu obrození"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký literární žánr představuje Křest sv. Vladimíra?",
+                options: [
+                    "Epos",
+                    "Satira",
+                    "Tragédie",
+                    "Román"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V jaké době vznikl Křest sv. Vladimíra?",
+                options: [
+                    "Za husitských válek",
+                    "Za národního obrození v 19. století",
+                    "Po roce 1948",
+                    "Po sametové revoluci"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Noc na Karlštejně",
+        questions: [
+            {
+                question: "Kdo je autorem divadelní hry Noc na Karlštejně?",
+                options: [
+                    "Jaroslav Vrchlický",
+                    "Josef Kajetán Tyl",
+                    "Karel Čapek",
+                    "Alois Jirásek"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké pravidlo platilo na hradě Karlštejn podle hry?",
+                options: [
+                    "Nikdo nesměl opustit hrad po setmění",
+                    "Ženy nesměly na hrad",
+                    "Nikdo nesměl mluvit s císařem přímo",
+                    "Všichni museli nosit zbraň"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo se jako žena převlečená za panoše dostal na Karlštejn?",
+                options: [
+                    "Královna Alžběta",
+                    "Alena",
+                    "Markéta Těšínská",
+                    "Anežka"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Kdo se vydává za muže, aby se mohla setkat s Peškem Hlavně?",
+                options: [
+                    "Královna Alžběta",
+                    "Alena",
+                    "Anežka",
+                    "Markéta Těšínská"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jakou funkci zastává Pešek Hlavně?",
+                options: [
+                    "Purkrabí",
+                    "Císařův šenk",
+                    "Rytíř",
+                    "Duchovní"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je hlavním tématem hry?",
+                options: [
+                    "Politické intriky u dvora",
+                    "Boj o moc",
+                    "Láska a žárlivost",
+                    "Náboženské spory"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak Karel IV. reaguje, když zjistí, že na hradě jsou ženy?",
+                options: [
+                    "Nechá je uvěznit",
+                    "Vyhostí je z hradu",
+                    "Je pobaven a odpustí jim",
+                    "Potrestá strážce hradu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo je Arnošt z Pardubic v této hře?",
+                options: [
+                    "Císařův nepřítel",
+                    "Pražský arcibiskup a císařův přítel",
+                    "Otec Aleny",
+                    "Šašek"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Do jakého období českých dějin je hra zasazena?",
+                options: [
+                    "Do doby vlády Karla IV.",
+                    "Do husitských válek",
+                    "Do třicetileté války",
+                    "Do národního obrození"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký je žánr díla Noc na Karlštejně?",
+                options: [
+                    "Historická tragédie",
+                    "Veselohra (komedie)",
+                    "Psychologické drama",
+                    "Vážná historická hra"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Kalibův zločin",
+        questions: [
+            {
+                question: "Kdo je autorem románu Kalibův zločin?",
+                options: [
+                    "Karel Václav Rais",
+                    "Alois Jirásek",
+                    "Božena Němcová",
+                    "Jan Neruda"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Do jakého literárního směru patří Kalibův zločin?",
+                options: [
+                    "Romantismus",
+                    "Realismus",
+                    "Naturalismus",
+                    "Symbolismus"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V jakém prostředí se odehrává román Kalibův zločin?",
+                options: [
+                    "V Praze",
+                    "Na venkově v Podkrkonoší",
+                    "Na šlechtickém dvoře",
+                    "V horách na Slovensku"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo je hlavní postavou románu?",
+                options: [
+                    "Karla Kalibová",
+                    "Lojzík Kalib",
+                    "Fráňa Kalib",
+                    "Vojtěch Kalib"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co je hlavním motivem románu?",
+                options: [
+                    "Sociální problémy venkova",
+                    "Národnostní útlak",
+                    "Válečné útrapy",
+                    "Náboženské konflikty"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "S kým se Vojtěch Kalib oženil?",
+                options: [
+                    "S Boženou",
+                    "S Barčou",
+                    "S Terezou",
+                    "S Marií"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co způsobilo konflikt mezi Kalibem a jeho ženou?",
+                options: [
+                    "Její nevěra",
+                    "Věkový rozdíl a odlišné povahy",
+                    "Náboženské rozdíly",
+                    "Spory o peníze"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký zločin Vojtěch Kalib spáchal?",
+                options: [
+                    "Zabil svého souseda",
+                    "Zabil svou ženu",
+                    "Zabil svého syna",
+                    "Zabil svého bratra"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak skončí Vojtěch Kalib na konci románu?",
+                options: [
+                    "Je odsouzen k trestu smrti",
+                    "Je odsouzen k dlouhému vězení",
+                    "Spáchá sebevraždu",
+                    "Unikne spravedlnosti"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co bylo podle autora hlavní příčinou Kalibova zločinu?",
+                options: [
+                    "Alkoholismus",
+                    "Žárlivost",
+                    "Chudoba a sociální tlaky",
+                    "Psychická porucha"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Farma zvířat",
+        questions: [
+            {
+                question: "Kdo je autorem díla Farma zvířat?",
+                options: [
+                    "Charles Dickens",
+                    "George Orwell",
+                    "Aldous Huxley",
+                    "William Golding"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký podtitul má kniha Farma zvířat?",
+                options: [
+                    "Bajka",
+                    "Podobenství",
+                    "Román",
+                    "Alegorická pohádka"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Která postava představuje symbol ruské revoluce (Lenina)?",
+                options: [
+                    "Boxer",
+                    "Kuliš",
+                    "Major",
+                    "Napoleon"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo představuje Stalina v díle?",
+                options: [
+                    "Kuliš",
+                    "Napoleon",
+                    "Major",
+                    "Pištík"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak zní původní sedmé přikázání zvířat?",
+                options: [
+                    "Všechna zvířata jsou si rovna",
+                    "Žádné zvíře nezabije jiné zvíře",
+                    "Žádné zvíře nebude spát v posteli",
+                    "Žádné zvíře nebude pít alkohol"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jak je změněno sedmé přikázání na konci knihy?",
+                options: [
+                    "Všechna zvířata jsou si rovna, ale některá jsou si rovnější",
+                    "Žádné zvíře nezabije jiné zvíře bez důvodu",
+                    "Zvířata budou pracovat podle svých schopností",
+                    "Zvíře se nesmí oblékat jako člověk"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jak se jmenuje kůň, který symbolizuje dělnickou třídu?",
+                options: [
+                    "Pištík",
+                    "Benjamin",
+                    "Boxer",
+                    "Molina"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se stane s Boxerem, když už nemůže pracovat?",
+                options: [
+                    "Je poslán do důchodu",
+                    "Je prodán na jatka",
+                    "Umírá přirozenou smrtí",
+                    "Uprchne z farmy"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co symbolizuje větrný mlýn v knize?",
+                options: [
+                    "Industrializaci Ruska",
+                    "Marnou snahu zvířat o lepší život",
+                    "Technologický pokrok",
+                    "Útlak zvířat"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jak končí kniha Farma zvířat?",
+                options: [
+                    "Vítězstvím zvířat nad lidmi",
+                    "Zvířata se vzbouří proti prasatům",
+                    "Lidé znovu převezmou farmu",
+                    "Prasata se promění v lidi a zvířata je nemohou rozeznat od skutečných lidí"
+                ],
+                correctAnswer: 3
+            }
+        ]
+    },
+    {
+        title: "Krysař",
+        questions: [
+            {
+                question: "Kdo je autorem novely Krysař?",
+                options: [
+                    "Karel Čapek",
+                    "Viktor Dyk",
+                    "Karel Jaromír Erben",
+                    "Alois Jirásek"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Ve kterém městě se odehrává děj novely Krysař?",
+                options: [
+                    "Hameln",
+                    "Praha",
+                    "Vídeň",
+                    "Norimberk"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Kdo je Agnes?",
+                options: [
+                    "Krysařova píšťala",
+                    "Krysařova žena",
+                    "Krysařova milenka",
+                    "Krysařova dcera"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo je otcem dítěte Agnes?",
+                options: [
+                    "Krysař",
+                    "Sepp Jörgen",
+                    "Dlouhý Kristián",
+                    "Konšel Strumm"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co udělá Agnes, když zjistí pravdu o otci svého dítěte?",
+                options: [
+                    "Uteče s Krysařem",
+                    "Požádá radní o pomoc",
+                    "Spáchá sebevraždu skokem do propasti",
+                    "Zabije Kristiána"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jakou schopnost má Krysařova píšťala?",
+                options: [
+                    "Léčí nemoci",
+                    "Přivolává déšť",
+                    "Přivádí krysy k šílenství",
+                    "Ovládá lidi i zvířata svou melodií"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jak se jmenuje hora, do které Krysař odvede obyvatele města?",
+                options: [
+                    "Hora Koppel",
+                    "Hora duchů",
+                    "Hora Grálu",
+                    "Hora krys"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který obyvatel města nepodlehne Krysařově píšťale?",
+                options: [
+                    "Konšel Frosch",
+                    "Sepp Jörgen",
+                    "Dlouhý Kristián",
+                    "Farář"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Proč Sepp Jörgen nepodlehne volání Krysařovy píšťaly?",
+                options: [
+                    "Je hluchý",
+                    "Nese Krysaři peníze",
+                    "Jde za zvukem s opožděním kvůli své prostoduchosti",
+                    "Má vlastní kouzelnou píšťalu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký literární směr reprezentuje novela Krysař?",
+                options: [
+                    "Realismus",
+                    "Naturalismus",
+                    "Symbolismus a impresionismus",
+                    "Klasicismus"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "Osudy dobrého vojáka Švejka za světové války",
+        questions: [
+            {
+                question: "Kdo je autorem románu Osudy dobrého vojáka Švejka za světové války?",
+                options: [
+                    "Karel Čapek",
+                    "Jaroslav Hašek",
+                    "Vladislav Vančura",
+                    "Eduard Bass"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké povolání vykonával Josef Švejk před válkou?",
+                options: [
+                    "Byl úředníkem",
+                    "Byl učitelem",
+                    "Obchodoval se psy",
+                    "Byl krejčím"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaká nemoc trápí Švejka podle jeho vlastních slov?",
+                options: [
+                    "Tuberkulóza",
+                    "Revmatismus",
+                    "Malárie",
+                    "Blbost"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaká historická událost je impulzem k začátku románu?",
+                options: [
+                    "Vypuknutí první světové války",
+                    "Atentát na Františka Ferdinanda d'Este",
+                    "Bitva u Verdunu",
+                    "Vstup USA do války"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo je nadporučík Lukáš?",
+                options: [
+                    "Švejkův nepřítel",
+                    "Švejkův nadřízený, kterému Švejk slouží jako ordonanc",
+                    "Velitel celého pluku",
+                    "Švejkův spolubojovník"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kde končí vydaná část románu?",
+                options: [
+                    "Švejk se vrací domů po konci války",
+                    "Švejk je zajat Rusy",
+                    "Švejk je na cestě na frontu",
+                    "Švejk umírá v boji"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký literární prostředek je pro román Osudy dobrého vojáka Švejka typický?",
+                options: [
+                    "Metafora",
+                    "Satira a ironie",
+                    "Hyperbola",
+                    "Přirovnání"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je Švejkův charakteristický rys?",
+                options: [
+                    "Hrdinství a odvaha",
+                    "Pesimismus a melancholie",
+                    "Zdánlivá hloupost a naivita, ale ve skutečnosti chytrost",
+                    "Agresivita a vznětlivost"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak se Švejk dostane do blázince?",
+                options: [
+                    "Kvůli svým výrokům o atentátu na Ferdinanda",
+                    "Protože ukradl psa",
+                    "Po bitce v hospodě",
+                    "Za pokus o dezerci"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je hlavním tématem románu?",
+                options: [
+                    "Hrdinství českých vojáků",
+                    "Absurdita války a rozpad Rakouska-Uherska",
+                    "Milostné vztahy za války",
+                    "Politická situace v Čechách"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "R.U.R.",
+        questions: [
+            {
+                question: "Kdo je autorem dramatu R.U.R.?",
+                options: [
+                    "Vladislav Vančura",
+                    "Karel Čapek",
+                    "Josef Čapek",
+                    "František Langer"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co znamená zkratka R.U.R.?",
+                options: [
+                    "Roboti Univerzální Revoluce",
+                    "Rebelové Univerzální Revolty",
+                    "Rossumovi Univerzální Roboti",
+                    "Robotická Univerzální Říše"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "V kterém roce měla hra R.U.R. premiéru?",
+                options: [
+                    "1901",
+                    "1921",
+                    "1935",
+                    "1945"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký důležitý termín se poprvé objevil v této hře?",
+                options: [
+                    "Robot",
+                    "Android",
+                    "Cyborg",
+                    "Replikant"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Kdo vymyslel slovo 'robot'?",
+                options: [
+                    "Karel Čapek",
+                    "Josef Čapek",
+                    "Isaac Asimov",
+                    "Helena Gloryová"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je hlavním tématem hry R.U.R.?",
+                options: [
+                    "Nebezpečí jaderných zbraní",
+                    "Technologický pokrok a jeho dopady na lidstvo",
+                    "Politické boje v meziválečném období",
+                    "Láska v době války"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak vypadají roboti v díle R.U.R.?",
+                options: [
+                    "Jako mechanické stroje z kovu",
+                    "Jako lidé z umělé hmoty",
+                    "Jako neviditelné bytosti",
+                    "Jako zvířata"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co způsobí vzpouru robotů?",
+                options: [
+                    "Žádost o vyšší platy",
+                    "Touha po svobodě",
+                    "Schopnost cítit bolest a emoce",
+                    "Naprogramovaná chyba"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak končí drama R.U.R.?",
+                options: [
+                    "Lidstvo vymírá, roboti získají schopnost rozmnožovat se",
+                    "Lidé zvítězí nad roboty",
+                    "Roboti a lidé najdou způsob mírového soužití",
+                    "Všichni roboti jsou zničeni"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký literární žánr představuje drama R.U.R.?",
+                options: [
+                    "Sci-fi/Vědeckofantastické drama",
+                    "Historické drama",
+                    "Tragická komedie",
+                    "Psychologické drama"
+                ],
+                correctAnswer: 0
+            }
+        ]
+    },
+    {
+        title: "Nikola Šuhaj loupežník",
+        questions: [
+            {
+                question: "Kdo je autorem románu Nikola Šuhaj loupežník?",
+                options: [
+                    "Alois Jirásek",
+                    "Ivan Olbracht",
+                    "Karel Čapek",
+                    "Vladislav Vančura"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V jakém regionu se odehrává děj románu?",
+                options: [
+                    "Na Slovensku",
+                    "V Polsku",
+                    "Na Podkarpatské Rusi",
+                    "V Čechách"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "V jakém období se odehrává děj románu?",
+                options: [
+                    "Za Rakouska-Uherska",
+                    "V meziválečném období po 1. světové válce",
+                    "Za 2. světové války",
+                    "Ve středověku"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo je Eržika?",
+                options: [
+                    "Nikolova matka",
+                    "Nikolova manželka",
+                    "Nikolova sestra",
+                    "Nikolova dcera"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Proč se Nikola Šuhaj stal loupežníkem?",
+                options: [
+                    "Aby se pomstil za smrt svého otce",
+                    "Aby nashromáždil bohatství",
+                    "Aby mohl uprchnout z vězení",
+                    "Aby se vyhnul službě v rakousko-uherské armádě"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jak nahlíží místní obyvatelé na Nikolu?",
+                options: [
+                    "Jako na nebezpečného kriminálníka",
+                    "Jako na zbabělce",
+                    "Jako na lidového hrdinu a obránce chudých",
+                    "Jako na zrádce"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co charakterizuje baladu jako literární útvar v souvislosti s tímto románem?",
+                options: [
+                    "Veselá a odlehčená atmosféra",
+                    "Tragický osud hlavního hrdiny a lidová pověst",
+                    "Milostná zápletka jako hlavní téma",
+                    "Rozsáhlé popisy krajiny"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak končí osud Nikoly Šuhaje?",
+                options: [
+                    "Je zabit četnickou hlídkou",
+                    "Je zabit svými přáteli pro odměnu",
+                    "Je uvězněn a zemře ve vězení",
+                    "Unikne spravedlnosti a dožije v cizině"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký literární směr reprezentuje román Nikola Šuhaj loupežník?",
+                options: [
+                    "Realismus",
+                    "Romantismus",
+                    "Expresionismus",
+                    "Socialistický realismus"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké další dílo z Podkarpatské Rusi napsal Ivan Olbracht?",
+                options: [
+                    "Golet v údolí",
+                    "Na východě nic nového",
+                    "Advent",
+                    "Obrazy z dějin národa českého"
+                ],
+                correctAnswer: 0
+            }
+        ]
+    },
+    {
+        title: "Smrt krásných srnců",
+        questions: [
+            {
+                question: "Kdo je autorem sbírky povídek Smrt krásných srnců?",
+                options: [
+                    "Bohumil Hrabal",
+                    "Ota Pavel",
+                    "Arnošt Lustig",
+                    "Ladislav Fuks"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo je hlavní postavou většiny povídek ve sbírce Smrt krásných srnců?",
+                options: [
+                    "Autor sám",
+                    "Autorův strýc",
+                    "Autorův otec Leo Popper",
+                    "Autorův dědeček"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaké povolání vykonával Leo Popper před válkou?",
+                options: [
+                    "Byl učitelem",
+                    "Byl obchodním cestujícím firmy Elektrolux",
+                    "Byl rybářem",
+                    "Byl lékařem"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Proč je otcův vysavač \"Nejdražší ve střední Evropě\"?",
+                options: [
+                    "Protože ho otec koupil v luxusním obchodě",
+                    "Protože ho vyrobili ve Švýcarsku",
+                    "Protože jeho prodej stál otce téměř život",
+                    "Protože v něm byla ukryta rodinná klenoty"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se stalo s otcem (Leo Popperem) v povídce \"Nejdražší ve střední Evropě\"?",
+                options: [
+                    "Byl zatčen gestapem",
+                    "Emigroval do zahraničí",
+                    "Ukrýval se v lesích",
+                    "Bojoval v odboji"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Proč se otec v povídce \"Smrt krásných srnců\" vydává na lov?",
+                options: [
+                    "Kvůli sportu a zábavě",
+                    "Aby zajistil potravu pro rodinu v těžké době",
+                    "Aby připravil dárek k narozeninám",
+                    "Aby se pomstil místnímu hajnému"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo pomáhá otci při lovu srnců v titulní povídce?",
+                options: [
+                    "Autorův bratr",
+                    "Místní pytlák",
+                    "Pes jménem Holan",
+                    "Hajný"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Proč loví otec v povídce \"Kapři pro Wehrmacht\" ryby?",
+                options: [
+                    "Pro vlastní potěšení",
+                    "Aby je prodal na černém trhu",
+                    "Aby je odevzdal německým úřadům",
+                    "Aby jimi nakrmil svou rodinu před transportem do koncentračního tábora"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaký žánr představuje sbírka Smrt krásných srnců?",
+                options: [
+                    "Dobrodružný román",
+                    "Historická fikce",
+                    "Autobiografické povídky",
+                    "Detektivní příběhy"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaké období českých dějin zachycují povídky ve sbírce Smrt krásných srnců?",
+                options: [
+                    "První světovou válku",
+                    "Období první republiky a druhou světovou válku",
+                    "Poválečný komunistický režim",
+                    "Pražské jaro a normalizaci"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "Ostře sledované vlaky",
+        questions: [
+            {
+                question: "Kdo je autorem novely Ostře sledované vlaky?",
+                options: [
+                    "Milan Kundera",
+                    "Josef Škvorecký",
+                    "Bohumil Hrabal",
+                    "Václav Havel"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak se jmenuje hlavní hrdina novely Ostře sledované vlaky?",
+                options: [
+                    "Miloš Hrma",
+                    "Jan Dítě",
+                    "Jiří Menzel",
+                    "Václav Neckář"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké povolání vykonává Miloš Hrma?",
+                options: [
+                    "Je lékařem",
+                    "Je výpravčím na železniční stanici",
+                    "Je vojákem",
+                    "Je učitelem"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V jakém období se odehrává děj novely?",
+                options: [
+                    "Za první světové války",
+                    "V období první republiky",
+                    "Za druhé světové války",
+                    "V době komunistického režimu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co trápí hlavního hrdinu v osobním životě?",
+                options: [
+                    "Problémy s alkoholem",
+                    "Sexuální neúspěch a nejistota",
+                    "Nevyléčitelná nemoc",
+                    "Ztráta rodiny během války"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo je výpravčí Hubička?",
+                options: [
+                    "Milošův otec",
+                    "Milošův nadřízený a kolega",
+                    "Nepřítel hlavního hrdiny",
+                    "Německý důstojník"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký skandál způsobí výpravčí Hubička?",
+                options: [
+                    "Opije se ve službě",
+                    "Ukradne peníze ze stanice",
+                    "Otiskne razítka na zadek telegrafistky",
+                    "Zastřelí německého důstojníka"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo pomůže Milošovi překonat jeho osobní problém?",
+                options: [
+                    "Telegrafistka Máša",
+                    "Výpravčí Hubička",
+                    "Odbojářka Viktoria Freie",
+                    "Přednosta stanice"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký čin spáchá Miloš na konci novely?",
+                options: [
+                    "Spáchá sebevraždu",
+                    "Podílí se na atentátu na německý muniční vlak",
+                    "Uprchne ze stanice",
+                    "Zradí odbojáře Němcům"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo zfilmoval novelu Ostře sledované vlaky?",
+                options: [
+                    "Jiří Menzel",
+                    "Miloš Forman",
+                    "Karel Kachyňa",
+                    "Jan Svěrák"
+                ],
+                correctAnswer: 0
+            }
+        ]
+    },
+    {
+        title: "Postřižiny",
+        questions: [
+            {
+                question: "Kdo je autorem novely Postřižiny?",
+                options: [
+                    "Karel Čapek",
+                    "Josef Škvorecký",
+                    "Bohumil Hrabal",
+                    "Ivan Klíma"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo je hlavní postavou a vypravěčkou Postřižin?",
+                options: [
+                    "Francin",
+                    "Maryška",
+                    "Pepin",
+                    "Doktor Gruntorád"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké povolání zastává manžel hlavní hrdinky (Francin)?",
+                options: [
+                    "Je lékařem",
+                    "Je starostou města",
+                    "Je správcem pivovaru",
+                    "Je učitelem"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo je strýc Pepin?",
+                options: [
+                    "Otec hlavní hrdinky",
+                    "Bratr Francina",
+                    "Soused z města",
+                    "Lékař pivovaru"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co udělá Maryška s dlouhými vlasy, po kterých je novela pojmenována?",
+                options: [
+                    "Nechá si je ostříhat",
+                    "Obarví je na růžovo",
+                    "Splétá je do složitých účesů",
+                    "Prodá je parukáři"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jakou povahu má Maryška?",
+                options: [
+                    "Je tichá a poslušná",
+                    "Je temperamentní a miluje svobodu",
+                    "Je vypočítavá a lstivá",
+                    "Je depresivní a uzavřená"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "V jakém období se odehrává děj Postřižin?",
+                options: [
+                    "V období první republiky",
+                    "Za druhé světové války",
+                    "Za komunistického režimu",
+                    "Na přelomu 19. a 20. století"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký je vzájemný vztah mezi Francinem a jeho bratrem Pepinem?",
+                options: [
+                    "Hluboce se nenávidí",
+                    "Jsou si velmi blízcí",
+                    "Francin má ze živelného Pepina obavy a spíše ho trpí",
+                    "Nikdy se nepotkali"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký je vztah Maryšky k Pepinovi?",
+                options: [
+                    "Nenávidí ho a snaží se ho vyhnat",
+                    "Obdivuje jeho živelnost a má ho ráda",
+                    "Je k němu lhostejná",
+                    "Miluje ho více než Francina"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kdo zfilmoval novelu Postřižiny?",
+                options: [
+                    "Miloš Forman",
+                    "Jiří Menzel",
+                    "Věra Chytilová",
+                    "Jan Svěrák"
+                ],
+                correctAnswer: 1
+            }
+        ]
+    }
+]
+
+const autoriQuestions = [
+    {
+        title: "Téma 1 - Autori",
+        questions: [
+            {
+                question: "Příklad otázky z autori?",
                 options: ["Odpověď 1", "Odpověď 2", "Odpověď 3", "Odpověď 4"],
                 correctAnswer: 2
             },
@@ -571,4 +2674,5 @@ document.addEventListener('DOMContentLoaded', () => {
     loadRealQuestions('informatika', informaticaQuestions);
     loadRealQuestions('it', itQuestions);
     loadRealQuestions('cestina', cestinaQuestions);
+    loadRealQuestions('autori', autoriQuestions);
 }); 
