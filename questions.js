@@ -829,112 +829,112 @@ const informaticaQuestions = [
               }
             ]
           },
-          {
+          { 
             title: "10. CSS",
             questions: [
-                {
-                    "question": "Co je CSS?",
-                    "options": [
-                        "Programovací jazyk pro tvorbu dynamických webových aplikací",
-                        "Jazyk pro strukturování obsahu webových stránek",
-                        "Kaskádové styly pro vizuální vzhled webových stránek",
-                        "Jazyk pro interakci mezi uživatelem a webovou stránkou"
-                    ],
-                    "correctAnswer": 2
-                },
-                {
-                    "question": "Který z následujících CSS selektorů vybere všechny odstavce (<p>) na stránce?",
-                    "options": [
-                        ".p { color: red; }",
-                        "#p { color: red; }",
-                        "p { color: red; }",
-                        "* { color: red; }"
-                    ],
-                    "correctAnswer": 2
-                },
-                {
-                    "question": "Jaký CSS selektor se používá k výběru prvku s konkrétní třídou?",
-                    "options": [
-                        "#classname { color: blue; }",
-                        ".classname { color: blue; }",
-                        "classname { color: blue; }",
-                        "classname { color: blue; }"
-                    ],
-                    "correctAnswer": 1
-                },
-                {
-                    "question": "Který CSS pseudo-element se používá pro přidání obsahu před prvek?",
-                    "options": [
-                        "::after",
-                        ":before",
-                        "::before",
-                        ":after"
-                    ],
-                    "correctAnswer": 2
-                },
-                {
-                    "question": "Která CSS pseudo-třída umožňuje změnit styl prvku při najetí myší?",
-                    "options": [
-                        ":focus",
-                        ":hover",
-                        ":nth-child(n)",
-                        ":active"
-                    ],
-                    "correctAnswer": 1
-                },
-                {
-                    "question": "Která z těchto jednotek je relativní?",
-                    "options": [
-                        "px",
-                        "cm",
-                        "em",
-                        "mm"
-                    ],
-                    "correctAnswer": 2
-                },
-                {
-                    "question": "Jaké pravidlo CSS se používá pro responzivní design?",
-                    "options": [
-                        "@query",
-                        "@media",
-                        "@screen",
-                        "@responsive"
-                    ],
-                    "correctAnswer": 1
-                },
-                {
-                    "question": "Který model se používá v CSS pro zarovnání prvků podél hlavní osy?",
-                    "options": [
-                        "Box Model",
-                        "Flexbox",
-                        "CSS Grid",
-                        "Positioning"
-                    ],
-                    "correctAnswer": 1
-                },
-                {
-                    "question": "Jaká vlastnost v CSS definuje zarovnání prvků v Grid layoutu?",
-                    "options": [
-                        "display",
-                        "justify-content",
-                        "grid-template-columns",
-                        "align-items"
-                    ],
-                    "correctAnswer": 2
-                },
-                {
-                    "question": "Které z následujících není způsob zarovnání prvků v CSS?",
-                    "options": [
-                        "Flexbox",
-                        "CSS Grid",
-                        "Box Model",
-                        "Float"
-                    ],
-                    "correctAnswer": 2
-                }
-            ]
-          } 
-];
+            {
+                "question": "Co je CSS?",
+                "options": [
+                    "Programovací jazyk pro tvorbu dynamických webových aplikací",
+                    "Jazyk pro strukturování obsahu webových stránek",
+                    "Kaskádové styly pro vizuální vzhled webových stránek",
+                    "Jazyk pro interakci mezi uživatelem a webovou stránkou"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Který z následujících CSS selektorů vybere všechny odstavce (<p>) na stránce?",
+                "options": [
+                    ".p { color: red; }",
+                    "#p { color: red; }",
+                    "p { color: red; }",
+                    "* { color: red; }"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Jaký CSS selektor se používá k výběru prvku s konkrétní třídou?",
+                "options": [
+                    "#classname { color: blue; }",
+                    ".classname { color: blue; }",
+                    "classname { color: blue; }",
+                    "classname { color: blue; }"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Který CSS pseudo-element se používá pro přidání obsahu před prvek?",
+                "options": [
+                    "::after",
+                    ":before",
+                    "::before",
+                    ":after"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Která CSS pseudo-třída umožňuje změnit styl prvku při najetí myší?",
+                "options": [
+                    ":focus",
+                    ":hover",
+                    ":nth-child(n)",
+                    ":active"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Která z těchto jednotek je relativní?",
+                "options": [
+                    "px",
+                    "cm",
+                    "em",
+                    "mm"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Jaké pravidlo CSS se používá pro responzivní design?",
+                "options": [
+                    "@query",
+                    "@media",
+                    "@screen",
+                    "@responsive"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Který model se používá v CSS pro zarovnání prvků podél hlavní osy?",
+                "options": [
+                    "Box Model",
+                    "Flexbox",
+                    "CSS Grid",
+                    "Positioning"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Jaká vlastnost v CSS definuje zarovnání prvků v Grid layoutu?",
+                "options": [
+                    "display",
+                    "justify-content",
+                    "grid-template-columns",
+                    "align-items"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Které z následujících není způsob zarovnání prvků v CSS?",
+                "options": [
+                    "Flexbox",
+                    "CSS Grid",
+                    "Box Model",
+                    "Float"
+                ],
+                "correctAnswer": 2
+            }
+        ]
+    }
+]
 
 const itQuestions = [
     {
@@ -1583,6 +1583,111 @@ const cestinaQuestions = [
         ]
     },
     {
+        title: "Stařec a moře",
+        questions: [
+            {
+                question: "Kdo je autorem novely Stařec a moře?",
+                options: [
+                    "Jack London",
+                    "Ernest Hemingway",
+                    "Mark Twain",
+                    "John Steinbeck"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak se jmenuje hlavní postava novely?",
+                options: [
+                    "Santiago",
+                    "Manolin",
+                    "Pedro",
+                    "Miguel"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Kolik dní neměl stařec žádný úlovek před začátkem příběhu?",
+                options: [
+                    "30 dní",
+                    "84 dní",
+                    "60 dní",
+                    "100 dní"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je vztah mezi chlapcem Manolinem a starcem?",
+                options: [
+                    "Jsou otec a syn",
+                    "Jsou dědeček a vnuk",
+                    "Chlapec se od starce učil rybařit, později mu pomáhá",
+                    "Jsou příbuzní"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký druh ryby stařec uloví?",
+                options: [
+                    "Tuňáka",
+                    "Mečouna (Marlina)",
+                    "Žraloka",
+                    "Delfína"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Kolik dní trvá starci boj s velkou rybou?",
+                options: [
+                    "1 den",
+                    "2 dny",
+                    "3 dny",
+                    "5 dní"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se stane s ulovenou rybou cestou zpět?",
+                options: [
+                    "Stařec ji ztratí v bouři",
+                    "Žraloci ji postupně celou sežerou",
+                    "Stařec ji prodá za vysokou cenu",
+                    "Ryba obživne a uplave"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co zůstane starci z ryby, když se vrátí do přístavu?",
+                options: [
+                    "Celá ryba",
+                    "Polovina ryby",
+                    "Jen hlava, ocas a páteř",
+                    "Nic"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co symbolizuje velká ryba v příběhu?",
+                options: [
+                    "Štěstí a bohatství",
+                    "Lidský boj s přírodou",
+                    "Důstojného protivníka a životní výzvu",
+                    "Starcovo mládí"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký je závěr novely?",
+                options: [
+                    "Stařec se rozhodne již nikdy nelovit",
+                    "Stařec spáchá sebevraždu",
+                    "Stařec dostane za kostru ryby velkou odměnu",
+                    "Stařec sní o lvech a plánuje další výpravu na moře"
+                ],
+                correctAnswer: 3
+            }
+        ]
+    },
+    {
         title: "Obraz Doriana Graye",
         questions: [
             {
@@ -2213,6 +2318,111 @@ const cestinaQuestions = [
         ]
     },
     {
+        title: "Krysař",
+        questions: [
+            {
+                question: "Kdo je autorem novely Krysař?",
+                options: [
+                    "Karel Čapek",
+                    "Viktor Dyk",
+                    "Karel Jaromír Erben",
+                    "Alois Jirásek"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Ve kterém městě se odehrává děj novely Krysař?",
+                options: [
+                    "Hameln",
+                    "Praha",
+                    "Vídeň",
+                    "Norimberk"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Kdo je Agnes?",
+                options: [
+                    "Krysařova píšťala",
+                    "Krysařova žena",
+                    "Krysařova milenka",
+                    "Krysařova dcera"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kdo je otcem dítěte Agnes?",
+                options: [
+                    "Krysař",
+                    "Sepp Jörgen",
+                    "Dlouhý Kristián",
+                    "Konšel Strumm"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co udělá Agnes, když zjistí pravdu o otci svého dítěte?",
+                options: [
+                    "Uteče s Krysařem",
+                    "Požádá radní o pomoc",
+                    "Spáchá sebevraždu skokem do propasti",
+                    "Zabije Kristiána"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jakou schopnost má Krysařova píšťala?",
+                options: [
+                    "Léčí nemoci",
+                    "Přivolává déšť",
+                    "Přivádí krysy k šílenství",
+                    "Ovládá lidi i zvířata svou melodií"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jak se jmenuje hora, do které Krysař odvede obyvatele města?",
+                options: [
+                    "Hora Koppel",
+                    "Hora duchů",
+                    "Hora Grálu",
+                    "Hora krys"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který obyvatel města nepodlehne Krysařově píšťale?",
+                options: [
+                    "Konšel Frosch",
+                    "Sepp Jörgen",
+                    "Dlouhý Kristián",
+                    "Farář"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Proč Sepp Jörgen nepodlehne volání Krysařovy píšťaly?",
+                options: [
+                    "Je hluchý",
+                    "Nese Krysaři peníze",
+                    "Jde za zvukem s opožděním kvůli své prostoduchosti",
+                    "Má vlastní kouzelnou píšťalu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký literární směr reprezentuje novela Krysař?",
+                options: [
+                    "Realismus",
+                    "Naturalismus",
+                    "Symbolismus a impresionismus",
+                    "Klasicismus"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
         title: "Osudy dobrého vojáka Švejka za světové války",
         questions: [
             {
@@ -2701,7 +2911,7 @@ const cestinaQuestions = [
                     "Opije se ve službě",
                     "Ukradne peníze ze stanice",
                     "Otiskne razítka na zadek telegrafistky",
-                    "Zastřelí německý důstojník"
+                    "Zastřelí německého důstojníka"
                 ],
                 correctAnswer: 2
             },
@@ -3894,9 +4104,34 @@ const autoriQuestions = [
 
 // Initialize questions in the game
 document.addEventListener('DOMContentLoaded', () => {
-    // Load real questions into the game
-    loadRealQuestions('informatika', informaticaQuestions);
-    loadRealQuestions('it', itQuestions);
-    loadRealQuestions('cestina', cestinaQuestions);
-    loadRealQuestions('autori', autoriQuestions);
+    // First, let's add debugging to see what's available
+    console.log("DOMContentLoaded - Loading questions");
+    console.log("informaticaQuestions available:", typeof informaticaQuestions !== 'undefined');
+    console.log("itQuestions available:", typeof itQuestions !== 'undefined');
+    console.log("cestinaQuestions available:", typeof cestinaQuestions !== 'undefined');
+    console.log("autoriQuestions available:", typeof autoriQuestions !== 'undefined');
+    
+    // Load real questions into the game (with error handling)
+    try {
+        if (typeof informaticaQuestions !== 'undefined') {
+            loadRealQuestions('informatika', informaticaQuestions);
+        }
+        
+        if (typeof itQuestions !== 'undefined') {
+            loadRealQuestions('it', itQuestions);
+        }
+        
+        if (typeof cestinaQuestions !== 'undefined') {
+            loadRealQuestions('cestina', cestinaQuestions);
+        }
+        
+        if (typeof autoriQuestions !== 'undefined') {
+            console.log("Loading autoriQuestions:", autoriQuestions);
+            loadRealQuestions('autori', autoriQuestions);
+        } else {
+            console.error("autoriQuestions is not defined!");
+        }
+    } catch (error) {
+        console.error("Error loading questions:", error);
+    }
 }); 

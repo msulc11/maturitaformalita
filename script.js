@@ -55,8 +55,12 @@ function initializeQuestionBank() {
     gameState.questionBank = {
         informatika: generateDummyTopics(20),
         it: generateDummyTopics(20),
-        cestina: generateDummyTopics(20)
+        cestina: generateDummyTopics(20),
+        autori: generateDummyTopics(20)  // Explicitly add autori
     };
+    
+    // Debug output
+    console.log("Initial question bank created:", Object.keys(gameState.questionBank));
     
     // Initialize completed topics if not loaded from localStorage
     if (!gameState.completedTopics || Object.keys(gameState.completedTopics).length === 0) {
@@ -66,6 +70,11 @@ function initializeQuestionBank() {
             cestina: {},
             autori: {}
         };
+    } else {
+        // Ensure autori exists in completedTopics even if it was loaded from localStorage
+        if (!gameState.completedTopics.autori) {
+            gameState.completedTopics.autori = {};
+        }
     }
     
     // Load saved game state
@@ -74,6 +83,9 @@ function initializeQuestionBank() {
     // Update UI with loaded state
     heartsCount.textContent = gameState.hearts;
     auraCount.textContent = gameState.aura;
+    
+    // Debug output
+    console.log("Question bank initialized:", Object.keys(gameState.questionBank));
 }
 
 function generateDummyTopics(count) {
@@ -105,7 +117,17 @@ function generateDummyQuestions(count) {
 }
 
 function selectSubject(subject) {
+    console.log(`Selecting subject: ${subject}`);
     gameState.currentSubject = subject;
+    
+    // Debug output to check question bank state
+    console.log(`Question bank for ${subject}:`, gameState.questionBank[subject]);
+    
+    // Ensure the subject exists in the question bank
+    if (!gameState.questionBank[subject] || Object.keys(gameState.questionBank[subject]).length === 0) {
+        console.log(`Creating missing or empty subject: ${subject} in question bank`);
+        gameState.questionBank[subject] = generateDummyTopics(5); // Reduced to 5 topics for testing
+    }
     
     // Set subject title
     let subjectName = '';
@@ -126,8 +148,17 @@ function selectSubject(subject) {
 function loadTopics(subject) {
     topicsList.innerHTML = '';
     
+    // Ensure the subject exists in the question bank
+    if (!gameState.questionBank[subject]) {
+        console.error(`Subject ${subject} not found in question bank`);
+        return;
+    }
+    
     const topics = gameState.questionBank[subject];
     let index = 1;
+    
+    // Debug output
+    console.log(`Loading topics for ${subject}:`, topics);
     
     for (const topicKey in topics) {
         const topic = topics[topicKey];
@@ -433,22 +464,49 @@ function goToTopicScreen() {
 
 // Add functions to handle loading real questions
 function loadRealQuestions(subject, questions) {
-    const topics = {};
+    if (!questions) {
+        console.error(`Questions for ${subject} is undefined!`);
+        return;
+    }
     
-    // Assuming questions is an array of objects where each object is a topic
-    questions.forEach((topicQuestions, index) => {
-        const topicKey = `topic${index + 1}`;
-        topics[topicKey] = {
-            title: topicQuestions.title || `Téma ${index + 1}`,
-            questions: topicQuestions.questions.map(q => ({
-                question: q.question,
-                options: q.options,
-                correctAnswer: q.correctAnswer
-            }))
-        };
-    });
+    if (!Array.isArray(questions)) {
+        console.error(`Invalid questions format for ${subject}:`, questions);
+        return;
+    }
     
-    gameState.questionBank[subject] = topics;
+    console.log(`Loading ${questions.length} topics for ${subject}`);
+    
+    try {
+        const topics = {};
+        
+        // Assuming questions is an array of objects where each object is a topic
+        questions.forEach((topicQuestions, index) => {
+            if (!topicQuestions || !topicQuestions.questions) {
+                console.error(`Invalid topic format at index ${index} for ${subject}:`, topicQuestions);
+                return;
+            }
+            
+            const topicKey = `topic${index + 1}`;
+            topics[topicKey] = {
+                title: topicQuestions.title || `Téma ${index + 1}`,
+                questions: topicQuestions.questions.map(q => ({
+                    question: q.question,
+                    options: q.options,
+                    correctAnswer: q.correctAnswer
+                }))
+            };
+        });
+        
+        // Make sure the subject exists in the question bank
+        if (!gameState.questionBank[subject]) {
+            gameState.questionBank[subject] = {};
+        }
+        
+        gameState.questionBank[subject] = topics;
+        console.log(`Successfully loaded ${Object.keys(topics).length} topics for ${subject}`);
+    } catch (error) {
+        console.error(`Error processing questions for ${subject}:`, error);
+    }
 }
 
 // Example of how to load real questions:
@@ -460,16 +518,38 @@ function loadRealQuestions(subject, questions) {
 function loadGameState() {
     const savedState = localStorage.getItem('maturitaGameState');
     if (savedState) {
-        const parsedState = JSON.parse(savedState);
-        // Update hearts and aura
-        gameState.hearts = parsedState.hearts || 1;
-        gameState.aura = parsedState.aura || 0;
-        // Update completed topics
-        gameState.completedTopics = parsedState.completedTopics || {
-            informatika: {},
-            it: {},
-            cestina: {}
-        };
+        try {
+            const parsedState = JSON.parse(savedState);
+            // Update hearts and aura
+            gameState.hearts = parsedState.hearts || 1;
+            gameState.aura = parsedState.aura || 0;
+            
+            // Update completed topics, ensuring autori exists
+            gameState.completedTopics = parsedState.completedTopics || {
+                informatika: {},
+                it: {},
+                cestina: {},
+                autori: {}
+            };
+            
+            // Ensure autori exists even if it wasn't in the saved state
+            if (!gameState.completedTopics.autori) {
+                gameState.completedTopics.autori = {};
+            }
+            
+            console.log("Game state loaded from localStorage");
+        } catch (error) {
+            console.error("Error parsing saved state:", error);
+            // Reset to defaults if there was an error
+            gameState.hearts = 1;
+            gameState.aura = 0;
+            gameState.completedTopics = {
+                informatika: {},
+                it: {},
+                cestina: {},
+                autori: {}
+            };
+        }
     }
 }
 
@@ -483,8 +563,48 @@ function saveGameState() {
     localStorage.setItem('maturitaGameState', JSON.stringify(stateToSave));
 }
 
-// Přidáme event listener pro tlačítko zavření
+// Modify the DOMContentLoaded event listener at the bottom of the file
 document.addEventListener('DOMContentLoaded', function() {
+    // Add an explicit check for autoriQuestions and create a basic set if missing
+    console.log("Checking if autoriQuestions exists...");
+    
+    // This function should be called after questions.js is loaded,
+    // but we'll add a safety check to ensure autori works even if questions aren't loaded
+    setTimeout(() => {
+        if (typeof autoriQuestions === 'undefined' || !gameState.questionBank.autori || 
+            Object.keys(gameState.questionBank.autori).length === 0) {
+            console.log("Creating default autoriQuestions since none were loaded");
+            
+            // Create a simple set of author questions as a fallback
+            const defaultAutoriQuestions = [
+                {
+                    title: "Čeští autoři",
+                    questions: [
+                        {
+                            question: "Kdo napsal dílo 'Máj'?",
+                            options: ["Karel Hynek Mácha", "Božena Němcová", "Karel Čapek", "Jan Neruda"],
+                            correctAnswer: 0
+                        },
+                        {
+                            question: "Autorem díla 'R.U.R.' je:",
+                            options: ["Karel Čapek", "Jaroslav Hašek", "Franz Kafka", "Milan Kundera"],
+                            correctAnswer: 0
+                        },
+                        {
+                            question: "Kdo je autorem 'Babičky'?",
+                            options: ["Karel Jaromír Erben", "Božena Němcová", "Josef Kajetán Tyl", "Alois Jirásek"],
+                            correctAnswer: 1
+                        }
+                    ]
+                }
+            ];
+            
+            // Load these default questions
+            loadRealQuestions('autori', defaultAutoriQuestions);
+        }
+    }, 500); // Give time for questions.js to load if it exists
+    
+    // Rest of your DOMContentLoaded code
     // Přidáme event listener pro tlačítko zavření, pokud existuje
     const closeSigmaBtn = document.querySelector('.close-sigma-btn');
     if (closeSigmaBtn) {
@@ -506,8 +626,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
-
-// Přidáme pomocnou funkci pro ruční testování
-function testSigmaScreen() {
-    showSigmaScreen();
-}
