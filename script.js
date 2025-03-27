@@ -429,6 +429,21 @@ function showGameOverScreen() {
     // Save state after resetting aura to localStorage
     saveGameState();
     
+    // Play game over sound with better error handling
+    const gameOverAudio = document.getElementById('game-over-audio');
+    if (gameOverAudio) {
+        try {
+            gameOverAudio.volume = 1;
+            gameOverAudio.play().catch(e => {
+                console.log("Audio play failed:", e);
+                // Continue with showing game over screen even if audio fails
+            });
+        } catch (error) {
+            console.error("Error playing game over audio:", error);
+            // Continue with showing game over screen even if audio fails
+        }
+    }
+    
     questionScreen.classList.add('hidden');
     gameOverScreen.classList.remove('hidden');
 }
