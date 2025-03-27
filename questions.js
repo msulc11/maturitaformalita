@@ -1018,8 +1018,317 @@ const informaticaQuestions = [
           "correctAnswer": 3
         }
       ]
+    },
+    { 
+      title: "12. Skriptovací jazyk pro backend webové stránky - PHP",
+      questions: [
+        {
+          "question": "Co je PHP?",
+          "options": [
+            "Frontendový jazyk pro tvorbu webových stránek",
+            "Skriptovací jazyk na straně serveru",
+            "Jazyk používaný pouze pro databázové dotazy",
+            "Nástroj pro návrh HTML šablon"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jak se v PHP označuje proměnná?",
+          "options": [
+            "var jmeno = \"Matěj\";",
+            "$jmeno = \"Matěj\";",
+            "let jmeno = \"Matěj\";",
+            "jmeno := \"Matěj\";"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jaký je správný způsob výpisu textu v PHP?",
+          "options": [
+            "echo \"Ahoj, světe!\";",
+            "print \"Ahoj, světe!\";",
+            "console.log(\"Ahoj, světe!\");",
+            "A i B jsou správně"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Jaké superglobální pole se používá pro zpracování dat z formuláře odeslaného metodou POST?",
+          "options": [
+            "$_GET",
+            "$_POST",
+            "$_FORM",
+            "$_REQUEST"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Která metoda slouží k bezpečnému ukládání hesel?",
+          "options": [
+            "md5($heslo)",
+            "sha1($heslo)",
+            "password_hash($heslo, PASSWORD_BCRYPT)",
+            "crypt($heslo, \"salt\")"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Jak se v PHP zapisuje podmínka?",
+          "options": [
+            "if (podmínka) { ... }",
+            "if podmínka then ...",
+            "if { podmínka } then ...",
+            "if (podmínka): ... endif;"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Jaký je správný způsob zabezpečení před SQL injekcí?",
+          "options": [
+            "Použití mysqli_real_escape_string()",
+            "Použití připravených dotazů (prepared statements)",
+            "Použití addslashes()",
+            "Vkládání proměnných přímo do SQL dotazu"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Co je to superglobální proměnná?",
+          "options": [
+            "Proměnná dostupná pouze uvnitř jedné funkce",
+            "Proměnná dostupná v celém skriptu a automaticky naplněná PHP",
+            "Proměnná dostupná pouze v HTML části kódu",
+            "Proměnná, kterou musíme vytvořit manuálně"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jaký je rozdíl mezi metodami GET a POST?",
+          "options": [
+            "GET je rychlejší a bezpečnější než POST",
+            "GET přenáší data v URL, zatímco POST je skrytě v těle požadavku",
+            "POST se používá jen pro přihlašovací formuláře, GET pro ostatní",
+            "Žádný, obě metody fungují stejně"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jak se v PHP bezpečně pracuje se session?",
+          "options": [
+            "session_start();",
+            "session_start(); session_regenerate_id(true);",
+            "session_save();",
+            "session_open();"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    { 
+      title: "13. Databázový model a jeho využití ve webových aplikacích",
+      questions: [
+        {
+          "question": "Co je to databáze?",
+          "options": [
+            "Databáze je kolekce vzorců a algoritmů pro zpracování dat v reálném čase.",
+            "Databáze je organizovaný systém pro ukládání a správu dat, který umožňuje jejich efektivní vyhledávání a manipulaci.",
+            "Databáze je pouze soubor textových dokumentů, které se používají pro ukládání informací.",
+            "Databáze je proces, který umožňuje analýzu a zpracování velkých datových souborů."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jaké jsou hlavní typy databází?",
+          "options": [
+            "Relační databáze, objektové databáze, orientované databáze.",
+            "Grafové databáze, textové databáze, statické databáze.",
+            "Číslicové databáze, textové databáze, analytické databáze.",
+            "Data miningové databáze, XML databáze, souborové databáze."
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Co je to databázová tabulka?",
+          "options": [
+            "Tabulka obsahuje pouze jeden typ dat, například text.",
+            "Tabulka je struktura, která obsahuje data organizovaná do řádků a sloupců, kde každý řádek představuje jeden záznam a každý sloupec jeden atribut.",
+            "Tabulka je soubor, který ukládá všechny informace o vztazích mezi entitami v databázi.",
+            "Tabulka je grafické zobrazení vztahů mezi různými databázovými objekty."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Co je to entita v databázovém modelu?",
+          "options": [
+            "Entita je způsob, jakým se data ukládají do databáze.",
+            "Entita je konkrétní hodnota, která se v databázi uchovává.",
+            "Entita je vztah mezi dvěma tabulkami v databázi.",
+            "Entita je objekt nebo věc, která je reprezentována v databázi, například osoba nebo produkt."
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Co znamená kardinalita vztahu mezi tabulkami?",
+          "options": [
+            "Kardinalita se týká počtu řádků v každé tabulce.",
+            "Kardinalita je způsob, jakým jsou propojeny všechny tabulky ve vztahu.",
+            "Kardinalita označuje počet entit, které mohou být propojeny mezi dvěma tabulkami.",
+            "Kardinalita určuje, kolik sloupců bude mít tabulka."
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Co je primární klíč v databázi?",
+          "options": [
+            "Primární klíč je unikátní pouze v rámci konkrétního sloupce.",
+            "Primární klíč je pole, které může obsahovat pouze čísla.",
+            "Primární klíč je jednoznačný identifikátor každého záznamu v tabulce.",
+            "Primární klíč je klíč, který je volitelný pro každou tabulku."
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Co je to normalizace databáze?",
+          "options": [
+            "Proces zabezpečení databáze proti vnějším útokům.",
+            "Proces organizování databáze tak, aby eliminoval redundantní data a zajistil konzistenci dat.",
+            "Proces přidávání nových tabulek k databázi.",
+            "Proces zajištění přístupnosti databáze pro všechny uživatele."
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Jaké jsou první tři normální formy v normalizaci databáze?",
+          "options": [
+            "Eliminace redundantních dat, oddělení entit, sjednocení vztahů.",
+            "Oddělení závislostí, zajištění jednoznačnosti a odstranění transakčních anomálií.",
+            "Odstranění duplicitních dat, minimální závislosti mezi sloupci a zajištění referenční integrity.",
+            "Odstranění duplicitních hodnot, eliminace transakčních problémů a podmínky vztahů."
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Jak se propojuje webová stránka s databází?",
+          "options": [
+            "Webová stránka nevyžaduje propojení s databází pro běžné operace.",
+            "Webová stránka se propojuje s databází pomocí JavaScriptu a Ajaxu.",
+            "Webová stránka se propojuje s databází pomocí PHP a SQL dotazů.",
+            "Webová stránka se propojuje s databází pomocí jednoduchého HTML kódu bez jakýchkoliv serverových technologií."
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Jaký je účel použití databází na webových stránkách?",
+          "options": [
+            "Databáze na webových stránkách slouží k vytváření statických HTML souborů.",
+            "Databáze na webových stránkách slouží k ukládání a správě dynamických dat, například uživatelských účtů, produktů v e-shopu nebo komentářů.",
+            "Databáze na webových stránkách je určena výhradně pro analýzu velkých dat.",
+            "Databáze na webových stránkách slouží pouze k ukládání souborů jako obrázky a videa."
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Co je to relace v databázovém modelu?",
+          "options": [
+            "Relace je vztah mezi dvěma nebo více tabulkami, který definuje, jak jsou data propojena.",
+            "Relace je způsob, jakým jsou data organizována v tabulkách.",
+            "Relace je speciální typ klíče, který propojuje tabulky.",
+            "Relace je proces, při kterém se provádí zálohování databáze."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Co je to záznam v databázové tabulce?",
+          "options": [
+            "Záznam je způsob, jakým se data ukládají v databázi.",
+            "Záznam je vztah mezi dvěma tabulkami.",
+            "Záznam je hodnota, která je uložena v konkrétním sloupci.",
+            "Záznam je řádek v tabulce, který obsahuje všechny atributy pro jednu konkrétní entitu."
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Jaký je rozdíl mezi primárním a kandidátním klíčem?",
+          "options": [
+            "Primární klíč slouží k určení typu dat, kandidátní klíč k definici tabulek.",
+            "Primární klíč je klíč, který je volitelný, zatímco kandidátní klíč je povinný.",
+            "Primární klíč je klíč, který identifikuje každý záznam v tabulce, kandidátní klíč je možný alternativní klíč.",
+            "Primární klíč je jen pro tabulky s číslicemi, kandidátní klíč pro textové hodnoty."
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Co znamená, že databáze je v první normální formě (1NF)?",
+          "options": [
+            "Data jsou propojena mezi tabulkami na základě cizího klíče.",
+            "Data jsou zcela normalizována a neexistují žádné duplicity.",
+            "Tabulka je rozdělená na menší tabulky pro lepší organizaci dat.",
+            "Každý záznam v tabulce má unikátní hodnoty ve všech sloupcích a není v něm žádná opakující se data."
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Jaký je hlavní cíl normalizace databáze?",
+          "options": [
+            "Normalizace slouží k definování vztahů mezi tabulkami.",
+            "Normalizace je proces analýzy dat pro jejich snadné uložení v souborech.",
+            "Normalizace slouží k definování vztahů mezi tabulkami."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Který z následujících příkazů by se použil pro propojení stránky s databází pomocí PHP?",
+          "options": [
+            "mysql_connect()",
+            "db_connect()",
+            "database_query()",
+            "link_database()"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Co znamená termín \"referenční integrita\" v kontextu databází?",
+          "options": [
+            "Referenční integrita se týká ochrany databáze před viry.",
+            "Referenční integrita znamená, že všechny cizí klíče ve všech tabulkách musí odkazovat na existující primární klíče.",
+            "Referenční integrita zajišťuje, že tabulky jsou propojeny správným počtem sloupců.",
+            "Referenční integrita se týká toho, jak jsou tabulky uloženy na pevném disku."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jaký typ databáze je nejvhodnější pro webovou aplikaci, která musí rychle načítat velké objemy textových dat?",
+          "options": [
+            "Objektová databáze",
+            "Grafová databáze",
+            "Relační databáze",
+            "NoSQL databáze"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Co je to SQL a jaké příkazy se běžně používají k práci s databázemi?",
+          "options": [
+            "SQL je specifický jazyk pro programování webových aplikací a používá se pro analýzu dat.",
+            "SQL je jazyk pro dotazování se na databáze a běžně se používají příkazy jako SELECT, INSERT, UPDATE, DELETE.",
+            "SQL je formát pro ukládání dat v tabulkách.",
+            "SQL je programovací jazyk pro správu serverů."
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Co je to cizí klíč v databázi?",
+          "options": [
+            "Cizí klíč je klíč, který je zahrnut v několika tabulkách a propojuje je mezi sebou.",
+            "Cizí klíč je pouze pro textové sloupce v tabulkách.",
+            "Cizí klíč je identifikátor, který je unikátní v rámci celé databáze.",
+            "Cizí klíč je klíč, který slouží k určení struktury databáze."
+          ],
+          "correctAnswer": 0
+        }
+      ]
     }
-]
+];
 
 const itQuestions = [
     {
