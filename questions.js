@@ -760,7 +760,7 @@ const informaticaQuestions = [
         ]
     },
     {
-        title: "9. HTML",
+        title: "9. Tvorba statických www stránek - jazyk HTML",
         questions: [
             {
                 question: "Co je HTML?",
@@ -830,7 +830,7 @@ const informaticaQuestions = [
             ]
           },
           { 
-            title: "10. CSS",
+            title: "10. Tvorba statických www stránek - jazyk CSS",
             questions: [
             {
                 "question": "Co je CSS?",
@@ -933,6 +933,91 @@ const informaticaQuestions = [
                 "correctAnswer": 2
             }
         ]
+    },
+    { 
+      title: "11. Skriptovací jazyk pro frontend webové stránky - JavaScript",
+      questions: [
+        {
+          "question": "Které tvrzení o JavaScriptu je pravdivé?",
+          "options": [
+            "JavaScript je kompilovaný jazyk", 
+            "JavaScript běží pouze na serveru", 
+            "JavaScript je interpretovaný jazyk běžící v prohlížeči", 
+            "JavaScript nepodporuje práci s DOM"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Jak se v JavaScriptu vybere element s ID mojeID?",
+          "options": [
+            "document.select(\"mojeID\")", 
+            "document.getElementById(\"mojeID\")", 
+            "document.query(\"mojeID\")", 
+            "document.getElementByClass(\"mojeID\")"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Který z těchto operátorů slouží k přísnému porovnání (porovnává hodnotu i datový typ)?",
+          "options": ["==", "===", "!=", "!=="],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Která metoda slouží k načítání dat ze serveru?",
+          "options": ["fetch()", "getData()", "loadServerData()", "request()"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Jaký výstup vrátí následující kód?\nconsole.log(typeof 42);",
+          "options": ["\"integer\"", "\"number\"", "\"float\"", "\"string\""],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Který způsob vkládání JavaScriptu do HTML je doporučený pro oddělení kódu?",
+          "options": [
+            "Vkládání skriptů do HTML atributů (onclick=\"alert('Hello'))", 
+            "Použití document.write()", 
+            "Externí soubor s .js a připojení přes <script src=\"script.js\"></script>", 
+            "Přímé vložení do <body> pomocí <script>"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Co se stane při použití const pro proměnnou?",
+          "options": [
+            "Hodnotu lze přepsat i předefinovat", 
+            "Lze ji přepsat, ale ne předefinovat", 
+            "Nelze ji přepsat ani předefinovat", 
+            "Nelze ji použít v JavaScriptu"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Jak lze v JavaScriptu vytvořit nový HTML element a přidat ho na stránku?",
+          "options": [
+            "document.create(\"div\")", 
+            "document.addElement(\"div\")", 
+            "document.createElement(\"div\").appendToBody()", 
+            "document.createElement(\"div\") a document.body.appendChild(novyDiv)"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Jaký je správný způsob nastavení textového obsahu HTML prvku bez nebezpečí XSS útoku?",
+          "options": [
+            "element.innerHTML = \"<b>Text</b>\"", 
+            "element.textContent = \"<b>Text</b>\"", 
+            "element.value = \"<b>Text</b>\"", 
+            "element.setHTML(\"<b>Text</b>\")"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Který framework NENÍ založený na JavaScriptu?",
+          "options": ["React", "Vue", "Angular", "Django"],
+          "correctAnswer": 3
+        }
+      ]
     }
 ]
 
