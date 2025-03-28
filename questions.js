@@ -653,110 +653,105 @@ const informaticaQuestions = [
         title: "8. Tvorba GUI",
         questions: [
             {
-                questions: [
-                    {
-                        question: "Co znamená zkratka XAML?",
-                        options: [
-                            "Extensible Application Markup Language",
-                            "Executable Application Markup Language",
-                            "Extended Application Markup Logic",
-                            "Exclusive Application Markup Logic"
-                        ],
-                        correctAnswer: 0
-                    },
-                    {
-                        question: "K čemu se používá XAML v softwarovém vývoji?",
-                        options: [
-                            "K psaní business logiky",
-                            "K správě databázových dotazů",
-                            "K definování uživatelských rozhraní",
-                            "K optimalizaci výkonu aplikací"
-                        ],
-                        correctAnswer: 2
-                    },
-                    {
-                        question: "Které frameworky využívají XAML?",
-                        options: [
-                            "React, Angular, Vue.js",
-                            "Spring, Hibernate, Struts",
-                            "Bootstrap, Tailwind, Foundation",
-                            "WPF, UWP, .NET MAUI",
-                        ],
-                        correctAnswer: 3
-                    },
-                    {
-                        question: "Jaký je hlavní rozdíl mezi XAML a HTML?",
-                        options: [
-                            "XAML je značkovací jazyk od Microsoftu zaměřený na UI",
-                            "XAML nelze použít s CSS",
-                            "HTML není deklarativní",
-                            "HTML má složitější syntax než XAML"
-                        ],
-                        correctAnswer: 0
-                    },
-                    {
-                        question: "Co je základním prvkem XAML pro rozložení prvků?",
-                        options: [
-                            "TextBlock",
-                            "Window",
-                            "Grid",
-                            "Button"
-                        ],
-                        correctAnswer: 2
-                    },
-                    {
-                        question: "Který prvek v XAML slouží pro vytvoření tlačítka?",
-                        options: [
-                            "Button",
-                            "Grid",
-                            "Viewbox",
-                            "TextBlock"
-                        ],
-                        correctAnswer: 0
-                    },
-                    {
-                        question: "Jaká je hlavní výhoda použití Viewboxu v XAML?",
-                        options: [
-                            "Zlepšuje datové vazby",
-                            "Automaticky škáluje prvky",
-                            "Vytváří adaptivní rozložení",
-                            "Přidává interaktivitu tlačítkům"
-                        ],
-                        correctAnswer: 1
-                    },
-                    {
-                        question: "Co je AdaptiveTrigger v UWP?",
-                        options: [
-                            "Nástroj pro správu dat",
-                            "Komponenta pro zpracování událostí",
-                            "Změna vzhledu podle velikosti okna",
-                            "Šablona pro definování tlačítek"
-                        ],
-                        correctAnswer: 2
-                    },
-                    {
-                        question: "Které z následujících platí pro deklarativní syntax v XAML?",
-                        options: [
-                            "Není kompatibilní s C#",
-                            "Odděluje uživatelské rozhraní od kódu",
-                            "Používá se pouze pro mobilní aplikace",
-                            "Závisí na databázovém připojení"
-                        ],
-                        correctAnswer: 1
-                    },
-                    {
-                        question: "Co zajišťuje Data Binding v XAML?",
-                        options: [
-                            "Stylování komponent",
-                            "Animace v uživatelském rozhraní",
-                            "Definici rozložení prvků",
-                            "Propojení uživatelského rozhraní s daty"
-                        ],
-                        correctAnswer: 3
-                    }
-                ]             
+                question: "Co znamená zkratka XAML?",
+                options: [
+                    "Extensible Application Markup Language",
+                    "Executable Application Markup Language",
+                    "Extended Application Markup Logic",
+                    "Exclusive Application Markup Logic"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "K čemu se používá XAML v softwarovém vývoji?",
+                options: [
+                    "K psaní business logiky",
+                    "K správě databázových dotazů",
+                    "K definování uživatelských rozhraní",
+                    "K optimalizaci výkonu aplikací"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Které frameworky využívají XAML?",
+                options: [
+                    "React, Angular, Vue.js",
+                    "Spring, Hibernate, Struts",
+                    "Bootstrap, Tailwind, Foundation",
+                    "WPF, UWP, .NET MAUI",
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaký je hlavní rozdíl mezi XAML a HTML?",
+                options: [
+                    "XAML je značkovací jazyk od Microsoftu zaměřený na UI",
+                    "XAML nelze použít s CSS",
+                    "HTML není deklarativní",
+                    "HTML má složitější syntax než XAML"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je základním prvkem XAML pro rozložení prvků?",
+                options: [
+                    "TextBlock",
+                    "Window",
+                    "Grid",
+                    "Button"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který prvek v XAML slouží pro vytvoření tlačítka?",
+                options: [
+                    "Button",
+                    "Grid",
+                    "Viewbox",
+                    "TextBlock"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaká je hlavní výhoda použití Viewboxu v XAML?",
+                options: [
+                    "Zlepšuje datové vazby",
+                    "Automaticky škáluje prvky",
+                    "Vytváří adaptivní rozložení",
+                    "Přidává interaktivitu tlačítkům"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je AdaptiveTrigger v UWP?",
+                options: [
+                    "Nástroj pro správu dat",
+                    "Komponenta pro zpracování událostí",
+                    "Změna vzhledu podle velikosti okna",
+                    "Šablona pro definování tlačítek"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Které z následujících platí pro deklarativní syntax v XAML?",
+                options: [
+                    "Není kompatibilní s C#",
+                    "Odděluje uživatelské rozhraní od kódu",
+                    "Používá se pouze pro mobilní aplikace",
+                    "Závisí na databázovém připojení"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co zajišťuje Data Binding v XAML?",
+                options: [
+                    "Stylování komponent",
+                    "Animace v uživatelském rozhraní",
+                    "Definici rozložení prvků",
+                    "Propojení uživatelského rozhraní s daty"
+                ],
+                correctAnswer: 3
             }
-            
         ]
     },
     {
