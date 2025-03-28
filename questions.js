@@ -1322,6 +1322,216 @@ const informaticaQuestions = [
           "correctAnswer": 0
         }
       ]
+    },
+    {
+        title: "14. Jazyk SQL – příkazy pro manipulaci s daty",
+        questions: [
+            {
+                question: "Co je SQL?",
+                options: [
+                    "Dotazovací jazyk pro práci s relačními databázemi",
+                    "Skriptovací jazyk pro webové aplikace",
+                    "Značkovací jazyk pro tvorbu webových stránek",
+                    "Programovací jazyk pro matematické výpočty"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Která z následujících skupin příkazů nepatří mezi základní skupiny SQL?",
+                options: [
+                    "DDL (Data Definition Language)",
+                    "DML (Data Manipulation Language)",
+                    "DQL (Data Query Language)",
+                    "DPL (Data Processing Language)"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Který příkaz se používá pro vložení dat do tabulky?",
+                options: [
+                    "UPDATE",
+                    "INSERT",
+                    "ADD",
+                    "INCLUDE"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je správný způsob aktualizace dat v tabulce?",
+                options: [
+                    "MODIFY table_name SET column = value WHERE condition",
+                    "EDIT table_name SET column = value WHERE condition",
+                    "UPDATE table_name SET column = value WHERE condition",
+                    "CHANGE table_name SET column = value WHERE condition"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který příkaz slouží k odstranění záznamů z tabulky?",
+                options: [
+                    "REMOVE FROM table_name WHERE condition",
+                    "DROP FROM table_name WHERE condition",
+                    "DELETE FROM table_name WHERE condition",
+                    "ERASE FROM table_name WHERE condition"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Která klauzule v příkazu SELECT určuje podmínku pro výběr dat?",
+                options: [
+                    "HAVING",
+                    "WHERE",
+                    "CONDITION",
+                    "FILTER"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "K čemu slouží klauzule GROUP BY v příkazu SELECT?",
+                options: [
+                    "K seřazení výsledků dotazu",
+                    "K omezení počtu vrácených záznamů",
+                    "K seskupení záznamů podle zadaných sloupců pro agregační funkce",
+                    "K určení sloupců, které budou ve výsledku zobrazeny"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaká je funkce klauzule ORDER BY?",
+                options: [
+                    "Slouží k filtrování dat",
+                    "Řadí výsledky dotazu podle zadaných sloupců",
+                    "Definuje spojení mezi tabulkami",
+                    "Omezuje počet vrácených řádků"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaká je správná syntaxe pro výběr všech sloupců z tabulky 'zakaznici'?",
+                options: [
+                    "SELECT ALL FROM zakaznici",
+                    "SELECT * FROM zakaznici",
+                    "SELECT COLUMNS FROM zakaznici",
+                    "SELECT EVERYTHING FROM zakaznici"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který příkaz se používá ke spojení dat z více tabulek?",
+                options: [
+                    "MERGE",
+                    "CONNECT",
+                    "JOIN",
+                    "LINK"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "15. Jazyk SQL – příkazy pro definici dat a spec. příkazy",
+        questions: [
+            {
+                question: "Co je hlavním účelem jazyka SQL?",
+                options: [
+                    "Správa a manipulace s daty v relačních databázích",
+                    "Vytváření uživatelského rozhraní aplikací",
+                    "Programování webových serverů",
+                    "Návrh grafických prvků webu"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Do které kategorie SQL příkazů patří CREATE, ALTER a DROP?",
+                options: [
+                    "DML (Data Manipulation Language)",
+                    "DDL (Data Definition Language)",
+                    "DCL (Data Control Language)",
+                    "DQL (Data Query Language)"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je to pohled (VIEW) v databázi?",
+                options: [
+                    "Fyzická kopie tabulky pro rychlejší přístup",
+                    "Virtuální tabulka založená na výsledku dotazu",
+                    "Grafické rozhraní pro zobrazení dat",
+                    "Funkce pro kontrolu integrity dat"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "K čemu slouží trigger v databázi?",
+                options: [
+                    "K automatickému spouštění kódu při určité události v databázi",
+                    "K vytváření indexů pro rychlejší vyhledávání",
+                    "K zálohování databázových souborů",
+                    "K omezení počtu současných připojení"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je transakce v SQL?",
+                options: [
+                    "Typ tabulky pro dočasné uložení dat",
+                    "Posloupnost operací, které se provedou buď všechny, nebo žádná",
+                    "Metoda pro šifrování citlivých dat",
+                    "Proces optimalizace databázových dotazů"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který příkaz se používá pro změnu struktury existující tabulky?",
+                options: [
+                    "MODIFY TABLE",
+                    "UPDATE TABLE",
+                    "ALTER TABLE",
+                    "CHANGE TABLE"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "K čemu slouží příkaz CREATE VIEW?",
+                options: [
+                    "K vytvoření nové fyzické tabulky",
+                    "K vytvoření virtuální tabulky založené na dotazu",
+                    "K zobrazení struktury databáze",
+                    "K vytvoření nového uživatele databáze"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který příkaz patří do kategorie DCL (Data Control Language)?",
+                options: [
+                    "SELECT",
+                    "INSERT",
+                    "CREATE",
+                    "GRANT"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaký příkaz se používá k zahájení transakce v SQL?",
+                options: [
+                    "START TRANSACTION",
+                    "BEGIN TRANSACTION",
+                    "CREATE TRANSACTION",
+                    "INIT TRANSACTION"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který příkaz se používá pro odstranění databázového objektu?",
+                options: [
+                    "DELETE",
+                    "REMOVE",
+                    "DROP",
+                    "ERASE"
+                ],
+                correctAnswer: 2
+            }
+        ]
     }
 ];
 
