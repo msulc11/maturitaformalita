@@ -1381,7 +1381,54 @@ const itQuestions = [
             }
         ]
     },
-    // Add 19 more topics for IT
+    {
+        title: "2. Uživatelské účty, zabzpečení",
+        // ... existing code ...
+        questions: [
+           
+            {
+                question: "Co je autentizace v operačních systémech?",
+                options: ["Přidělování přístupových oprávnění", "Ověření identity uživatele", "Šifrování dat na disku", "Instalace aktualizací"],
+                correctAnswer: 1
+            },
+            {
+                question: "K čemu slouží User Account Control (UAC) ve Windows?",
+                options: ["K šifrování souborů", "K nastavení rodičovské kontroly", "K dodatečnému ověření akcí vyžadujících administrátorská práva", "K blokování přístupu k internetu"],
+                correctAnswer: 2
+            },
+            {
+                question: "V jakém souboru v Linuxu jsou uloženy informace o uživatelích?",
+                options: ["/etc/passwd", "/etc/users", "/root/accounts", "/var/users"],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je to Security token v kontextu uživatelských účtů?",
+                options: ["Fyzické zařízení pro dvou-faktorovou autentizaci", "Token obsahující informace o oprávněních a uživateli", "Šifrovací klíč pro přístup k souborům", "Jednorázové heslo pro přihlášení"],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z následujících účtů je systémový nespravovatelný ve Windows?",
+                options: ["Power Users", "Administrators", "System", "Users"],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je autorizace v operačních systémech?",
+                options: ["Ověření identity uživatele", "Přidělování přístupových oprávnění k systémovým prostředkům", "Šifrování hesla", "Registrace uživatelského účtu"],
+                correctAnswer: 1
+            },
+            {
+                question: "Co znamená 'rwx' v oprávněních souborů v Linuxu?",
+                options: ["reset-write-execute", "root-write-extend", "read-write-execute", "run-with-extensions"],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký příkaz se používá v Linuxu pro změnu oprávnění k souboru?",
+                options: ["chown", "chmod", "chgrp", "chaccess"],
+                correctAnswer: 1
+            },]
+
+    }
+   
 ];
 
 const cestinaQuestions = [
