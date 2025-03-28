@@ -1417,9 +1417,9 @@ const itQuestions = [
                 correctAnswer: 1
             },
             {
-                question: "Co znamená 'rwx' v oprávněních souborů v Linuxu?",
-                options: ["reset-write-execute", "root-write-extend", "read-write-execute", "run-with-extensions"],
-                correctAnswer: 2
+                question: "K čemu slouží příkaz 'sudo -i' v Linuxu?",
+                options: ["K restartu systému", "K získání trvalých práv superuživatele (root)", "K instalaci nových balíčků", "K zobrazení informací o systému"],
+                correctAnswer: 1
             },
             {
                 question: "Jaký příkaz se používá v Linuxu pro změnu oprávnění k souboru?",
@@ -1427,9 +1427,65 @@ const itQuestions = [
                 correctAnswer: 1
             },]
 
+    },
+    {
+        title: "3. Zabezpečení souborového systému",
+        questions: [
+            {
+                question: "Co je to Access Control List (ACL)?",
+                options: ["Program pro kontrolu přístupu k internetu", "Tabulka s přístupovými právy k souborům a složkám", "Seznam instalovaných antivirových programů", "Nástroj pro šifrování souborů"],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké je jedno z hlavních pravidel správy oprávnění ve Windows?",
+                options: ["Oprávnění se primárně nastavují jednotlivým uživatelům", "Zděděná oprávnění mají vyšší prioritu než explicitní", "Oprávnění se primárně nastavují skupinám, ne jednotlivým uživatelům", "Zákaz přístupu má vždy nižší prioritu než povolení"],
+                correctAnswer: 2
+            },
+            {
+                question: "Které tvrzení o prioritě oprávnění ve Windows je správné?",
+                options: ["Povolení má vždy přednost před zákazem", "Zákaz přístupu má vždy přednost před povolením", "Uživatelská oprávnění mají vždy přednost před skupinovými", "Zdědená oprávnění mají vždy přednost před explicitními"],
+                correctAnswer: 1
+            },
+            {
+                question: "Co jsou ACE (Access Control Entry)?",
+                options: ["Software pro správu oprávnění", "Jednotlivé záznamy v ACL tabulce", "Typ antivirové ochrany", "Nástroj pro auditování přístupů"],
+                correctAnswer: 1
+            },
+            {
+                question: "Co označuje zkratka DACL?",
+                options: ["Direct Access Control List", "Document Access Control List", "Discretionary Access Control List", "Dynamic Access Control List"],
+                correctAnswer: 2
+            },
+            {
+                question: "K čemu slouží příkaz chmod v Linuxu?",
+                options: ["Ke změně vlastníka souboru", "Ke změně oprávnění souboru", "K zobrazení oprávnění souboru", "K vytvoření nového souboru"],
+                correctAnswer: 1
+            },
+            {
+                question: "Co znamená zápis oprávnění 'rwxr-xr--' v Linuxu?",
+                options: ["Vlastník může číst, zapisovat a spouštět; skupina může číst a spouštět; ostatní mohou jen číst", "Vlastník může číst a zapisovat; skupina může číst, zapisovat a spouštět; ostatní nemohou nic", "Vlastník může číst, zapisovat a spouštět; skupina může číst a spouštět; ostatní nemohou nic", "Vlastník může číst; skupina může číst a spouštět; ostatní mohou číst, zapisovat a spouštět"],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je SACL ve Windows?",
+                options: ["System Administration Control List", "Security Access Control List", "System Access Control List - používá se pro audit přístupů", "Special Access Control List"],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se stane při odstranění dědičnosti v ACL s volbou 'Convert inherited permissions to explicit permissions'?",
+                options: ["Všechna oprávnění budou smazána", "Zděděná oprávnění se zkopírují jako explicitní", "Přístup k objektu bude omezen pouze pro administrátory", "Objekt bude používat pouze základní oprávnění"],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký příkaz se používá v Linuxu pro změnu vlastníka souboru?",
+                options: ["chmod", "chown", "chgrp", "chacl"],
+                correctAnswer: 1
+            }
+        ]
     }
-   
 ];
+    
+    
 
 const cestinaQuestions = [
     {
