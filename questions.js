@@ -1332,14 +1332,53 @@ const informaticaQuestions = [
 
 const itQuestions = [
     {
-        title: "Téma 1 - Informační technologie",
+        title: "1. Operační systémy, souborové systémy",
         questions: [
             {
-                question: "Příklad otázky z IT?",
-                options: ["Odpověď 1", "Odpověď 2", "Odpověď 3", "Odpověď 4"],
+                question: "Jaká je hlavní funkce operačního systému?",
+                options: ["Řízení komunikace mezi hardwarem a softwarem", "Vytváření grafického rozhraní", "Komprese dat", "Ochrana proti virům"],
+                correctAnswer: 0
+            },
+            {
+                question: "Který souborový systém je výchozí pro moderní Windows?",
+                options: ["FAT32", "NTFS", "exFAT", "Ext4"],
                 correctAnswer: 1
             },
-            // Add 9 more questions for this topic
+            {
+                question: "Co je to journaling v souborových systémech?",
+                options: ["Typ komprese dat", "Způsob šifrování souborů", "Záznam změn pro obnovení po neočekávaném vypnutí", "Nástroj pro defragmentaci"],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z následujících není mobilní operační systém?",
+                options: ["Android", "iOS", "Windows Server", "Chrome OS"],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je hlavní charakteristikou víceúlohových OS?",
+                options: ["Podporují více uživatelů", "Běží pouze na serverech", "Umožňují spuštění více procesů současně", "Mají vždy grafické rozhraní"],
+                correctAnswer: 2
+            },
+            {
+                question: "K čemu slouží symlink v souborovém systému?",
+                options: ["K šifrování souborů", "K odkazování na jiná metadata", "K defragmentaci disku", "K rozdělení disku na oddíly"],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je základní souborový systém pro Linux?",
+                options: ["NTFS", "FAT32", "HFS+", "Ext4"],
+                correctAnswer: 3
+            },
+            {
+                question: "Čím se vyznačuje hardlink oproti symlinku?",
+                options: ["Může být vytvořen jen pro složky", "Odkazuje přímo na data", "Je výhradně pro Windows", "Nefunguje při přesunu souboru"],
+                correctAnswer: 1
+            },
+            {
+                question: "K čemu slouží Volume mount point?",
+                options: ["K vytvoření virtuálního disku", "K namontování disku do složky", "K defragmentaci souborů", "K rozšíření kapacity RAM"],
+                correctAnswer: 1
+            }
         ]
     },
     // Add 19 more topics for IT
