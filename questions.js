@@ -1533,7 +1533,6 @@ const informaticaQuestions = [
             }
         ]
     },
-    
 ];
 
 const itQuestions = [
@@ -1793,7 +1792,293 @@ const itQuestions = [
                 correctAnswer: 3
             }
         ]
-    }
+    },
+    {
+        title: "5. Role serveru ❌",
+        questions: [
+            {
+                question: "text",
+                options: [
+                    "text",
+                    "text",
+                    "text",
+                    "text"
+                ],
+                correctAnswer: 1
+            },
+        ]
+    },
+    
+    {
+        title: "6. Referenční modely ISO/OSI a TCP/IP",
+        questions: [
+            {
+                question: "Kolik vrstev má referenční model ISO/OSI?",
+                options: [
+                    "4 vrstvy",
+                    "5 vrstev",
+                    "7 vrstev",
+                    "6 vrstev"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Kolik vrstev má model TCP/IP?",
+                options: [
+                    "3 vrstvy",
+                    "4 vrstvy",
+                    "5 vrstev",
+                    "7 vrstev"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Která vrstva ISO/OSI modelu odpovídá za přenos bitů po fyzickém médiu?",
+                options: [
+                    "Transportní vrstva",
+                    "Síťová vrstva",
+                    "Spojová vrstva",
+                    "Fyzická vrstva"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Který z protokolů pracuje na transportní vrstvě?",
+                options: [
+                    "HTTP",
+                    "IP",
+                    "TCP",
+                    "Ethernet"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Která vrstva TCP/IP modelu zahrnuje funkce relační, prezentační a aplikační vrstvy z ISO/OSI modelu?",
+                options: [
+                    "Aplikační vrstva",
+                    "Transportní vrstva",
+                    "Internetová vrstva",
+                    "Vrstva síťového přístupu"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Na které vrstvě ISO/OSI modelu se používá adresace pomocí MAC adres?",
+                options: [
+                    "Fyzická vrstva",
+                    "Spojová vrstva",
+                    "Síťová vrstva",
+                    "Transportní vrstva"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Která z následujících jednotek je spojena se síťovou vrstvou ISO/OSI modelu?",
+                options: [
+                    "Bit",
+                    "Rámec",
+                    "Paket",
+                    "Segment"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je hlavním účelem vrstvy síťového přístupu v modelu TCP/IP?",
+                options: [
+                    "Adresace a směrování dat mezi sítěmi",
+                    "Spolehlivý přenos dat mezi koncovými body",
+                    "Poskytování aplikačních služeb",
+                    "Fyzické propojení a přenos dat v rámci lokální sítě"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Který z těchto protokolů je používán na aplikační vrstvě TCP/IP?",
+                options: [
+                    "TCP",
+                    "IP",
+                    "HTTP",
+                    "ARP"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co je hlavním rozdílem mezi TCP a UDP protokoly?",
+                options: [
+                    "TCP používá IP adresy, UDP používá MAC adresy",
+                    "TCP zajišťuje spolehlivý přenos dat, UDP je nespolehlivý, ale rychlejší",
+                    "TCP pracuje na síťové vrstvě, UDP na transportní vrstvě",
+                    "TCP je modernější protokol než UDP"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "K čemu slouží protokol ARP?",
+                options: [
+                    "K zjištění IP adresy na základě názvu domény",
+                    "K přenosu souborů mezi zařízeními",
+                    "K zjištění MAC adresy zařízení na základě IP adresy",
+                    "K šifrování dat při přenosu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Na které vrstvě ISO/OSI modelu operuje protokol IP?",
+                options: [
+                    "Spojová vrstva",
+                    "Síťová vrstva",
+                    "Transportní vrstva",
+                    "Relační vrstva"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je hlavní účel prezentační vrstvy v ISO/OSI modelu?",
+                options: [
+                    "Navazování a ukončování relací mezi aplikacemi",
+                    "Poskytování síťových služeb pro aplikace",
+                    "Šifrování, komprese a převod formátů dat",
+                    "Směrování paketů mezi sítěmi"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z protokolů zajišťuje šifrování dat na prezentační vrstvě?",
+                options: [
+                    "HTTP",
+                    "FTP",
+                    "TLS",
+                    "ICMP"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
+    {
+        title: "7. Fyzická vrstva, přenosová média, typy a vlastnosti",
+        questions: [
+            {
+                question: "Co zajišťuje fyzická vrstva v OSI modelu?",
+                options: [
+                    "Směrování paketů v síti",
+                    "Adresaci pomocí MAC adres",
+                    "Přenos bitů mezi zařízeními prostřednictvím fyzických médií",
+                    "Spolehlivý přenos dat pomocí protokolů"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaké jsou tři typy přenosového směru na fyzické vrstvě?",
+                options: [
+                    "Simplexní, paralelní, křížový",
+                    "Simplex, half-duplex, full-duplex",
+                    "Unidirectional, bidirectional, omnidirectional",
+                    "Jednosměrný, dvousměrný, vícesměrný"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které z následujících médií není kabelovým přenosovým médiem?",
+                options: [
+                    "Koaxiální kabel",
+                    "Wi-Fi",
+                    "Optické vlákno",
+                    "Kroucená dvojlinka"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je rozdíl mezi UTP a STP kabelem?",
+                options: [
+                    "UTP je určen pro venkovní použití, STP pro vnitřní",
+                    "UTP je nestíněný kabel, STP je stíněný kabel",
+                    "UTP používá optické vlákno, STP měděné vodiče",
+                    "UTP podporuje vyšší rychlosti než STP"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Která technologie využívá koaxiální kabel?",
+                options: [
+                    "Wi-Fi sítě",
+                    "Optická páteřní síť",
+                    "Kabelová televize (CATV)",
+                    "Bluetooth připojení"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jakou hlavní výhodu mají optická vlákna oproti metalickým kabelům?",
+                options: [
+                    "Nižší cena a jednodušší instalace",
+                    "Vyšší přenosová rychlost a odolnost proti elektromagnetickému rušení",
+                    "Větší počet podporovaných zařízení",
+                    "Lepší mechanická odolnost"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je rozdíl mezi single-mode a multi-mode optickým vláknem?",
+                options: [
+                    "Single-mode má větší přenosovou vzdálenost a používá jednu světelnou vlnu",
+                    "Single-mode je levnější a používá více světelných vln",
+                    "Multi-mode má větší přenosovou vzdálenost než single-mode",
+                    "Multi-mode je dražší a složitější na instalaci"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Na jaké frekvenci typicky pracuje Wi-Fi?",
+                options: [
+                    "900 MHz",
+                    "2,4 GHz a 5 GHz",
+                    "10 GHz",
+                    "50 Hz"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Která z těchto technologií pracuje na frekvenci 868 MHz?",
+                options: [
+                    "Wi-Fi",
+                    "Bluetooth",
+                    "IQRF",
+                    "Infračervené spojení"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký maximální dosah má přibližně UTP kabel v Ethernetových sítích?",
+                options: [
+                    "10 metrů",
+                    "100 metrů",
+                    "1 kilometr",
+                    "10 kilometrů"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Která přenosová média se používají pro páteřní internetové sítě na dlouhé vzdálenosti?",
+                options: [
+                    "Kroucená dvojlinka (UTP)",
+                    "Wi-Fi",
+                    "Optická vlákna",
+                    "Bluetooth"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký je hlavní rozdíl mezi bezdrátovými a kabelovými přenosovými médii?",
+                options: [
+                    "Bezdrátová média mají vždy větší dosah",
+                    "Kabelová média mají vyšší přenosovou rychlost a spolehlivost",
+                    "Bezdrátová média využívají elektromagnetické vlny místo vodičů",
+                    "Kabelová média jsou vždy levnější"
+                ],
+                correctAnswer: 2
+            }
+        ]
+    },
 ];
     
     
