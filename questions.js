@@ -1532,7 +1532,8 @@ const informaticaQuestions = [
                 correctAnswer: 2
             }
         ]
-    }
+    },
+    
 ];
 
 const itQuestions = [
@@ -1685,6 +1686,111 @@ const itQuestions = [
                 question: "Jaký příkaz se používá v Linuxu pro změnu vlastníka souboru?",
                 options: ["chmod", "chown", "chgrp", "chacl"],
                 correctAnswer: 1
+            }
+        ]
+    },
+    {
+        title: "4. Adresářová služba, GPO",
+        questions: [
+            {
+                question: "Co je hlavním účelem adresářové služby Active Directory?",
+                options: [
+                    "Komprese dat na disku",
+                    "Centralizovaná správa uživatelů, počítačů a zdrojů v síti",
+                    "Zabezpečení proti virům",
+                    "Poskytování internetového připojení"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké jsou předpoklady pro instalaci Active Directory na Windows Server?",
+                options: [
+                    "Funkční služba DNS, statická IP adresa a Windows Server",
+                    "Linux server, dynamická IP adresa",
+                    "Připojení k internetu, nejméně 10 klientských stanic",
+                    "Předchozí instalace SQL Serveru"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jakou roli musíte nainstalovat pro zprovoznění Active Directory?",
+                options: [
+                    "Web Server (IIS)",
+                    "Active Directory Domain Services (AD DS)",
+                    "Active Directory Certificate Services",
+                    "File and Storage Services"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je nejvyšší úroveň hierarchie v logické struktuře Active Directory?",
+                options: [
+                    "Doména",
+                    "Les (Forest)",
+                    "Strom domén (Domain Tree)",
+                    "Organizační jednotka (OU)"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "K čemu primárně slouží organizační jednotky (OU) v Active Directory?",
+                options: [
+                    "K vytváření domén",
+                    "K logickému rozdělení domény pro lepší správu objektů",
+                    "K propojení se službou DNS",
+                    "K šifrování komunikace"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je GPO (Group Policy Object)?",
+                options: [
+                    "Globální přístupový objekt",
+                    "Generátor přístupových práv",
+                    "Sada pravidel pro správu konfigurace počítačů a uživatelů",
+                    "Grafické programovací rozhraní"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Které typy konfigurací existují v Group Policy?",
+                options: [
+                    "Globální a lokální konfigurace",
+                    "Statická a dynamická konfigurace",
+                    "Konfigurace počítače a konfigurace uživatele",
+                    "Síťová a bezpečnostní konfigurace"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co se stane, když je více GPO nastaveno na stejný parametr s různými hodnotami?",
+                options: [
+                    "Všechna nastavení se ignorují",
+                    "Aplikuje se nastavení s nejvyšší prioritou podle precedence GPO",
+                    "Aplikují se postupně všechna nastavení",
+                    "Systém vybere náhodně jedno nastavení"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je to Security Filtering v GPO?",
+                options: [
+                    "Šifrování dat v Group Policy",
+                    "Omezení aplikace GPO na konkrétní uživatele, skupiny nebo počítače",
+                    "Kontrola integrity GPO",
+                    "Automatická aktualizace GPO"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z následujících příkladů není typickým využitím GPO?",
+                options: [
+                    "Nastavení bezpečnostních politik hesel",
+                    "Instalace antivirového software",
+                    "Řízení přístupu k určitým aplikacím",
+                    "Programování nových aplikací"
+                ],
+                correctAnswer: 3
             }
         ]
     }
@@ -4842,6 +4948,8 @@ const autoriQuestions = [
         ]
     }
 ];
+
+
 
 // Initialize questions in the game
 document.addEventListener('DOMContentLoaded', () => {
