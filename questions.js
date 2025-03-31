@@ -32,84 +32,114 @@ const informaticaQuestions = [
                 correctAnswer: 1
             },
             {
-                question: "Které z následujících jazyků patří mezi programovací jazyky nízké úrovně?",
+                question: "Co je programovací jazyk?",
                 options: [
-                    "Java, Python",
-                    "C#, JavaScript",
-                    "Assembler",
-                    "PHP, Ruby"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Která část programu obvykle obsahuje deklarace proměnných?",
-                options: [
-                    "Hlavička",
-                    "Tělo programu",
-                    "Deklarace",
-                    "Výstup"
+                    "Prostředek pro zápis algoritmů a komunikaci s počítačem",
+                    "Software pro editaci zdrojového kódu",
+                    "Hardware určený k provádění programů",
+                    "Databázový systém"
                 ],
                 correctAnswer: 0
             },
             {
-                question: "Jaký je hlavní rozdíl mezi statickým a dynamickým typovým systémem?",
+                question: "Jaké jsou dva základní typové systémy?",
                 options: [
-                    "Statické typování určuje typy při běhu programu, dynamické při kompilaci",
-                    "Dynamické typování umožňuje větší kontrolu nad daty než statické",
-                    "Statické typování kontroluje typy při kompilaci, dynamické během běhu programu",
-                    "Dynamické typování je rychlejší než statické"
+                    "Implicitní a explicitní",
+                    "Strukturovaný a objektový",
+                    "Statický a dynamický",
+                    "Vstupní a výstupní"
                 ],
                 correctAnswer: 2
             },
             {
-                question: "Který z následujících datových typů je primitivní?",
+                question: "Jaké jsou základní datové typy?",
                 options: [
-                    "Array",
-                    "Class",
-                    "Int",
-                    "List"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Jak se nazývá datový typ, který uchovává sekvenci znaků?",
-                options: [
-                    "Boolean",
-                    "String",
-                    "Float",
-                    "Enum"
+                    "Algoritmus, Program, Jazyk",
+                    "Integer, Boolean, Float, String",
+                    "Zdrojový kód, Interpret, Kompilátor",
+                    "Hardware, Software, Firmware"
                 ],
                 correctAnswer: 1
             },
             {
-                question: "Jaký je hlavní rozdíl mezi globální a lokální proměnnou?",
+                question: "Co jsou identifikátory v programování?",
                 options: [
-                    "Lokální proměnná je dostupná v celém programu, globální pouze ve funkci",
-                    "Globální proměnná je dostupná v celém programu, lokální pouze ve funkci",
-                    "Globální proměnnou lze měnit pouze jednou, lokální lze měnit vícekrát",
-                    "Neexistuje žádný rozdíl"
+                    "Klíčová slova v programovacím jazyce",
+                    "Názvy proměnných, funkcí nebo tříd",
+                    "Části kódu odpovědné za datovou manipulaci",
+                    "Operátory pro logické výrazy"
                 ],
                 correctAnswer: 1
             },
             {
-                question: "Která kolekce funguje na principu zásobníku (LIFO – Last In, First Out)?",
+                question: "Jaké jsou hlavní výhody kolekcí?",
                 options: [
-                    "Queue",
-                    "List",
-                    "Stack",
-                    "Dictionary"
+                    "Umožňují efektivní ukládání a manipulaci s daty",
+                    "Zajišťují lepší zabezpečení dat",
+                    "Zlepšují výkon hardwaru",
+                    "Jsou kompatibilní pouze s objektově orientovanými jazyky"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jak se pracuje s kolekcemi v různých jazycích?",
+                options: [
+                    "C#: while(); PHP: foreach(); JavaScript: function()",
+                    "C#: indexOf(); PHP: explode(); JavaScript: parseInt()",
+                    "C#: struct {}; PHP: define(); JavaScript: typeof",
+                    "C#: List<T>, Dictionary<K,V>; PHP: Array(); JavaScript: Array, Map"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaký je rozdíl mezi statickým a dynamickým polem?",
+                options: [
+                    "Statické pole se používá pouze v C++, dynamické pouze v JavaScriptu",
+                    "Statické pole má pevně danou velikost, dynamické se může měnit za běhu programu",
+                    "Statické pole je uloženo v RAM, dynamické na pevném disku",
+                    "Žádný rozdíl neexistuje"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Které programovací jazyky jsou dynamicky typované?",
+                options: [
+                    "Java, C++, Rust",
+                    "C, Pascal, Kotlin",
+                    "Python, JavaScript, PHP",
+                    "SQL, COBOL, Fortran"
                 ],
                 correctAnswer: 2
             },
             {
-                question: "Jaká je hlavní vlastnost pole (Array)?",
+                question: "Které programovací jazyky jsou staticky typované?",
                 options: [
-                    "Má dynamickou velikost",
-                    "Může obsahovat hodnoty různých datových typů",
-                    "Má pevnou délku a uchovává prvky stejného typu",
-                    "Pracuje pouze s celočíselnými hodnotami"
+                    "Python, Ruby, JavaScript",
+                    "C, Java, C++",
+                    "HTML, CSS, SQL",
+                    "PHP, TypeScript, Bash"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké jsou základní vlastnosti rekurze?",
+                options: [
+                    "Funkce, která nikdy nekončí",
+                    "Cyklus v programovacím jazyce",
+                    "Volání funkce sama sebe, musí obsahovat podmínku ukončení",
+                    "Speciální metoda pro práci s databázemi"
                 ],
                 correctAnswer: 2
+            },
+            {
+                question: "Co je program?",
+                options: [
+                    "Sekvence instrukcí prováděných počítačem",
+                    "Fyzický soubor na pevném disku",
+                    "Programovací jazyk používaný pro tvorbu aplikací",
+                    "Hardware, který vykonává operace"
+                ],
+                correctAnswer: 0
             }
         ]
     },
@@ -117,6 +147,7 @@ const informaticaQuestions = [
         title: "2. Práce se soubory, JSON, CSV, LINQ a ORM",
         questions: [
             {
+        
                 question: "Jaký je hlavní rozdíl mezi textovými a binárními soubory?",
                 options: [
                     "Binární soubory obsahují pouze textové znaky, zatímco textové mohou obsahovat i obrázky",
@@ -215,6 +246,36 @@ const informaticaQuestions = [
                     "Zabraňuje přístupu k databázi z aplikace"
                 ],
                 correctAnswer: 0
+            },
+            {
+                question: "Co je LINQ (Language Integrated Query)?",
+                options: [
+                    "Programovací jazyk pro práci s databázemi",
+                    "Technologie pro dotazování a manipulaci s daty v .NET",
+                    "Nástroj pro vizualizaci dat v C#",
+                    "Formát souboru pro ukládání databázových dotazů"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je CSV (Comma-Separated Values)?",
+                options: [
+                    "Formát souboru pro ukládání tabulkových dat",
+                    "Speciální datová struktura pro SQL databáze",
+                    "Programovací jazyk pro práci s textovými soubory",
+                    "Software pro analýzu dat v Excelu"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké jsou hlavní výhody použití LINQ?",
+                options: [
+                    "Umožňuje provádět databázové dotazy přímo v kódu",
+                    "Zvyšuje výkon všech aplikací",
+                    "Používá se pouze v jazyce Python",
+                    "Nahrazuje všechny databázové systémy"
+                ],
+                correctAnswer: 0
             }
         ]
     },
@@ -222,102 +283,152 @@ const informaticaQuestions = [
         title: "3. Řídící struktury v programování",
         questions: [
             {
-                question: "Co jsou řídící struktury v programování?",
+                question: "Co je přiřazovací příkaz v programování?",
                 options: [
-                    "Prvky určující tok programu",
-                    "Speciální proměnné v kódu",
-                    "Grafická rozhraní aplikací",
-                    "Pouze cykly v programu"
-                ],
-                correctAnswer: 0
-            },
-            {
-                question: "Které z následujících tvrzení o přiřazovacím příkazu je správné?",
-                options: [
-                    "Používá se k porovnání dvou hodnot",
-                    "Používá se k nastavení hodnoty proměnné",
-                    "Vrací vždy true nebo false",
-                    "Nemůže být součástí cyklu"
+                    "Příkaz pro srovnání dvou hodnot",
+                    "Příkaz, který slouží k přiřazení hodnoty do proměnné",
+                    "Speciální typ smyčky",
+                    "Operátor pro logické porovnávání"
                 ],
                 correctAnswer: 1
             },
             {
-                question: "Co vrátí logický výraz (5 > 3) && (10 < 20)?",
+                question: "Který operátor v C# slouží k přiřazení hodnoty do proměnné?",
                 options: [
-                    "true",
-                    "false",
-                    "null",
-                    "Chybu v programu"
+                    "==",
+                    ":=",
+                    "=",
+                    "=>"
                 ],
-                correctAnswer: 0
+                correctAnswer: 2
             },
             {
-                question: "Který z následujících operátorů se používá k negaci výrazu?",
+                question: "Který z následujících operátorů není logický?",
                 options: [
                     "&&",
                     "||",
                     "!",
-                    "=="
+                    "="
                 ],
-                correctAnswer: 2
+                correctAnswer: 3
             },
             {
-                question: "Jak funguje podmínka if-else?",
+                question: "Který z následujících výrazů vyhodnotí jako true?",
                 options: [
-                    "Vždy provede všechny bloky kódu",
-                    "Rozhoduje, který blok kódu se vykoná na základě podmínky",
-                    "Slouží pouze k ukončení programu",
-                    "Je to speciální typ cyklu"
+                    "(5 > 3) && (2 < 4)",
+                    "(5 < 3) || (2 > 4)",
+                    "!(5 > 3)",
+                    "(5 == 4) && (2 > 1)"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký je rozdíl mezi úplným a neúplným podmíněným příkazem?",
+                options: [
+                    "Neúplný podmíněný příkaz neobsahuje else větev",
+                    "Úplný podmíněný příkaz musí vždy obsahovat vnořený cyklus",
+                    "Neúplný podmíněný příkaz může mít více než dvě větve",
+                    "Úplný podmíněný příkaz se používá pouze v jazyce Python"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaká je správná syntaxe úplného podmíněného příkazu v C#?",
+                options: [
+                    "if (podmínka) {\n// kód\n} else {\n// kód\n}",
+                    "if (podmínka) {\n// kód\n}",
+                    "switch (podmínka) {\ncase true:\n// kód\n}",
+                    "if podmínka then\n// kód\nend if;"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který příkaz v C# se používá pro vícenásobné větvení?",
+                options: [
+                    "switch",
+                    "for",
+                    "do-while",
+                    "foreach"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který z následujících kódů představuje správné použití switch v C#?",
+                options: [
+                    "switch (x) {\ncase 1:\nConsole.WriteLine(\"Jedna\");\nbreak;\ncase 2:\nConsole.WriteLine(\"Dva\");\nbreak;\ndefault:\nConsole.WriteLine(\"Jiné číslo\");\nbreak;\n}",
+                    "if (x == 1) {\nConsole.WriteLine(\"Jedna\");\n} elseif (x == 2) {\nConsole.WriteLine(\"Dva\");\n} else {\nConsole.WriteLine(\"Jiné číslo\");\n}",
+                    "for (x) {\nConsole.WriteLine(x);\n}",
+                    "switch x:\ncase 1 -> print(\"Jedna\");\ncase 2 -> print(\"Dva\");"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké jsou hlavní druhy cyklů v C#?",
+                options: [
+                    "if, switch, case",
+                    "for, while, do-while",
+                    "try, catch, finally",
+                    "foreach, continue, break"
                 ],
                 correctAnswer: 1
             },
             {
-                question: "Který z těchto cyklů zaručuje provedení alespoň jednou?",
+                question: "Který cyklus v C# provede svůj kód alespoň jednou?",
                 options: [
                     "for",
                     "while",
                     "do-while",
-                    "Žádný cyklus tuto vlastnost nemá"
+                    "foreach"
                 ],
                 correctAnswer: 2
             },
             {
-                question: "Co dělá následující kód?\n\nfor (int i = 0; i < 5; i++) {\n    Console.WriteLine(i);\n}",
+                question: "Jaký je rozdíl mezi for a while cyklem?",
                 options: [
-                    "Vypíše čísla 0 až 5",
-                    "Vypíše čísla 1 až 5",
-                    "Vypíše čísla 0 až 4",
-                    "Program se zacyklí"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "Který cyklus se použije, pokud dopředu neznáme počet opakování?",
-                options: [
-                    "for",
-                    "switch",
-                    "while",
-                    "if"
-                ],
-                correctAnswer: 2
-            },
-            {
-                question: "K čemu slouží switch v programování?",
-                options: [
-                    "K iteraci přes seznam hodnot",
-                    "K rozhodování mezi více možnostmi podle hodnoty výrazu",
-                    "K provádění logických operací",
-                    "K ukončení programu"
+                    "for se používá pro nekonečné smyčky, while pro omezené smyčky",
+                    "for má pevně definovaný počet opakování",
+                    "while se vždy provede alespoň jednou",
+                    "for funguje pouze s celočíselnými hodnotami"
                 ],
                 correctAnswer: 1
             },
             {
-                question: "Jaký výstup bude mít tento kód?\n\nint x = 10;\nif (x != 10) {\n    Console.WriteLine(\"x není 10\");\n} else {\n    Console.WriteLine(\"x je 10\");\n}",
+                question: "Jaký je hlavní účel příkazu break v cyklu?",
                 options: [
-                    "x není 10",
-                    "x je 10",
-                    "Chyba v programu",
-                    "Program nic nevypíše"
+                    "Přeskočí aktuální iteraci cyklu",
+                    "Okamžitě ukončí běh celého cyklu",
+                    "Resetuje hodnoty proměnných v cyklu",
+                    "Znovu spustí cyklus od začátku"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je hlavní účel příkazu continue v cyklu?",
+                options: [
+                    "Přeskočí aktuální iteraci a pokračuje další iterací",
+                    "Okamžitě ukončí běh celého cyklu",
+                    "Vrátí hodnotu z funkce",
+                    "Spustí nový cyklus od začátku"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký bude výstup následujícího kódu v C#?\nfor (int i = 1; i <= 5; i++) {\nif (i == 3) {\ncontinue;\n}\nConsole.Write(i + \" \");\n}",
+                options: [
+                    "1 2 3 4 5",
+                    "1 2 4 5",
+                    "1 2 3 4",
+                    "1 2"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co se stane, pokud do nekonečné smyčky nepřidáme podmínku pro ukončení?",
+                options: [
+                    "Program se okamžitě ukončí",
+                    "Program poběží donekonečna, dokud jej uživatel neukončí",
+                    "Program vyhodí chybu při kompilaci",
+                    "Cyklus se sám ukončí po 100 iteracích"
                 ],
                 correctAnswer: 1
             }
