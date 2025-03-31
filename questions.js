@@ -4326,6 +4326,16 @@ const autoriQuestions = [
                 correctAnswer: 1
             },
             {
+                question: "Jaká je charakteristika romantismu a národního obrození?",
+                options: [
+                    "Romantismus kladl důraz na city, individualismus, přírodu a mystiku, zatímco národní obrození usilovalo o posílení národní identity, rozvoj jazyka a kultury",
+                    "Oba směry se zaměřovaly na průmyslovou revoluci a technický pokrok",
+                    "Romantismus byl ryze český směr, zatímco národní obrození mělo evropský kontext",
+                    "Národní obrození se soustředilo pouze na poezii a romantismus pouze na drama"
+                ],
+                "correctAnswer": 0
+            },
+            {
                 question: "Který z těchto českých autorů byl současníkem K. J. Erbena?",
                 options: [
                     "Jan Neruda",
@@ -4381,10 +4391,20 @@ const autoriQuestions = [
                 correctAnswer: 0
             },
             {
-                question: "Který autor je českým představitelem renesance (období Shakespeara)?",
+                question: "Jaká je charakteristika renesance a humanismu?",
+                options: [
+                    "Renesance byla obdobím znovuzrození antických ideálů, důrazu na vědu a umění, zatímco humanismus zdůrazňoval hodnotu člověka, rozum a kritické myšlení",
+                    "Oba směry se soustředily na náboženské reformy a odmítaly antickou kulturu",
+                    "Renesance byla výhradně literární směr, zatímco humanismus ovlivnil pouze politiku",
+                    "Humanismus se zabýval pouze filozofií, zatímco renesance pouze výtvarným uměním"
+                ],
+                "correctAnswer": 0
+            },
+            {
+                question: "Který autor je součastníkem?",
                 options: [
                     "Jan Neruda",
-                    "Jan Amos Komenský",
+                    "Kryštof Harant z Polžic a Bezdružic",
                     "Karel Havlíček Borovský",
                     "Karel Jaromír Erben"
                 ],
@@ -4436,6 +4456,16 @@ const autoriQuestions = [
                 correctAnswer: 1
             },
             {
+                question: "Jaká je charakteristika národního obrození?",
+                options: [
+                    "Hnutí zaměřené na obnovu českého jazyka, kultury a identity v době germanizace, rozvoj literatury, vědy a národního povědomí",
+                    "Období, kdy se Česká republika stala samostatným státem po rozpadu Rakouska-Uherska",
+                    "Směr zaměřený na průmyslový pokrok a rozvoj technologií v 19. století",
+                    "Literární období, ve kterém dominovala pouze poezie a divadelní hry"
+                ],
+                "correctAnswer": 0
+            },
+            {
                 question: "Který z těchto českých autorů byl současníkem K. H. Borovského?",
                 options: [
                     "Karel Čapek",
@@ -4485,10 +4515,20 @@ const autoriQuestions = [
                 options: [
                     "Realismus",
                     "Romantismus",
-                    "Estetismus a dekadence",
+                    "Dekadence",
                     "Existencialismus"
                 ],
                 correctAnswer: 2
+            },
+            {
+                question: "Jaká je charakteristika dekadence?",
+                options: [
+                    "Umělecký směr konce 19. století spojený s úpadkem, pesimismem, provokací a hledáním krásy v morbiditě a extravaganci",
+                    "Období velkého kulturního a morálního rozkvětu spojené s optimismem",
+                    "Hnutí, které kladlo důraz na realistické zobrazování každodenního života",
+                    "Směr zaměřený na národní obrození a podporu vlastenectví"
+                ],
+                "correctAnswer": 0
             },
             {
                 question: "Který z těchto českých autorů byl současníkem O. Wildea?",
@@ -4546,6 +4586,16 @@ const autoriQuestions = [
                 correctAnswer: 1
             },
             {
+                question: "Jaká je charakteristika existencialismu a expresionismu?",
+                options: [
+                    "Existencialismus se zaměřuje na individuální existenci, svobodu a úzkost, zatímco expresionismus vyjadřuje subjektivní pocity a vnitřní krize prostřednictvím deformace reality",
+                    "Existencialismus oslavuje ideály racionalismu a vědeckého pokroku, expresionismus se soustředí na objektivní realitu",
+                    "Existencialismus je zaměřen na náboženské otázky, expresionismus na technické inovace",
+                    "Oba směry jsou zaměřeny na vnitřní harmonii a optimismus"
+                ],
+                "correctAnswer": 0
+            },
+            {
                 question: "Který z těchto českých autorů byl současníkem F. Kafky?",
                 options: [
                     "Karel Jaromír Erben",
@@ -4599,6 +4649,16 @@ const autoriQuestions = [
                     "Postmodernismus"
                 ],
                 correctAnswer: 2
+            },
+            {
+                question: "Jaká je charakteristika meziválečné literatury?",
+                options: [
+                    "Literatura mezi dvěma světovými válkami reflektovala pocity ztráty, chaosu, existenciálních otázek a rozporů v postválečné společnosti, často se zaměřovala na kritiku totalitních režimů a úpadku tradičních hodnot",
+                    "Období, kdy literatura oslavovala technický pokrok a industrializaci",
+                    "Literatura se soustředila na ideály národní obrody a vlastenectví",
+                    "Literární tvorba v tomto období byla převážně zaměřena na romantiku a idealizaci minulosti"
+                ],
+                "correctAnswer": 0
             },
             {
                 question: "Který z těchto českých autorů byl současníkem K. Čapka?",
@@ -4670,10 +4730,30 @@ const autoriQuestions = [
                 options: [
                     "Miguel de Cervantes",
                     "William Shakespeare",
-                    "F. Scott Fitzgerald",
+                    "Exupéry",
                     "Charles Dickens"
                 ],
                 correctAnswer: 2
+            },
+            {
+                question: "Co je to metoda ledovce?",
+                options: [
+                    "Literární technika, kdy autor odhaluje pouze část příběhu, zatímco hlubší významy zůstávají skryté",
+                    "Způsob tisku na ledové povrchy",
+                    "Metoda psychologie pro odhalení podvědomých motivací",
+                    "Technika malby využívající vrstvení barev"
+                ],
+                "correctAnswer": 0
+            },
+            {
+                question: "Co charakterizuje ztracenou generaci?",
+                options: [
+                    "Generace spisovatelů píšících o technologickém pokroku a budoucnosti",
+                    "Literární směr zaměřený na romantické a idealizované příběhy",
+                    "Skupina amerických autorů, kteří zažili trauma z první světové války a ve své tvorbě vyjadřovali deziluzi a odcizení",
+                    "Generace autorů, kteří se specializovali na dětskou literaturu"
+                ],
+                "correctAnswer": 2
             }
         ]
     },
@@ -4710,6 +4790,16 @@ const autoriQuestions = [
                 ],
                 correctAnswer: 1
             },
+            {
+                question: "Jaká je charakteristika moderny 20. století?",
+                options: [
+                    "Moderna 20. století zahrnovala experimenty v umění a literatuře, zaměřovala se na subjektivní prožívání světa, odklon od tradičních hodnot a forem, a vyjadřovala frustraci z moderního života a rychlých změn",
+                    "Období, kdy byla literatura přísně realistická a zaměřená na každodenní život",
+                    "Směr související s obrodou klasických antických ideálů a oslavou racionality",
+                    "Literatura 20. století byla převážně zaměřena na duchovní a náboženské hodnoty"
+                ],
+                "correctAnswer": 0
+            },            
             {
                 question: "Který z těchto českých autorů byl přibližným současníkem G. Orwella?",
                 options: [
@@ -4764,6 +4854,16 @@ const autoriQuestions = [
                     "Romantismus"
                 ],
                 correctAnswer: 2
+            },
+            {
+                question: "Jaká je charakteristika české literatury 2. poloviny 20. století?",
+                options: [
+                    "Literatura 2. poloviny 20. století v Československu byla silně ovlivněna totalitními režimy, cenzurou a represí, přičemž autoři často používali alegorie a symboliku k vyjádření kritiky a odporu vůči totalitní moci",
+                    "Toto období se vyznačovalo především návratem k romantismu a idealizaci minulosti",
+                    "Literární tvorba se zaměřovala na oslavu socialistického realismu a pokroku",
+                    "Autoři této doby se soustředili výhradně na popis ideálního socialistického člověka"
+                ],
+                "correctAnswer": 0
             },
             {
                 question: "Který z těchto českých autorů byl současníkem B. Hrabala?",
@@ -4821,6 +4921,16 @@ const autoriQuestions = [
                 correctAnswer: 2
             },
             {
+                question: "Jaká je charakteristika české literatury 2. poloviny 20. století?",
+                options: [
+                    "Toto období se vyznačovalo především návratem k romantismu a idealizaci minulosti",
+                    "Literatura 2. poloviny 20. století v Československu byla silně ovlivněna totalitními režimy, cenzurou a represí, přičemž autoři často používali alegorie a symboliku k vyjádření kritiky a odporu vůči totalitní moci",
+                    "Literární tvorba se zaměřovala na oslavu socialistického realismu a pokroku",
+                    "Autoři této doby se soustředili výhradně na popis ideálního socialistického člověka"
+                ],
+                "correctAnswer": 1
+            },
+            {
                 question: "Který z těchto českých autorů byl současníkem O. Pavla?",
                 options: [
                     "Karel Čapek",
@@ -4876,6 +4986,16 @@ const autoriQuestions = [
                 correctAnswer: 2
             },
             {
+                question: "Jaká je charakteristika moderny v 1. polovině 20. století?",
+                options: [
+                    "Moderna v první polovině 20. století se zaměřovala na radikální experimenty v literatuře a umění, vyjádření subjektivních pocitů, odklon od tradičních form a zkoumání chaosu a nejistoty moderního života",
+                    "Období, kdy literatura byla silně ovlivněna náboženskými tématy a oslavovala tradice minulých věků",
+                    "Literatura tohoto období byla převážně realistická a zaměřená na sociální problémy dělnické třídy",
+                    "Toto období vyzdvihovalo především historické romány a epické příběhy"
+                ],
+                "correctAnswer": 0
+            },
+            {
                 question: "Který z těchto českých autorů byl současníkem R. Rollanda?",
                 options: [
                     "Karel Jaromír Erben",
@@ -4924,11 +5044,21 @@ const autoriQuestions = [
                 question: "Do jakého literárního období patří tvorba A. de Saint-Exupéryho?",
                 options: [
                     "Romantismus",
-                    "Moderna, 1. polovina 20. století",
+                    "Mezi Válečná",
                     "Renesance",
                     "Postmoderna"
                 ],
                 correctAnswer: 1
+            },
+            {
+                question: "Jaká je charakteristika meziválečné literatury?",
+                options: [
+                    "Literatura mezi dvěma světovými válkami reflektovala pocity ztráty, chaosu, existenciálních otázek a rozporů v postválečné společnosti, často se zaměřovala na kritiku totalitních režimů a úpadku tradičních hodnot",
+                    "Období, kdy literatura oslavovala technický pokrok a industrializaci",
+                    "Literatura se soustředila na ideály národní obrody a vlastenectví",
+                    "Literární tvorba v tomto období byla převážně zaměřena na romantiku a idealizaci minulosti"
+                ],
+                "correctAnswer": 0
             },
             {
                 question: "Který z těchto českých autorů byl současníkem A. de Saint-Exupéryho?",
@@ -4979,11 +5109,21 @@ const autoriQuestions = [
                 question: "Do jakého literárního období patří tvorba E. M. Remarqua?",
                 options: [
                     "Romantismus",
-                    "Moderna a meziválečná literatura",
+                    "Meziválečná literatura",
                     "Klasicismus",
                     "Postmoderna"
                 ],
                 correctAnswer: 1
+            },
+            {
+                question: "Jaká je charakteristika meziválečné literatury?",
+                options: [
+                    "Literatura mezi dvěma světovými válkami reflektovala pocity ztráty, chaosu, existenciálních otázek a rozporů v postválečné společnosti, často se zaměřovala na kritiku totalitních režimů a úpadku tradičních hodnot",
+                    "Období, kdy literatura oslavovala technický pokrok a industrializaci",
+                    "Literatura se soustředila na ideály národní obrody a vlastenectví",
+                    "Literární tvorba v tomto období byla převážně zaměřena na romantiku a idealizaci minulosti"
+                ],
+                "correctAnswer": 0
             },
             {
                 question: "Který z těchto českých autorů byl současníkem E. M. Remarqua?",
@@ -5035,11 +5175,21 @@ const autoriQuestions = [
                 options: [
                     "Národní obrození",
                     "Romantismus",
-                    "Moderna a anarchističtí buřiči",
+                    "Anarchističtí buřiči",
                     "Normalizace"
                 ],
                 correctAnswer: 2
             },
+            {
+                question: "Jaká je charakteristika anarchistických buřičů?",
+                options: [
+                    "Anarchističtí buřiči byli spisovatelé, kteří kritizovali společenské a politické normy, odmítali autoritu a byli proti konformismu, často se zaměřovali na vyjádření svobody a revolty proti systémům moci",
+                    "Tito autoři se soustředili na oslavování tradičních hodnot a návrat k patriarchálním strukturám",
+                    "Buřiči se zaměřovali na harmonizaci vztahů mezi jednotlivci a státem, propagovali spolupráci s vládními institucemi",
+                    "Tato skupina autorů byla známá především svou romantickou vlnou a oslavou přírody"
+                ],
+                "correctAnswer": 0
+            },            
             {
                 question: "Který z těchto českých autorů byl současníkem V. Dyka?",
                 options: [
@@ -5206,6 +5356,16 @@ const autoriQuestions = [
                 correctAnswer: 2
             },
             {
+                question: "Jaká je charakteristika antiky?",
+                options: [
+                    "Antika je období starověkých civilizací, zejména Řecka a Říma, zaměřující se na rozvoj filozofie, vědy, umění a literatury, s důrazem na ideály harmonie, rovnováhy a rozumu",
+                    "Období, kdy literatura byla převážně zaměřena na duchovní témata a náboženské texty",
+                    "Literatura tohoto období se soustředila na zobrazování lidských emocí a vnitřních konfliktů",
+                    "Antika byla zaměřena výhradně na realistické a praktické aspekty života"
+                ],
+                "correctAnswer": 0
+            },            
+            {
                 question: "Který z těchto českých autorů byl současníkem E. Petišky?",
                 options: [
                     "Karel Jaromír Erben",
@@ -5254,19 +5414,29 @@ const autoriQuestions = [
                 question: "Do jakého literárního období patří tvorba J. Vrchlického?",
                 options: [
                     "Národní obrození",
-                    "Lumírovci a ruchovci",
+                    "Lumírovci",
                     "Meziválečná literatura",
                     "Normalizace"
                 ],
                 correctAnswer: 1
             },
             {
+                question: "Jaká je charakteristika lumírovců?",
+                options: [
+                    "Lumírovci byli skupina českých literátů z konce 19. století, kteří se soustředili na obrození národního vědomí, podporovali český jazyk a kulturu a kritizovali pasivní přístup předchozích generací",
+                    "Lumírovci byli autoři, kteří podporovali realistický přístup k životu a zaměřovali se na sociální problémy dělnické třídy",
+                    "Tato skupina se soustředila na psaní pouze náboženských a filozofických děl",
+                    "Lumírovci se zaměřovali výhradně na tvorbu v oblasti dramatu a divadla"
+                ],
+                "correctAnswer": 0
+            },            
+            {
                 question: "Který z těchto českých autorů byl současníkem J. Vrchlického?",
                 options: [
                     "Karel Jaromír Erben",
                     "Karel Čapek",
                     "Bohumil Hrabal",
-                    "Josef Svatopluk Machar"
+                    "Svatopluk Čech"
                 ],
                 correctAnswer: 3
             },
@@ -5315,6 +5485,16 @@ const autoriQuestions = [
                 ],
                 correctAnswer: 1
             },
+            {
+                question: "Jaká je charakteristika realismu a venkovské prózy?",
+                options: [
+                    "Realismus se zaměřoval na objektivní zobrazení skutečnosti, často reflektoval každodenní život, sociální problémy a těžkosti obyčejných lidí. Venkovská próza byla specifickým podžánrem, který zobrazoval život na venkově a vztahy mezi lidmi v ruralních oblastech",
+                    "Realismus byl směr zaměřený na idealizaci přírody a venkovského života, zatímco venkovská próza se věnovala pouze filozofickým otázkám",
+                    "Obě oblasti se soustředily pouze na zobrazení městské chudiny a jejich vnitřních prožitků",
+                    "Realismus se zaměřoval na idealizaci hrdinských postav a venkovská próza byla čistě náboženská"
+                ],
+                "correctAnswer": 0
+            },            
             {
                 question: "Který z těchto českých autorů byl současníkem K. V. Raise?",
                 options: [
