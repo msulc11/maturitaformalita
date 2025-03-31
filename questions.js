@@ -2079,6 +2079,111 @@ const itQuestions = [
             }
         ]
     },
+    {
+        title: "8. Ethernet, topologie, přístupové metody ke sdílenému médiu ",
+        questions: [
+            {
+                question: "Co je Ethernet?",
+            options: [
+                "Protokol aplikační vrstvy",
+                "Technologie pro připojení zařízení v počítačových sítích na datalinkové vrstvě",
+                "Typ fyzické topologie",
+                "Standard pro bezdrátové sítě"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Jaký je rozdíl mezi fyzickou a logickou topologií sítě?",
+            options: [
+                "Fyzická topologie existuje reálně, logická je pouze teoretická",
+                "Fyzická topologie určuje, jak jsou zařízení fyzicky propojena, logická jak mezi sebou komunikují",
+                "Logická topologie se používá pouze v bezdrátových sítích",
+                "Mezi fyzickou a logickou topologií není žádný rozdíl"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Co je hlavním účelem protokolu ARP?",
+            options: [
+                "Přidělování IP adres zařízením v síti",
+                "Směrování paketů mezi sítěmi",
+                "Překlad IP adresy na MAC adresu v lokální síti",
+                "Zabezpečení komunikace mezi zařízeními"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "Jaká je minimální rychlost moderního Ethernetu?",
+            options: [
+                "100 Mb/s",
+                "1 Gb/s",
+                "10 Mb/s",
+                "10 Gb/s"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Jak funguje přístupová metoda CSMA/CD?",
+            options: [
+                "Zařízení posílají data podle přiděleného tokenu",
+                "Zařízení komunikují pouze ve vyhrazených časových intervalech",
+                "Zařízení poslouchá, zda je médium volné, začne vysílat a detekuje případné kolize",
+                "Zařízení komunikují pouze na základě povolení od centrálního prvku"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "Která topologie je v současnosti nejpoužívanější pro počítačové sítě?",
+            options: [
+                "Sběrnicová (bus)",
+                "Kruhová (ring)",
+                "Hvězdicová (star)",
+                "Plně propojená (mesh)"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "Jaká je délka MAC adresy?",
+            options: [
+                "32 bitů",
+                "48 bitů",
+                "64 bitů",
+                "128 bitů"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Který typ topologie propojuje více aktivních prvků do hierarchie?",
+            options: [
+                "Sběrnicová (bus)",
+                "Hvězdicová (star)",
+                "Stromová (tree)",
+                "Kruhová (ring)"
+            ],
+            correctAnswer: 2
+        },
+        {
+            question: "Proč v moderním Ethernetu (s využitím switchů) již ke kolizím nedochází?",
+            options: [
+                "Protože se CSMA/CD již nepoužívá",
+                "Protože každý port switche komunikuje full-duplexně",
+                "Protože moderní Ethernet má neomezenou kapacitu",
+                "Protože se používají optické kabely"
+            ],
+            correctAnswer: 1
+        },
+        {
+            question: "Co je charakteristické pro mesh topologii?",
+            options: [
+                "Centrální prvek propojující všechna zařízení",
+                "Společný kabel, ke kterému jsou připojena všechna zařízení",
+                "Vysoká redundance díky vzájemnému propojení všech zařízení",
+                "Kruhové propojení zařízení"
+            ],
+                correctAnswer: 2
+            }
+        ]
+    }
 ];
     
     
