@@ -543,116 +543,290 @@ const informaticaQuestions = [
         title: "5. Základy objektově orientovaného programování (OOP)",
         questions: [
             {
-                question: "Co je hlavní myšlenkou objektově orientovaného programování (OOP)?",
+                question: "Co je to třída?",
                 options: [
-                    "Používání funkcí místo objektů",
-                    "Strukturování kódu kolem objektů",
-                    "Používání pouze nízkoúrovňového jazyka",
-                    "Tvorba webových stránek"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Co je třída v OOP?",
-                options: [
+                    "Specifická instance objektu",
+                    "Šablona pro vytváření objektů",
                     "Proměnná v programu",
-                    "Metoda používaná pro výpočty",
-                    "Předpis pro tvorbu objektů",
-                    "Datový typ pro čísla"
+                    "Funkce v programu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je to instance třídy?",
+                options: [
+                    "Metoda uvnitř třídy",
+                    "Název souboru s kódem třídy",
+                    "Konstruktor třídy",
+                    "Konkrétní objekt vytvořený na základě třídy",
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co je to atribut?",
+                options: [
+                    "Funkce, která provádí operace s objektem",
+                    "Klíčové slovo určující přístupnost metod",
+                    "Proměnná uložená uvnitř třídy, která popisuje její vlastnosti",
+                    "Název objektu"
                 ],
                 correctAnswer: 2
             },
             {
-                question: "Co je instance třídy?",
+                question: "Co je to metoda?",
                 options: [
-                    "Název třídy",
-                    "Objekt vytvořený podle třídy",
+                    "Zvláštní typ proměnné v OOP",
+                    "Funkce definovaná uvnitř třídy, která pracuje s objektem",
+                    "Konstruktor třídy",
+                    "Objekt v paměti"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je to vlastnost?",
+                options: [
+                    "Kombinace getteru a setteru, která umožňuje přístup k atributům třídy",
+                    "Název metody uvnitř třídy",
                     "Modifikátor přístupu",
-                    "Datový typ"
+                    "Název instance třídy"
                 ],
-                correctAnswer: 1
+                correctAnswer: 0
             },
             {
-                question: "Který modifikátor přístupu zajišťuje, že atribut je přístupný pouze uvnitř třídy?",
+                question: "Co je to konstruktor a jaký je jeho význam?",
                 options: [
-                    "Public",
-                    "Protected",
-                    "Private",
-                    "Static"
+                    "Metoda, která odstraní objekt z paměti",
+                    "Statická metoda určená k vytvoření nové instance",
+                    "Metoda, která se volá při vytváření objektu a inicializuje ho",
+                    "Funkce, která vrací hodnotu z objektu"
                 ],
                 correctAnswer: 2
             },
             {
-                question: "K čemu slouží statické členy třídy?",
+                question: "Jaké znáte modifikátory přístupu a jaký mají význam?",
                 options: [
-                    "Patří ke konkrétní instanci objektu",
-                    "Jsou přístupné pouze přes metodu",
-                    "Patří ke třídě a sdílejí je všechny instance",
-                    "Slouží ke změně typu atributu"
+                    "abstract, static, final – určují, zda je třída dědičná",
+                    "get, set, delete – pracují s atributy objektu",
+                    "class, method, object – určují typ programového prvku",
+                    "private, public, protected – určují viditelnost atributů a metod",
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaké zásady by měly být dodržovány při používání modifikátorů přístupu?",
+                options: [
+                    "Všechny atributy by měly být vždy public",
+                    "Private atributy by měly být přístupné pouze pomocí getterů a setterů",
+                    "Protected metody by měly být používány pouze v hlavní třídě",
+                    "Public metody nesmí obsahovat žádnou logiku"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co jsou to gettery a settery a proč se používají?",
+                options: [
+                    "Speciální metody pro čtení a zápis hodnot atributů",
+                    "Konstruktor a destruktor třídy",
+                    "Klíčová slova určující přístupová práva",
+                    "Název atributů uvnitř třídy"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké jsou výhody a nevýhody vlastních getrů a setrů oproti přímému přístupu k atributům?",
+                options: [
+                    "Jsou pomalejší než přímý přístup k atributům",
+                    "Neumožňují měnit hodnoty atributů",
+                    "Zajišťují zapouzdření a kontrolu nad přístupem k atributům",
+                    "Zjednodušují zápis kódu, ale snižují bezpečnost"
                 ],
                 correctAnswer: 2
             },
             {
-                question: "Jaká je správná vlastnost konstruktoru v OOP?",
+                question: "Co je přetěžování metod a jak funguje?",
                 options: [
-                    "Mění přístupová práva třídy",
-                    "Jmenuje se jinak než třída",
-                    "Volá se při vytvoření instance a může přijímat parametry",
-                    "Umožňuje přetěžování metod"    
+                    "Definování více metod se stejným názvem, ale s různými parametry",
+                    "Znovuimplementace metody v potomkovi třídy",
+                    "Použití getteru a setteru k modifikaci atributu",
+                    "Použití statické metody místo instance metody"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký je rozdíl mezi statickými a nestatickými členy tříd?",
+                options: [
+                    "Nestatické členy jsou neměnné, statické mohou být změněny",
+                    "Statické členy nemohou obsahovat žádná data",
+                    "Statické členy patří třídě, nestatické konkrétní instanci",
+                    "Nestatické členy nelze volat přímo přes třídu"
                 ],
                 correctAnswer: 2
             },
             {
-                question: "Co je metoda v OOP?",
+                question: "Jaká je hlavní myšlenka objektově orientovaného programování?",
                 options: [
-                    "Proměnná uvnitř objektu",
-                    "Funkce reprezentující chování objektu",
-                    "Typ přístupového modifikátoru",
-                    "Datový typ objektu"
+                    "Použití pouze jednoho hlavního souboru kódu",
+                    "Organizace kódu do objektů, které reprezentují reálné entity",
+                    "Psaní programů bez nutnosti využití tříd a objektů",
+                    "Použití co nejméně funkcí pro zjednodušení kódu"
                 ],
                 correctAnswer: 1
             },
             {
-                question: "Jaký je účel getteru a setteru ve vlastnostech třídy?",
+                question: "Jaký je význam OOP ve srovnání s jinými přístupy k programování?",
                 options: [
-                    "Zajišťují přímý přístup k atributům",
-                    "Slouží k přístupu a změně private atributů bezpečným způsobem",
-                    "Mění název atributů",
-                    "Slouží pouze k ladění programu"
+                    "Umožňuje lepší organizaci kódu, znovupoužitelnost a snadnější údržbu",
+                    "OOP je vždy složitější než procedurální programování",
+                    "OOP se používá jen pro malé projekty",
+                    "Objektově orientované programování neumožňuje dědičnost"
                 ],
-                correctAnswer: 1
-            },
-            {
-                question: "Co umožňuje přetěžování metod?",
-                options: [
-                    "Používat stejné jméno třídy vícekrát",
-                    "Používat stejnou metodu pro různé typy dat pomocí různých parametrů",
-                    "Změnit typ návratové hodnoty",
-                    "Přistupovat k private atributům"
-                ],
-                correctAnswer: 1
-            },
-            {
-                question: "Jaký je význam atributu třídy?",
-                options: [
-                    "Představuje metodu třídy",
-                    "Je to proměnná definovaná uvnitř třídy, která uchovává data objektu",
-                    "Slouží k přetížení metod",
-                    "Definuje modifikátor přístupu"
-                ],
-                correctAnswer: 1
+                correctAnswer: 0
             }
         ]
     },
     {
-        title: "6. Principy OOP ❌",
+        title: "6. Principy OOP",
         questions: [
             {
-            question: "Příklad otázky z IT?",
-            options: ["Odpověď 1", "Odpověď 2", "Odpověď 3", "Odpověď 4"],
-            correctAnswer: 1
-        },
-        // Add 9 more questions for this topic
+                question: "Které z následujících jsou základní principy objektově orientovaného programování (OOP)?",
+                options: [
+                    "Podmínky, cykly, funkce, proměnné",
+                    "Kompilace, interpretace, alokace, dekompilace",
+                    "Třídy, instance, atributy, metody",
+                    "Zapouzdření, dědičnost, polymorfismus, abstrakce",
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co znamená zapouzdření v OOP?",
+                options: [
+                    "Možnost, aby jedna třída mohla dědit vlastnosti od jiné třídy",
+                    "Skrývání vnitřní implementace objektu a zpřístupnění pouze nutných částí",
+                    "Schopnost objektu reagovat na stejné volání metod různým způsobem",
+                    "Použití výhradně statických metod v programu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co znamená dědičnost v OOP?",
+                options: [
+                    "Možnost vytváření nových tříd na základě existujících tříd",
+                    "Použití metod pouze v rámci jedné třídy",
+                    "Skrytí detailů implementace před uživatelem",
+                    "Schopnost metody vracet více různých hodnot"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je polymorfismus?",
+                options: [
+                    "Použití více konstruktorů v jedné třídě",
+                    "Dědění od více rodičovských tříd",
+                    "Možnost, aby jedna metoda mohla mít různé implementace v různých třídách",
+                    "Možnost, aby objekt změnil svůj typ za běhu programu"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký je význam abstrakce v OOP?",
+                options: [
+                    "Zjednodušení složitých systémů skrze modelování klíčových vlastností",
+                    "Omezení možností dědičnosti tříd",
+                    "Skrytí všech vlastností a metod objektu",
+                    "Vytvoření třídy bez jakýchkoliv metod"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký je hlavní význam abstraktní třídy?",
+                options: [
+                    "Obsahuje pouze statické metody",
+                    "Slouží jako základ pro další třídy a nemůže být přímo instanciována",
+                    "Používá se k přímé inicializaci objektů",
+                    "Musí obsahovat alespoň jednu privátní metodu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaký je hlavní rozdíl mezi abstraktní třídou a běžnou třídou?",
+                options: [
+                    "Abstraktní třída nesmí mít žádné metody",
+                    "Abstraktní třída může obsahovat pouze jednu instanci",
+                    "Abstraktní třídy neumožňují dědičnost",
+                    "Abstraktní třídu nelze instanciovat",
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co musí obsahovat abstraktní třída?",
+                options: [
+                    "Pouze statické metody",
+                    "Alespoň jednu abstraktní metodu",
+                    "Atributy inicializované na null",
+                    "Pouze metody s tělem"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaká je hlavní vlastnost abstraktní metody?",
+                options: [
+                    "Nemá tělo a je určena k přepsání v potomcích",
+                    "Může být volána přímo z abstraktní třídy",
+                    "Lze ji přepsat jen ve statických třídách",
+                    "Musí být označena jako privátní"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký je význam interface v OOP?",
+                options: [
+                    "Je speciální typ třídy s veřejnými atributy",
+                    "Umožňuje přímé volání konstruktorů",
+                    "Definuje pouze metody, ale ne jejich implementaci",
+                    "Slouží jako zástupný název pro dědičnost"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký je hlavní rozdíl mezi abstraktní třídou a rozhraním (interface)?",
+                options: [
+                    "Interface může obsahovat atributy, abstraktní třída nikoliv",
+                    "Abstraktní třída může mít implementované metody, interface nikoliv",
+                    "Interface je vždy statický, abstraktní třída nikoliv",
+                    "Abstraktní třídy nesmí obsahovat konstruktor"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak se v jazycích jako Java nebo C# definuje interface?",
+                options: [
+                    "Pomocí klíčového slova abstract",
+                    "Pomocí klíčového slova struct",
+                    "Pomocí klíčového slova implements",
+                    "Pomocí klíčového slova interface",
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Proč se používají rozhraní (interface) místo abstraktních tříd?",
+                options: [
+                    "Protože umožňují vícenásobnou implementaci",
+                    "Protože nemohou obsahovat žádné metody",
+                    "Protože umožňují přímou instanciaci",
+                    "Protože neobsahují žádná pravidla pro dědičnost"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaká je hlavní výhoda použití interface?",
+                options: [
+                    "Umožňuje definovat pouze veřejné metody",
+                    "Umožňuje oddělit definici od implementace a podporuje polymorfismus",
+                    "Slouží pouze pro definování globálních proměnných",
+                    "Interface lze použít jen v malých projektech"
+                ],
+                correctAnswer: 1
+            }
         ]
     },
     {
