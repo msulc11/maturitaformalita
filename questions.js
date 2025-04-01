@@ -1818,6 +1818,325 @@ const informaticaQuestions = [
             }
         ]
     },
+    {title: "16. Digitální fotoaparát",
+        questions:[
+            {
+                question: "Co je objektiv v konstrukci digitální zrcadlovky?",
+                options: [
+                    "Snímač obrazu",
+                    "Vytváří zaostřený obraz na senzoru",
+                    "Odrážet světlo a vyklápět se",
+                    "Pomáhá zaostřit obraz"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jakou funkci má zrcadlo v digitální zrcadlovce?",
+                options: [
+                    "Odrážet světlo a vyklápět se",
+                    "Pomáhá zaostřit obraz",
+                    "Zachytí obraz na senzoru",
+                    "Umožňuje nastavení expozice"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co znamená závěrka v digitální zrcadlovce?",
+                options: [
+                    "Pomáhá zaostřit obraz",
+                    "Odráží světlo",
+                    "Zachytí obraz na senzoru",
+                    "Určuje dobu expozice"
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Co je to senzor v digitální zrcadlovce?",
+                options: [
+                    "Určuje čas expozice",
+                    "Zachytí obraz",
+                    "Vytváří zaostřený obraz",
+                    "Je součástí optického hranolu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jakou roli má matnice v digitální zrcadlovce?",
+                options: [
+                    "Umožňuje nastavení clony",
+                    "Pomáhá zaostřit obraz",
+                    "Odrážet světlo",
+                    "Určuje citlivost ISO"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je to rybí oko v objektivech?",
+                options: [
+                    "Ohnisková vzdálenost 8-16mm, širokoúhlé, výrazné sférické zkreslení",
+                    "Ohnisková vzdálenost 14-24mm, široký úhel záběru",
+                    "Ohnisková vzdálenost 100-300mm, teleobjektiv",
+                    "Ohnisková vzdálenost 24-35mm, minimální zkreslení"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co znamená pojem 'čas expozice' v kontextu fotografování?",
+                options: [
+                    "Určuje citlivost snímače na světlo",
+                    "Určuje dobu, po kterou je snímač vystaven světlu",
+                    "Ovlivňuje velikost otvoru objektivu",
+                    "Zajišťuje zaostření obrazu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co ovlivňuje clona (f/) v digitální zrcadlovce?",
+                options: [
+                    "Množství světla procházejícího objektivem",
+                    "Doba expozice",
+                    "Citlivost snímače na světlo",
+                    "Úhel záběru"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký vliv má vyšší hodnota ISO v digitální fotografii?",
+                options: [
+                    "Snižuje šum",
+                    "Zvyšuje šum",
+                    "Zkracuje čas expozice",
+                    "Zvyšuje kvalitu obrazu"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je to chromatická aberace v digitálních fotografiích?",
+                options: [
+                    "Barevné okraje kolem objektů způsobené lomem světla",
+                    "Příliš jasné oblasti bez detailů",
+                    "Ztmavení rohů snímku",
+                    "Chybné zaostření"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co znamená vinětace v kontextu digitálních fotografií?",
+                options: [
+                    "Příliš jasné oblasti bez detailů",
+                    "Ztmavení rohů snímku, často estetické",
+                    "Barevné okraje kolem objektů způsobené lomem světla",
+                    "Rozmazání způsobené chybou při zaostřování"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké pravidlo kompozice se používá pro rozdělení obrazu na třetiny?",
+                options: [
+                    "Pravidlo třetin",
+                    "Pravidlo Zlatého řezu",
+                    "Pravidlo vodících linií",
+                    "Pravidlo symetrie"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co znamená pravidlo Zlatého řezu v kompozici fotografie?",
+                options: [
+                    "Ideální proporce mezi délkami",
+                    "Rozdělení obrazu na třetiny",
+                    "Využití vodících linií pro řízení pohledu diváka",
+                    "Použití symetrie v obraze"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je to vodící linie v kompozici fotografie?",
+                options: [
+                    "Pomáhá divákovi zaměřit pohled na hlavní objekt",
+                    "Rozděluje obraz na třetiny",
+                    "Určuje ideální proporce mezi délkami",
+                    "Používá symetrické objekty k vytvoření rovnováhy"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je to rámování v kompozici fotografie?",
+                options: [
+                    "Použití symetrie k vytvoření rovnováhy",
+                    "Pohled skrze uzavřený prostor",
+                    "Využití kontrastu pro zdůraznění objektu"
+                ],
+                correctAnswer: 1
+            }
+        ]
+
+    },
+    {
+        title: "17. Rastrová grafika",
+        questions:[
+            {
+                question: "Co určuje formát dat v kontextu grafiky?",
+                options: [
+                    "Jakým způsobem jsou data uložena a organizována v souboru",
+                    "Jaké rozlišení bude použito pro obrázek",
+                    "Jakým způsobem je obrázek komprimován",
+                    "Jaký barevný model bude použit"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký barevný model je primárně používán pro zobrazování na elektronických zařízeních?",
+                options: [
+                    "CMYK",
+                    "RGB",
+                    "HSB",
+                    "RYB"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je charakteristické pro model CMYK?",
+                options: [
+                    "Používá tři základní barvy pro vytváření barev",
+                    "Je subtraktivní a používá čtyři tiskové barvy",
+                    "Používá pouze dvě barvy pro tisk",
+                    "Je aditivní a používá čtyři barvy"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jaké jsou tři složky barevného modelu HSB?",
+                options: [
+                    "Hue, Saturation, Brightness",
+                    "Hue, Sharpness, Brightness",
+                    "Hue, Saturation, Balance",
+                    "Hue, Saturation, Brightness, Contrast"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co určuje hodnotu DPI?",
+                options: [
+                    "Kolik pixelů je na jeden palec pro digitální obraz",
+                    "Kolik bodů (dotů) je na jeden palec pro tiskový obrázek",
+                    "Jaký je maximální počet barev v obrázku",
+                    "Kolik barevných kanálů je použito v obrázku"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co znamená PPI v souvislosti s rastrovou grafikou?",
+                options: [
+                    "Pixels per Inch, měří hustotu pixelů na obrazovce",
+                    "Pixels per Image, měří velikost obrázku",
+                    "Pixels per Image, měří kvalitu tisku",
+                    "Pixels per Image, měří barvu na obrázku"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co znamená pojem 'bitová hloubka' v rastrové grafice?",
+                options: [
+                    "Počet bitů, které jsou použity k reprezentaci jedné barvy jednoho pixelu",
+                    "Počet barev, které mohou být zobrazeny v obrázku",
+                    "Počet pixelů na obrazovce",
+                    "Počet bitů použitých pro kompresi obrázku"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký je rozdíl mezi 8bitovou a 24bitovou hloubkou?",
+                options: [
+                    "8bitová hloubka umožňuje zobrazení 256 různých barev, 24bitová až 16,7 milionu",
+                    "8bitová hloubka je kvalitnější než 24bitová",
+                    "24bitová hloubka nezobrazuje žádné barvy",
+                    "8bitová hloubka je určena pouze pro černobílé obrázky"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co je indexovaná barva a jaký je její hlavní přínos?",
+                options: [
+                    "Barva, která je generována na základě aktuálních barev na obrazovce",
+                    "Ukládání barev pomocí předem definované palety pro šetření místa v souboru",
+                    "Barva, která je přiřazena automaticky na základě kontrastu",
+                    "Ukládání barev pro efektivní přenos mezi zařízeními"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je hlavní výhodou indexovaných barev?",
+                options: [
+                    "Umožňuje více detailů v obraze",
+                    "Ušetří místo, protože používá omezenou paletu barev",
+                    "Zvýší kvalitu obrazu",
+                    "Zjednodušuje převod mezi barevnými modely"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co je správa barev a proč je důležitá?",
+                options: [
+                    "Zajišťuje, že obrázky mají stejné barvy na různých zařízeních",
+                    "Zajišťuje, že barvy budou vždy živé a syté",
+                    "Umožňuje změnit barevný model z RGB na CMYK",
+                    "Pomáhá při kompresi obrázků bez ztráty kvality"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Které zařízení nebo nástroje slouží k získávání rastrových obrázků?",
+                options: [
+                    "Skenery, digitální fotoaparáty, mobilní telefony",
+                    "Tablety a grafické desky",
+                    "Tiskárny",
+                    "Webkamery"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaký souborový formát je nejlepší pro fotografie a běžně se používá na webu?",
+                options: [
+                    "TIFF",
+                    "JPEG",
+                    "PNG",
+                    "BMP"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z následujících formátů podporuje průhlednost a používá bezeztrátovou kompresi?",
+                options: [
+                    "PNG",
+                    "GIF",
+                    "JPEG",
+                    "WebP"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Jaké barvy získáme smícháním modré a zelené v RGB modelu?",
+                options: [
+                    "Žlutou",
+                    "Fialovou",
+                    "Azurovou",
+                    "Oranžovou"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký formát je vyvinut firmou Google a používá ztrátovou i bezeztrátovou kompresi pro webové obrázky?",
+                options: [
+                    "PNG",
+                    "GIF",
+                    "JPEG",
+                    "WebP"
+                ],
+                correctAnswer: 3
+            }
+        ]
+    }
 ];
 
 const itQuestions = [
