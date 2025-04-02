@@ -2136,8 +2136,154 @@ const informaticaQuestions = [
                 correctAnswer: 3
             }
         ]
+    },
+    {
+        title: "18. Vektorová grafika",
+        questions: [
+            {
+                question: "Co je hlavní rozdíl mezi rastrovou a vektorovou grafikou?",
+                options: [
+                    "Vektorová grafika se skládá z pixelů, rastrová z bodů.",
+                    "Rastrová grafika se skládá z pixelů, vektorová z matematických tvarů.",
+                    "Rastrová grafika se nezvětšuje bez ztráty kvality.",
+                    "Vektorová grafika má vždy větší datový objem než rastrová."
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Která z následujících oblastí běžně využívá vektorovou grafiku?",
+                options: [
+                    "Digitální fotografie",
+                    "Loga a ilustrace",
+                    "Video editace",
+                    "3D modelování"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Který z následujících programů je určen pro práci s vektorovou grafikou?",
+                options: [
+                    "Adobe Photoshop",
+                    "GIMP",
+                    "Adobe Illustrator",
+                    "Blender"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaký prvek vektorové grafiky odpovídá definici 'spojení dvou bodů'?",
+                options: [
+                    "Přímka",
+                    "Bézierova křivka",
+                    "Text",
+                    "Hladina"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Co se nejčastěji používá pro organizaci objektů ve vektorové grafice?",
+                options: [
+                    "Skupiny",
+                    "Masky",
+                    "Hladiny (vrstvy)",
+                    "Štětce"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Který z těchto formátů je vektorový?",
+                options: [
+                    "PNG",
+                    "JPG",
+                    "SVG",
+                    "BMP"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jaká je hlavní výhoda vektorové grafiky oproti rastrové?",
+                options: [
+                    "Může obsahovat více barev.",
+                    "Při zvětšení si zachovává kvalitu.",
+                    "Má vždy menší velikost souboru.",
+                    "Lze ji snadněji tisknout."
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Jak se nazývá proces převodu rastrového obrázku na vektorový?",
+                options: [
+                    "Vektorizace",
+                    "Digitalizace",
+                    "Bitmapizace",
+                    "Rasterizace"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který z těchto formátů je vhodný pro ukládání vektorové grafiky a používá XML?",
+                options: [
+                    "EPS",
+                    "AI",
+                    "SVG",
+                    "PDF"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Jak se nazývá typ křivky používaný vektorovou grafikou k vytváření hladkých tvarů?",
+                options: [
+                    "Bézierova křivka",
+                    "Sinusová křivka",
+                    "Exponenciální křivka",
+                    "Lineární křivka"
+                ],
+                correctAnswer: 0
+            },
+            {
+                question: "Který z těchto pojmů patří do pravidel typografie?",
+                options: [
+                    "Bézierova křivka",
+                    "Průhlednost",
+                    "Vdova",
+                    "Ikona"
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "Co znamená pojem 'sirotek' v typografii?",
+                options: [
+                    "Osamocený řádek na konci odstavce.",
+                    "Text zarovnaný na střed stránky.",
+                    "Písmo bez patky.",
+                    "Osamocený řádek na začátku odstavce nebo stránky.",
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Jaké jsou hlavní součásti formátu PDF?",
+                options: [
+                    "XML, JSON, body",
+                    "Hlavička, tělo, metadata",
+                    "Bitmapové vrstvy, průhlednost, masky",
+                    "Objekty, stíny, barvy"
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Co neplatí pro SVG formát?",
+                options: [
+                    "Je upravitelný pomocí CSS a JavaScriptu.",
+                    "Používá XML strukturu.",
+                    "Je vhodný pouze pro tiskové účely.",
+                    "Umožňuje interaktivní prvky na webu."
+                ],
+                correctAnswer: 2
+            }
+        ]
     }
-];
+]; 
+
 
 const itQuestions = [
     {
