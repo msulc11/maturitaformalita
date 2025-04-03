@@ -2281,7 +2281,165 @@ const informaticaQuestions = [
                 correctAnswer: 2
             }
         ]
+    },
+    
+    {
+        title: "19. Programovací jazyky",
+        questions: [
+        
+            {
+                question: "Jaký vliv má bitová hloubka na kvalitu obrazu?",
+                options: [
+            "Ovlivňuje počet snímků za sekundu",
+            "Určuje množství detailů v barvách a odstínech",
+            "Zvyšuje kompresi videa",
+            "Nemá žádný vliv na kvalitu obrazu"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Vyjmenujte a popište základní nastavení snímkové frekvence pro určité typy videa",
+        "options": [
+            "24 FPS – filmová produkce, 30 FPS – televizní vysílání, 60 FPS – herní videa",
+            "12 FPS – sportovní přenosy, 48 FPS – standardní televize, 100 FPS – animace",
+            "20 FPS – filmy, 50 FPS – webová videa, 75 FPS – sociální sítě",
+            "30 FPS – všechny typy videa"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Co je kodek? Jaké typy kodeků můžeme používat při zpracování obrazu a zvuku?",
+        "options": [
+            "Formát souboru pro ukládání videa",
+            "Software pro kompresi a dekompresi audio/video dat",
+            "Nástroj pro úpravu barev videa",
+            "Metoda zvýšení rozlišení obrazu"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Vysvětli čím se liší kodek a kontejner?",
+        "options": [
+            "Kodek slouží k ukládání dat, kontejner k jejich přehrávání",
+            "Kodek je metoda komprese dat, kontejner je formát souboru obsahující video, zvuk a titulky",
+            "Kodek i kontejner jsou stejné pojmy",
+            "Kontejner je metoda komprese a kodek je formát souboru"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Porovnej vlastnosti souborových formátů MP4 a AVI",
+        "options": [
+            "MP4 má vyšší kompresi a menší velikost, AVI je méně komprimované a má větší soubory",
+            "AVI je vždy lepší než MP4",
+            "MP4 podporuje pouze audio data, AVI pouze video data",
+            "MP4 je starší formát než AVI"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Co je vzorkovací frekvence, uveďte praktické použití a výhody",
+        "options": [
+            "Udává počet snímků za sekundu u videa",
+            "Měří počet úrovní jasu u obrazu",
+            "Označuje počet vzorků zvuku za sekundu, čím vyšší frekvence, tím kvalitnější zvuk",
+            "Určuje rychlost načítání videa na internetu"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Počty zvukových kanálů, jaký je rozdíl mezi prostorovým zvukem a 3D zvukem?",
+        "options": [
+            "Prostorový zvuk má pevně dané kanály, 3D zvuk je dynamický a přizpůsobuje se poloze posluchače",
+            "Oba termíny znamenají totéž",
+            "3D zvuk znamená jen stereo efekty",
+            "Prostorový zvuk nevyužívá vícekanálové nahrávání"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Jaké existují základní způsoby pořizování videozáznamu?",
+        "options": [
+            "Pouze digitální kamery",
+            "Mobilní telefony, digitální kamery, digitální fotoaparáty, nahrávání obrazovky",
+            "Pouze kamery s optickým zoomem",
+            "Pouze profesionální videokamery"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Jaké základní faktory ovlivňují kvalitu videozáznamu?",
+        "options": [
+            "Pouze rozlišení a snímková frekvence",
+            "Pouze světelné podmínky",
+            "Rozlišení, snímková frekvence, clona, ISO, expoziční čas a vyvážení bílé",
+            "Pouze použitá kamera"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Jaký je rozdíl mezi CCD a CMOS snímačem?",
+        "options": [
+            "CCD má lepší citlivost na světlo, ale je dražší, CMOS je levnější a méně citlivý",
+            "CCD je starší technologie, CMOS je novější a vždy lepší",
+            "Oba snímače mají stejnou kvalitu",
+            "CMOS je používaný pouze v profesionálních kamerách"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Jaký je rozdíl mezi velkým celkem a detailem ve velikostech záběrů?",
+        "options": [
+            "Velký celek se soustředí na detaily obličeje, detail zachycuje celou scénu",
+            "Velký celek ukazuje široký pohled na scénu, detail se zaměřuje na konkrétní část",
+            "Oba záběry jsou stejné",
+            "Detail je používán pouze v dokumentárních filmech"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Co je steadicam?",
+        "options": [
+            "Kamera připevněná na stativ",
+            "Stabilizátor pro plynulé snímání obrazu bez otřesů",
+            "Speciální druh objektivu",
+            "Režim kamery pro slow-motion záběry"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Jaká jsou základní pravidla střihu videa?",
+        "options": [
+            "Efekty by měly být používány s mírou, střih by měl být plynulý a vyvážený",
+            "Efekty by měly být co nejvýraznější",
+            "Hudba a zvuky nejsou důležité",
+            "Každý střih by měl být doprovázen efektem přechodu"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Jaký střihový program je nejvíce používaný v profesionální praxi?",
+        "options": [
+            "Windows Movie Maker",
+            "Adobe Premiere Pro",
+            "Instagram Reels editor",
+            "VLC Media Player"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Co znamená funkce 'Velocity' ve střihových programech?",
+        "options": [
+            "Upravuje rychlost přehrávání videa",
+            "Ovlivňuje barevné vyvážení",
+            "Používá se k přidání titulků",
+            "Slouží k ořezu videa"
+        ],
+        "correctAnswer": 0
     }
+    ]
+}
+    
 ]; 
 
 
