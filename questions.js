@@ -2284,159 +2284,240 @@ const informaticaQuestions = [
     },
     
     {
-        title: "19. Programovací jazyky",
+        title: "19. Video",
         questions: [
         
-            {
-                question: "Jaký vliv má bitová hloubka na kvalitu obrazu?",
-                options: [
+    {
+                
+        question: "Jaký vliv má bitová hloubka na kvalitu obrazu?",
+        options: [
             "Ovlivňuje počet snímků za sekundu",
             "Určuje množství detailů v barvách a odstínech",
             "Zvyšuje kompresi videa",
             "Nemá žádný vliv na kvalitu obrazu"
         ],
-        "correctAnswer": 1
+        correctAnswer: 1
     },
     {
-        "question": "Vyjmenujte a popište základní nastavení snímkové frekvence pro určité typy videa",
-        "options": [
+        question: "Vyjmenujte a popište základní nastavení snímkové frekvence pro určité typy videa",
+        options: [
             "24 FPS – filmová produkce, 30 FPS – televizní vysílání, 60 FPS – herní videa",
             "12 FPS – sportovní přenosy, 48 FPS – standardní televize, 100 FPS – animace",
             "20 FPS – filmy, 50 FPS – webová videa, 75 FPS – sociální sítě",
             "30 FPS – všechny typy videa"
         ],
-        "correctAnswer": 0
+        correctAnswer: 0
     },
     {
-        "question": "Co je kodek? Jaké typy kodeků můžeme používat při zpracování obrazu a zvuku?",
-        "options": [
+        question: "Co je kodek? Jaké typy kodeků můžeme používat při zpracování obrazu a zvuku?",
+        options: [
             "Formát souboru pro ukládání videa",
             "Software pro kompresi a dekompresi audio/video dat",
             "Nástroj pro úpravu barev videa",
             "Metoda zvýšení rozlišení obrazu"
         ],
-        "correctAnswer": 1
+        correctAnswer: 1
     },
     {
-        "question": "Vysvětli čím se liší kodek a kontejner?",
-        "options": [
+        question: "Vysvětli čím se liší kodek a kontejner?",
+        options: [
             "Kodek slouží k ukládání dat, kontejner k jejich přehrávání",
             "Kodek je metoda komprese dat, kontejner je formát souboru obsahující video, zvuk a titulky",
             "Kodek i kontejner jsou stejné pojmy",
             "Kontejner je metoda komprese a kodek je formát souboru"
         ],
-        "correctAnswer": 1
+        correctAnswer: 1
     },
     {
-        "question": "Porovnej vlastnosti souborových formátů MP4 a AVI",
-        "options": [
+        question: "Porovnej vlastnosti souborových formátů MP4 a AVI",
+        options: [
             "MP4 má vyšší kompresi a menší velikost, AVI je méně komprimované a má větší soubory",
             "AVI je vždy lepší než MP4",
             "MP4 podporuje pouze audio data, AVI pouze video data",
             "MP4 je starší formát než AVI"
         ],
-        "correctAnswer": 0
+        correctAnswer: 0
     },
     {
-        "question": "Co je vzorkovací frekvence, uveďte praktické použití a výhody",
-        "options": [
+        question: "Co je vzorkovací frekvence, uveďte praktické použití a výhody",
+        options: [
             "Udává počet snímků za sekundu u videa",
             "Měří počet úrovní jasu u obrazu",
             "Označuje počet vzorků zvuku za sekundu, čím vyšší frekvence, tím kvalitnější zvuk",
             "Určuje rychlost načítání videa na internetu"
         ],
-        "correctAnswer": 2
+        correctAnswer: 2
     },
     {
-        "question": "Počty zvukových kanálů, jaký je rozdíl mezi prostorovým zvukem a 3D zvukem?",
-        "options": [
+        question: "Počty zvukových kanálů, jaký je rozdíl mezi prostorovým zvukem a 3D zvukem?",
+        options: [
             "Prostorový zvuk má pevně dané kanály, 3D zvuk je dynamický a přizpůsobuje se poloze posluchače",
             "Oba termíny znamenají totéž",
             "3D zvuk znamená jen stereo efekty",
             "Prostorový zvuk nevyužívá vícekanálové nahrávání"
         ],
-        "correctAnswer": 0
+        correctAnswer: 0
     },
     {
-        "question": "Jaké existují základní způsoby pořizování videozáznamu?",
-        "options": [
+        question: "Jaké existují základní způsoby pořizování videozáznamu?",
+        options: [
             "Pouze digitální kamery",
             "Mobilní telefony, digitální kamery, digitální fotoaparáty, nahrávání obrazovky",
             "Pouze kamery s optickým zoomem",
             "Pouze profesionální videokamery"
         ],
-        "correctAnswer": 1
+        correctAnswer: 1
     },
     {
-        "question": "Jaké základní faktory ovlivňují kvalitu videozáznamu?",
-        "options": [
+        question: "Jaké základní faktory ovlivňují kvalitu videozáznamu?",
+        options: [
             "Pouze rozlišení a snímková frekvence",
             "Pouze světelné podmínky",
             "Rozlišení, snímková frekvence, clona, ISO, expoziční čas a vyvážení bílé",
             "Pouze použitá kamera"
         ],
-        "correctAnswer": 2
+        correctAnswer: 2
     },
     {
-        "question": "Jaký je rozdíl mezi CCD a CMOS snímačem?",
-        "options": [
+        question: "Jaký je rozdíl mezi CCD a CMOS snímačem?",
+        options: [
             "CCD má lepší citlivost na světlo, ale je dražší, CMOS je levnější a méně citlivý",
             "CCD je starší technologie, CMOS je novější a vždy lepší",
             "Oba snímače mají stejnou kvalitu",
             "CMOS je používaný pouze v profesionálních kamerách"
         ],
-        "correctAnswer": 0
+        correctAnswer: 0
     },
     {
-        "question": "Jaký je rozdíl mezi velkým celkem a detailem ve velikostech záběrů?",
-        "options": [
+        question: "Jaký je rozdíl mezi velkým celkem a detailem ve velikostech záběrů?",
+        options: [
             "Velký celek se soustředí na detaily obličeje, detail zachycuje celou scénu",
             "Velký celek ukazuje široký pohled na scénu, detail se zaměřuje na konkrétní část",
             "Oba záběry jsou stejné",
             "Detail je používán pouze v dokumentárních filmech"
         ],
-        "correctAnswer": 1
+        correctAnswer: 1
     },
     {
-        "question": "Co je steadicam?",
-        "options": [
+        question: "Co je steadicam?",
+        options: [
             "Kamera připevněná na stativ",
             "Stabilizátor pro plynulé snímání obrazu bez otřesů",
             "Speciální druh objektivu",
             "Režim kamery pro slow-motion záběry"
         ],
-        "correctAnswer": 1
+        correctAnswer: 1
     },
     {
-        "question": "Jaká jsou základní pravidla střihu videa?",
-        "options": [
+        question: "Jaká jsou základní pravidla střihu videa?",
+        options: [
             "Efekty by měly být používány s mírou, střih by měl být plynulý a vyvážený",
             "Efekty by měly být co nejvýraznější",
             "Hudba a zvuky nejsou důležité",
             "Každý střih by měl být doprovázen efektem přechodu"
         ],
-        "correctAnswer": 0
+        correctAnswer: 0
     },
     {
-        "question": "Jaký střihový program je nejvíce používaný v profesionální praxi?",
-        "options": [
+        question: "Jaký střihový program je nejvíce používaný v profesionální praxi?",
+        options: [
             "Windows Movie Maker",
             "Adobe Premiere Pro",
             "Instagram Reels editor",
             "VLC Media Player"
         ],
-        "correctAnswer": 1
+        correctAnswer: 1
     },
     {
-        "question": "Co znamená funkce 'Velocity' ve střihových programech?",
-        "options": [
+        question: "Co znamená funkce 'Velocity' ve střihových programech?",
+        options: [
             "Upravuje rychlost přehrávání videa",
             "Ovlivňuje barevné vyvážení",
             "Používá se k přidání titulků",
             "Slouží k ořezu videa"
         ],
-        "correctAnswer": 0
+        correctAnswer: 0
     }
+    ]
+},
+{
+    title: "20. 3D grafika",
+    questions:[
+        {
+            question: "Co je charakteristické pro Bézierovy křivky?",
+            options: ["Používají pouze rovné úseky", "Jsou určeny kontrolními body", "Nemají žádné kontrolní body", "Jsou tvořeny pouze trojúhelníky"],
+            correctAnswer: 1
+        },
+        {
+            question: "Co odlišuje NURBS křivky od Bézierových křivek?",
+            options: ["Mají kontrolní body s váhami ovlivňujícími tvar", "Používají pouze lineární interpolaci", "Neumožňují žádné modifikace", "Jsou složeny pouze z polygonů"],
+            correctAnswer: 0
+        },
+        {
+            question: "Která transformace NEPATŘÍ mezi základní transformace 3D objektů?",
+            options: ["Rotace", "Posun", "Extruze", "Škálování"],
+            correctAnswer: 2
+        },
+        {
+            question: "Co znamená pojem 'booleovské operace' v modelování?",
+            options: ["Animace objektů", "Kombinování a úprava 3D objektů pomocí průniků a rozdílů", "Změna materiálu objektu", "Vytváření UV map"],
+            correctAnswer: 1
+        },
+        {
+            question: "Jaký je základní princip UV mapování?",
+            options: ["Použití pouze jednobarevné textury", "Rozložení 3D objektu do 2D prostoru pro aplikaci textury", "Automatická generace textur na celý model", "Použití pouze procedurálních materiálů"],
+            correctAnswer: 1
+        },
+        {
+            question: "Která vlastnost textury určuje její hrubost?",
+            options: ["Barva", "UV mapa", "Drsnost", "Svítivost"],
+            correctAnswer: 2
+        },
+        {
+            question: "Jaké jsou základní vlastnosti polygonového modelování?",
+            options: ["Využívá pouze hladké plochy", "Model je tvořen vrcholy, hranami a plochami", "Používá pouze křivky a objemová tělesa", "Funguje pouze na základě NURBS křivek"],
+            correctAnswer: 1
+        },
+        {
+            question: "K čemu slouží rendering v 3D grafice?",
+            options: ["K editaci objektů", "K simulaci světel, stínů a materiálů", "Ke změně polygonového modelu", "K deformaci objektů"],
+            correctAnswer: 1
+        },
+        {
+            question: "Který formát se běžně používá pro výstup 3D modelů k tisku?",
+            options: [".JPEG", ".OBJ", ".STL", ".PNG"],
+            correctAnswer: 2
+        },
+        {
+            question: "Co znamená extruze v modelování?",
+            options: ["Zvětšení objektu ve všech směrech", "Vytahování povrchu nebo hrany z modelu do prostoru", "Přidání materiálu na povrch objektu", "Smazání části modelu"],
+            correctAnswer: 1
+        },
+        {
+            question: "Který prvek není součástí procesu animace v 3D grafice?",
+            options: ["Pohyb objektů", "Nastavení světel", "Klíčové snímky", "Animace kamery"],
+            correctAnswer: 1
+        },
+        {
+            question: "Který typ světla se v 3D scéně chová jako bodový zdroj svítící všemi směry?",
+            options: ["Směrové světlo", "Bodové světlo", "Ambientní světlo", "Plošné světlo"],
+            correctAnswer: 1
+        },
+        {
+            question: "Jaká operace se používá pro ohýbání 3D objektů?",
+            options: ["Extruze", "Boolean operace", "Deformace", "Skalování"],
+            correctAnswer: 2
+        },
+        {
+            question: "Který souborový formát je běžně používán pro výměnu 3D modelů v různých softwarech?",
+            options: [".PSD", ".MP4", ".OBJ", ".TXT"],
+            correctAnswer: 2
+        },
+        {
+            question: "Která z následujících metod se NEPOUŽÍVÁ k vytváření objektů z křivek?",
+            options: ["Extruze", "Boolean operace", "Lofting", "Revolve"],
+            correctAnswer: 1
+        }
     ]
 }
     
