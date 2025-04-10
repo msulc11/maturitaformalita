@@ -2086,26 +2086,6 @@ const informaticaQuestions = [
                 correctAnswer: 0
             },
             {
-                question: "Které zařízení nebo nástroje slouží k získávání rastrových obrázků?",
-                options: [
-                    "Skenery, digitální fotoaparáty, mobilní telefony",
-                    "Tablety a grafické desky",
-                    "Tiskárny",
-                    "Webkamery"
-                ],
-                correctAnswer: 0
-            },
-            {
-                question: "Jaký souborový formát je nejlepší pro fotografie a běžně se používá na webu?",
-                options: [
-                    "TIFF",
-                    "JPEG",
-                    "PNG",
-                    "BMP"
-                ],
-                correctAnswer: 1
-            },
-            {
                 question: "Který z následujících formátů podporuje průhlednost a používá bezeztrátovou kompresi?",
                 options: [
                     "PNG",
@@ -2183,7 +2163,6 @@ const informaticaQuestions = [
             {
                 question: "Co se nejčastěji používá pro organizaci objektů ve vektorové grafice?",
                 options: [
-                    "Skupiny",
                     "Masky",
                     "Hladiny (vrstvy)",
                     "Štětce"
@@ -2261,16 +2240,6 @@ const informaticaQuestions = [
                 correctAnswer: 3
             },
             {
-                question: "Jaké jsou hlavní součásti formátu PDF?",
-                options: [
-                    "XML, JSON, body",
-                    "Hlavička, tělo, metadata",
-                    "Bitmapové vrstvy, průhlednost, masky",
-                    "Objekty, stíny, barvy"
-                ],
-                correctAnswer: 1
-            },
-            {
                 question: "Co neplatí pro SVG formát?",
                 options: [
                     "Je upravitelný pomocí CSS a JavaScriptu.",
@@ -2287,7 +2256,7 @@ const informaticaQuestions = [
         title: "19. Video",
         questions: [
         
-    {
+    { 
                 
         question: "Jaký vliv má bitová hloubka na kvalitu obrazu?",
         options: [
